@@ -22,9 +22,9 @@ dependencies = [
 
 [tool.uv.sources]
 latest_build = { workspace = true }
-invenio-app-rdm = { path = "/home/senyaaa/Work/invenio-app-rdm", editable=true }
-invenio-rdm-records = { path = "/home/senyaaa/Work/invenio-rdm-records", editable=true }
-invenio-records-resources = { path = "/home/senyaaa/Work/invenio-records-resources", editable=true}
+invenio-app-rdm = { git = "https://github.com/oarepo/invenio-app-rdm", branch = "oarepo-feature-extract-preview-ui-links"}
+invenio-rdm-records = { git = "https://github.com/oarepo/invenio-rdm-records", branch = "oarepo-feature-zip"}
+invenio-records-resources = { git = "https://github.com/oarepo/invenio-records-resources", branch = "oarepo-feature-extractors"}
 
 [tool.uv.workspace]
 members = [

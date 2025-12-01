@@ -1847,7 +1847,7 @@ wheels = [
 [[package]]
 name = "invenio-app-rdm"
 version = "14.0.0b3.dev3"
-source = { editable = "../invenio-app-rdm" }
+source = { git = "https://github.com/oarepo/invenio-app-rdm?branch=oarepo-feature-extract-preview-ui-links#0af649c3e0139223eab217375aec380cba4ab6da" }
 dependencies = [
     { name = "cairosvg" },
     { name = "invenio-access" },
@@ -1895,56 +1895,6 @@ opensearch2 = [
 s3 = [
     { name = "invenio-s3" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "cairosvg", specifier = ">=2.5.2,<3.0.0" },
-    { name = "invenio-access", specifier = ">=4.0.0,<5.0.0" },
-    { name = "invenio-accounts", specifier = ">=6.0.0,<7.0.0" },
-    { name = "invenio-app", specifier = ">=2.1.0,<3.0.0" },
-    { name = "invenio-assets", specifier = ">=4.0.0,<5.0.0" },
-    { name = "invenio-audit-logs", specifier = ">=0.3.0,<1.0.0" },
-    { name = "invenio-banners", specifier = ">=5.0.0,<6.0.0" },
-    { name = "invenio-base", specifier = ">=2.1.0,<3.0.0" },
-    { name = "invenio-cache", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-celery", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-collections", specifier = ">=1.0.0,<3.0.0" },
-    { name = "invenio-communities", specifier = ">=21.0.0,<22.0.0" },
-    { name = "invenio-config", specifier = ">=1.0.3,<2.0.0" },
-    { name = "invenio-db", extras = ["mysql", "postgresql"], specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-files-rest", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-formatter", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-i18n", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-indexer", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-jsonschemas", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-logging", specifier = ">=4.0.0,<5.0.0" },
-    { name = "invenio-mail", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-oaiserver", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-oauth2server", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-oauthclient", specifier = ">=6.0.0,<7.0.0" },
-    { name = "invenio-pages", specifier = ">=7.0.0,<8.0.0" },
-    { name = "invenio-pidstore", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-previewer", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-rdm-records", specifier = ">=22.0.0,<23.0.0" },
-    { name = "invenio-records", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-records-files", specifier = ">=1.2.1,<2.0.0" },
-    { name = "invenio-records-rest", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-records-ui", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-rest", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-s3", marker = "extra == 's3'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-search", extras = ["elasticsearch7"], marker = "extra == 'elasticsearch7'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-search", extras = ["opensearch1"], marker = "extra == 'opensearch1'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-search", extras = ["opensearch2"], marker = "extra == 'opensearch2'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-search-ui", specifier = ">=4.0.0,<5.0.0" },
-    { name = "invenio-sitemap", specifier = ">=0.1.0,<2.0.0" },
-    { name = "invenio-theme", specifier = ">=4.0.0,<5.0.0" },
-    { name = "invenio-userprofiles", specifier = ">=4.0.0,<5.0.0" },
-    { name = "pytest-black-ng", marker = "extra == 'tests'", specifier = ">=0.4.0" },
-    { name = "pytest-invenio", marker = "extra == 'tests'", specifier = ">=3.3.0,<4.0.0" },
-    { name = "sphinx", marker = "extra == 'tests'", specifier = ">=4.5.0" },
-    { name = "time-machine", marker = "extra == 'tests'", specifier = ">=2.12.0,<3.0.0" },
-]
-provides-extras = ["tests", "elasticsearch7", "opensearch1", "opensearch2", "s3"]
 
 [[package]]
 name = "invenio-assets"
@@ -2460,7 +2410,7 @@ wheels = [
 [[package]]
 name = "invenio-rdm-records"
 version = "22.6.0"
-source = { editable = "../invenio-rdm-records" }
+source = { git = "https://github.com/oarepo/invenio-rdm-records?branch=oarepo-feature-zip#1a1998f7f9534b4c016f0416f4064075e2915364" }
 dependencies = [
     { name = "arrow" },
     { name = "babel-edtf" },
@@ -2492,50 +2442,6 @@ dependencies = [
     { name = "pyyaml" },
     { name = "zipstream-ng" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "arrow", specifier = ">=0.17.0" },
-    { name = "babel-edtf", specifier = ">=1.2.0" },
-    { name = "citeproc-py", specifier = ">=0.6.0" },
-    { name = "citeproc-py-styles", specifier = ">=0.1.2,<1.0.0" },
-    { name = "commonmeta-py", specifier = ">=0.8.4,<0.182" },
-    { name = "datacite", specifier = ">=1.1.1,<2.0.0" },
-    { name = "dcxml", specifier = ">=0.1.2,<1.0.0" },
-    { name = "faker", specifier = ">=2.0.3" },
-    { name = "flask-iiif", specifier = ">=1.0.0,<2.0.0" },
-    { name = "invenio-administration", specifier = ">=4.0.0,<5.0.0" },
-    { name = "invenio-app", marker = "extra == 'tests'", specifier = ">=2.1.0,<3.0.0" },
-    { name = "invenio-base", specifier = ">=2.3.0,<3.0.0" },
-    { name = "invenio-checks", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-communities", specifier = ">=21.0.0,<22.0.0" },
-    { name = "invenio-db", extras = ["mysql", "postgresql"], marker = "extra == 'tests'", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-drafts-resources", specifier = ">=7.0.0,<8.0.0" },
-    { name = "invenio-github", specifier = ">=4.0.0,<5.0.0" },
-    { name = "invenio-i18n", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-jobs", specifier = ">=6.0.0,<7.0.0" },
-    { name = "invenio-oaiserver", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-oauth2server", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-records-resources", specifier = ">=8.0.0,<9.0.0" },
-    { name = "invenio-search", extras = ["elasticsearch7"], marker = "extra == 'elasticsearch7'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-search", extras = ["opensearch1"], marker = "extra == 'opensearch1'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-search", extras = ["opensearch2"], marker = "extra == 'opensearch2'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-stats", specifier = ">=5.0.0,<6.0.0" },
-    { name = "invenio-vocabularies", specifier = ">=9.0.0,<10.0.0" },
-    { name = "nameparser", specifier = ">=1.1.1" },
-    { name = "pycountry", specifier = ">=22.3.5" },
-    { name = "pydash", specifier = ">=6.0.0,<7.0.0" },
-    { name = "pytest-black-ng", marker = "extra == 'tests'", specifier = ">=0.4.0" },
-    { name = "pytest-invenio", marker = "extra == 'tests'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "pytest-mock", marker = "extra == 'tests'", specifier = ">=1.6.0" },
-    { name = "python-slugify", specifier = ">=8.0.1" },
-    { name = "pytz", specifier = ">=2020.4" },
-    { name = "pyyaml", specifier = ">=5.4.0" },
-    { name = "sphinx", marker = "extra == 'tests'", specifier = ">=4.5.0" },
-    { name = "tripoli", marker = "extra == 'tests'", specifier = ">=2.0.0" },
-    { name = "zipstream-ng", specifier = "==1.9.0" },
-]
-provides-extras = ["tests", "elasticsearch7", "opensearch1", "opensearch2"]
 
 [[package]]
 name = "invenio-records"
@@ -2584,8 +2490,8 @@ wheels = [
 
 [[package]]
 name = "invenio-records-resources"
-version = "8.6.1"
-source = { editable = "../invenio-records-resources" }
+version = "8.7.0"
+source = { git = "https://github.com/oarepo/invenio-records-resources?branch=oarepo-feature-extractors#dff7db72b94ea02948dbf8da1f35d99ccfa33e54" }
 dependencies = [
     { name = "babel-edtf" },
     { name = "flask-resources" },
@@ -2607,40 +2513,6 @@ dependencies = [
     { name = "xmltodict" },
     { name = "zipstream-ng" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "babel-edtf", specifier = ">=1.1.0" },
-    { name = "flask-resources", specifier = ">=1.0.0,<2.0.0" },
-    { name = "invenio-accounts", specifier = ">=6.0.0,<7.0.0" },
-    { name = "invenio-app", marker = "extra == 'tests'", specifier = ">=2.1.0,<3.0.0" },
-    { name = "invenio-base", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-db", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-db", extras = ["mysql", "postgresql", "versioning"], marker = "extra == 'tests'", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-files-rest", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-i18n", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-indexer", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-jsonschemas", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-pidstore", specifier = ">=2.0.0,<3.0.0" },
-    { name = "invenio-records", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-records-permissions", specifier = ">=1.0.0,<2.0.0" },
-    { name = "invenio-s3", marker = "extra == 'tests'", specifier = ">=3.0,<4.0" },
-    { name = "invenio-search", extras = ["elasticsearch7"], marker = "extra == 'elasticsearch7'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-search", extras = ["opensearch1"], marker = "extra == 'opensearch1'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-search", extras = ["opensearch2"], marker = "extra == 'opensearch2'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "invenio-stats", specifier = ">=5.0.0,<6.0.0" },
-    { name = "luqum", specifier = ">=0.11.0" },
-    { name = "marshmallow-utils", specifier = ">=0.7.1,<1.0.0" },
-    { name = "pytest-black-ng", marker = "extra == 'tests'", specifier = ">=0.4.0" },
-    { name = "pytest-invenio", marker = "extra == 'tests'", specifier = ">=3.0.0,<4.0.0" },
-    { name = "pytest-mock", marker = "extra == 'tests'", specifier = ">=1.6.0" },
-    { name = "sphinx", marker = "extra == 'tests'", specifier = ">=5,<9" },
-    { name = "uritemplate", specifier = ">=3.0.1" },
-    { name = "wand", specifier = ">=0.6.6,<0.7.0" },
-    { name = "xmltodict", specifier = "~=0.12.0" },
-    { name = "zipstream-ng", specifier = ">=1.3.4" },
-]
-provides-extras = ["tests", "elasticsearch7", "opensearch1", "opensearch2"]
 
 [[package]]
 name = "invenio-records-rest"
@@ -3174,10 +3046,10 @@ dev = [
 requires-dist = [
     { name = "apispec", extras = ["marshmallow", "yaml"], specifier = ">=6.8.3" },
     { name = "apispec-webframeworks", specifier = ">=1.2.0" },
-    { name = "invenio-app-rdm", extras = ["opensearch2", "s3"], editable = "../invenio-app-rdm" },
+    { name = "invenio-app-rdm", extras = ["opensearch2", "s3"], git = "https://github.com/oarepo/invenio-app-rdm?branch=oarepo-feature-extract-preview-ui-links" },
     { name = "invenio-cli" },
-    { name = "invenio-rdm-records", editable = "../invenio-rdm-records" },
-    { name = "invenio-records-resources", editable = "../invenio-records-resources" },
+    { name = "invenio-rdm-records", git = "https://github.com/oarepo/invenio-rdm-records?branch=oarepo-feature-zip" },
+    { name = "invenio-records-resources", git = "https://github.com/oarepo/invenio-records-resources?branch=oarepo-feature-extractors" },
     { name = "latest-build", editable = "site" },
     { name = "lxml-html-clean", specifier = ">=0.1.1" },
     { name = "pytest-invenio", marker = "extra == 'tests'", specifier = ">=3.0.0,<4.0.0" },
