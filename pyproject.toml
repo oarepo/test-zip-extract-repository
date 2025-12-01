@@ -15,10 +15,16 @@ dependencies = [
   "invenio-cli",
   "apispec[marshmallow,yaml]>=6.8.3",
   "apispec-webframeworks>=1.2.0",
+  "invenio-rdm-records>=22.0.0,<23.0.0",
+  "invenio-records-resources>=8.0.0,<9.0.0",
+
 ]
 
 [tool.uv.sources]
 latest_build = { workspace = true }
+invenio-app-rdm = { path = "/home/senyaaa/Work/invenio-app-rdm", editable=true }
+invenio-rdm-records = { path = "/home/senyaaa/Work/invenio-rdm-records", editable=true }
+invenio-records-resources = { path = "/home/senyaaa/Work/invenio-records-resources", editable=true}
 
 [tool.uv.workspace]
 members = [
@@ -40,3 +46,4 @@ sentry = [
 tests = [
     "pytest-invenio>=3.0.0,<4.0.0",
 ]
+

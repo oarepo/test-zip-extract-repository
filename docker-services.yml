@@ -22,8 +22,8 @@ services:
       - "INVENIO_SITE_UI_URL=${DOCKER_SERVICES_IP_BIND:-127.0.0.1}"
       - "INVENIO_SITE_API_URL=https://${DOCKER_SERVICES_IP_BIND:-127.0.0.1}/api"
       - "INVENIO_S3_ENDPOINT_URL=http://s3:9000" # add s3 alias to your etc/hosts
-      - "INVENIO_S3_ACCESS_KEY_ID=CHANGE_ME"
-      - "INVENIO_S3_SECRET_ACCESS_KEY=CHANGE_ME"
+      - "INVENIO_S3_ACCESS_KEY_ID=invenio"
+      - "INVENIO_S3_SECRET_ACCESS_KEY=invenio8"
   frontend:
     build: ./docker/nginx/
     image: latest-build-frontend
@@ -85,31 +85,17 @@ services:
       - 'OPENSEARCH_HOSTS=["http://search:9200"]'
       - "DISABLE_SECURITY_DASHBOARDS_PLUGIN=true"
   s3:
-    image: rustfs/rustfs:latest
+    image: minio/minio:latest
     restart: "unless-stopped"
     ports:
       - "${DOCKER_SERVICES_IP_BIND:-127.0.0.1}:9000:9000"
       - "${DOCKER_SERVICES_IP_BIND:-127.0.0.1}:9001:9001"
-    security_opt:
-      - "no-new-privileges:true"
+    command: server /data --console-address :9001
     environment:
-      RUSTFS_ACCESS_KEY: "${RUSTFS_ACCESS_KEY:-CHANGE_ME}"
-      RUSTFS_SECRET_KEY: "${RUSTFS_SECRET_KEY:-CHANGE_ME}"
-      RUSTFS_SERVER_DOMAINS: "localhost"
-      RUSTFS_CONSOLE_ENABLE: "true"
+      MINIO_ROOT_USER: ${INVENIO_S3_ACCESS_KEY:-invenio}
+      MINIO_ROOT_PASSWORD: ${INVENIO_S3_SECRET_KEY:-invenio8}
     volumes:
       - ./data:/data
-    healthcheck:
-      test:
-        [
-          "CMD",
-          "sh", "-c",
-          "curl -f ${DOCKER_SERVICES_IP_BIND:-127.0.0.1}:9000/health && curl -f ${DOCKER_SERVICES_IP_BIND:-127.0.0.1}:9001/health"
-        ]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
   flower:
     image: mher/flower:2.0.1
     restart: "unless-stopped"
