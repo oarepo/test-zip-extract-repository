@@ -17,14 +17,15 @@ dependencies = [
   "apispec-webframeworks>=1.2.0",
   "invenio-rdm-records>=22.0.0,<23.0.0",
   "invenio-records-resources>=8.0.0,<9.0.0",
-
+  "invenio-previewer>=3.0.0,<4.0.0",
 ]
 
 [tool.uv.sources]
 latest_build = { workspace = true }
-invenio-app-rdm = { git = "https://github.com/oarepo/invenio-app-rdm", branch = "oarepo-feature-extract-preview-ui-links"}
-invenio-rdm-records = { git = "https://github.com/oarepo/invenio-rdm-records", branch = "oarepo-feature-zip"}
-invenio-records-resources = { git = "https://github.com/oarepo/invenio-records-resources", branch = "oarepo-feature-extractors"}
+invenio-app-rdm = { git = "https://github.com/oarepo/invenio-app-rdm", branch = "contribution-zip-previewer-ui"}
+invenio-rdm-records = { git = "https://github.com/oarepo/invenio-rdm-records", branch = "contribution-zip-extractors-processors"}
+invenio-records-resources = { git = "https://github.com/oarepo/invenio-records-resources", branch = "contribution-container-extractors"}
+invenio-previewer = { git = "https://github.com/oarepo/invenio-previewer", branch = "contribution-container-previewers"}
 
 [tool.uv.workspace]
 members = [
