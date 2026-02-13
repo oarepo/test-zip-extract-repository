@@ -5,7 +5,7 @@ version = "13.0.1"
 requires-python = ">= 3.12"
 
 dependencies = [
-  "invenio-app-rdm[opensearch2,s3]~=14.0.0b3.dev0",
+  "invenio-app-rdm[opensearch2,s3]~=14.0.0b4.dev7",
   "python-dotenv>=0.21.0",
   "uwsgi>=2.0",
   "uwsgitop>=0.11",
@@ -15,9 +15,9 @@ dependencies = [
   "invenio-cli",
   "apispec[marshmallow,yaml]>=6.8.3",
   "apispec-webframeworks>=1.2.0",
-  "invenio-rdm-records>=22.0.0,<23.0.0",
-  "invenio-records-resources>=8.0.0,<9.0.0",
-  "invenio-previewer>=3.0.0,<4.0.0",
+  "invenio-rdm-records>=24.0.0,<25.0.0",
+  "invenio-records-resources>=9.1.0,<10.0.0",
+  "invenio-previewer>=4.0.0,<5.0.0",
 ]
 
 [tool.uv.sources]
