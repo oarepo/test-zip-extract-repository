@@ -1,0 +1,697 @@
+ redis Pulling 
+ postgresql Pulling 
+ opensearch Pulling 
+ cb628c265f09 Pulling fs layer 
+ f8406d9c00ea Pulling fs layer 
+ 283a477db7bb Pulling fs layer 
+ c199bff16b05 Pulling fs layer 
+ 9739ced65621 Pulling fs layer 
+ 91d2729fa4d5 Pulling fs layer 
+ c1cb13b19080 Pulling fs layer 
+ e0d55fdb4d15 Pulling fs layer 
+ 873532e5f8c7 Pulling fs layer 
+ ae3bb1b347a4 Pulling fs layer 
+ dda3d8fbd5ed Pulling fs layer 
+ b0a0cf830b12 Pulling fs layer 
+ 050d9f8c3b1c Pulling fs layer 
+ 710e142705f8 Pulling fs layer 
+ f9dd052e142d Pulling fs layer 
+ 2e81b9cb93cd Pulling fs layer 
+ e8c6d4883897 Pulling fs layer 
+ eb77aa907276 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 648eb81b3252 Pulling fs layer 
+ 0ffa8f8aba1e Pulling fs layer 
+ 47a60771af96 Pulling fs layer 
+ c5761dea9b0e Pulling fs layer 
+ 22dca8215bc4 Pulling fs layer 
+ bbf018d6d4b8 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 7b28be0c8c4d Pulling fs layer 
+ 4831516dd0cb Pulling fs layer 
+ edcaff0d5e7e Pulling fs layer 
+ c1cb13b19080 Downloading [==================================================>]  9.925kB/9.925kB
+ cb628c265f09 Download complete 
+ 4f4fb700ef54 Already exists 
+ 283a477db7bb Downloading [==================================>                ]  3.146MB/4.533MB
+ dda3d8fbd5ed Downloading [==================================================>]  1.165kB/1.165kB
+ c199bff16b05 Download complete 
+ 4f4fb700ef54 Already exists 
+ 47a60771af96 Download complete 
+ 648eb81b3252 Download complete 
+ c5761dea9b0e Download complete 
+ e7da101a9486 Download complete 
+ 0ffa8f8aba1e Download complete 
+ f9dd052e142d Downloading [=>                                                 ]  1.049MB/52.33MB
+ 050d9f8c3b1c Download complete 
+ f8406d9c00ea Download complete 
+ 7b28be0c8c4d Download complete 
+ 2e81b9cb93cd Download complete 
+ e8c6d4883897 Downloading [===========>                                       ]  1.049MB/4.398MB
+ eb77aa907276 Downloading [>                                                  ]  3.146MB/907.7MB
+ 283a477db7bb Download complete 
+ bbf018d6d4b8 Download complete 
+ ae3bb1b347a4 Download complete 
+ 9739ced65621 Downloading [============>                                      ]  2.097MB/8.069MB
+ 91d2729fa4d5 Download complete 
+ b0a0cf830b12 Downloading [=>                                                 ]  1.049MB/29.15MB
+ e0d55fdb4d15 Downloading [>                                                  ]  2.097MB/109MB
+ c1cb13b19080 Download complete 
+ 873532e5f8c7 Download complete 
+ dda3d8fbd5ed Download complete 
+ 710e142705f8 Download complete 
+ 9739ced65621 Downloading [======================================>            ]  6.291MB/8.069MB
+ b0a0cf830b12 Downloading [========>                                          ]  5.243MB/29.15MB
+ e0d55fdb4d15 Downloading [==>                                                ]  6.291MB/109MB
+ c4cc93acbec6 Download complete 
+ f9dd052e142d Downloading [======>                                            ]  6.291MB/52.33MB
+ edcaff0d5e7e Download complete 
+ 22dca8215bc4 Downloading [=============>                                     ]  4.194MB/15.35MB
+ 4831516dd0cb Downloading [=======>                                           ]  4.194MB/28.23MB
+ e8c6d4883897 Download complete 
+ eb77aa907276 Downloading [>                                                  ]   7.34MB/907.7MB
+ 56b5e4f0933d Download complete 
+ 5682dec5b749 Downloading [==================>                                ]  2.097MB/5.719MB
+ 22dca8215bc4 Downloading [========================================>          ]  12.58MB/15.35MB
+ 4831516dd0cb Downloading [========================>                          ]  13.63MB/28.23MB
+ f9dd052e142d Downloading [=============>                                     ]   13.7MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  14.68MB/907.7MB
+ 5682dec5b749 Download complete 
+ 9739ced65621 Download complete 
+ b0a0cf830b12 Downloading [=======================>                           ]  13.63MB/29.15MB
+ e0d55fdb4d15 Downloading [======>                                            ]   15.2MB/109MB
+ f9dd052e142d Downloading [=======================>                           ]  24.12MB/52.33MB
+ eb77aa907276 Downloading [=>                                                 ]  25.17MB/907.7MB
+ b0a0cf830b12 Downloading [===========================================>       ]  25.17MB/29.15MB
+ e0d55fdb4d15 Downloading [===========>                                       ]  25.17MB/109MB
+ 22dca8215bc4 Download complete 
+ 4831516dd0cb Downloading [==========================================>        ]  24.12MB/28.23MB
+ 4831516dd0cb Download complete 
+ eb77aa907276 Downloading [==>                                                ]  37.91MB/907.7MB
+ f9dd052e142d Downloading [===================================>               ]   36.7MB/52.33MB
+ b0a0cf830b12 Download complete 
+ e0d55fdb4d15 Downloading [=================>                                 ]  37.75MB/109MB
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [======================>                            ]  48.23MB/109MB
+ eb77aa907276 Downloading [==>                                                ]  50.33MB/907.7MB
+ f9dd052e142d Downloading [==============================================>    ]  48.23MB/52.33MB
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [===========================>                       ]  59.09MB/109MB
+ f9dd052e142d Download complete 
+ eb77aa907276 Downloading [===>                                               ]  62.91MB/907.7MB
+ 4831516dd0cb Extracting 1 s
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=================================>                 ]  72.35MB/109MB
+ eb77aa907276 Downloading [====>                                              ]   75.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=======================================>           ]  85.98MB/109MB
+ eb77aa907276 Downloading [====>                                              ]  87.86MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=====>                                             ]  100.7MB/907.7MB
+ e0d55fdb4d15 Downloading [=============================================>     ]  99.61MB/109MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [==================================================>]    109MB/109MB
+ eb77aa907276 Downloading [======>                                            ]  114.2MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=======>                                           ]  132.1MB/907.7MB
+ e0d55fdb4d15 Download complete 
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [========>                                          ]    149MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=========>                                         ]  166.7MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [==========>                                        ]  183.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [===========>                                       ]  200.3MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  218.1MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  234.9MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=============>                                     ]  252.7MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==============>                                    ]  267.7MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===============>                                   ]  282.1MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [================>                                  ]  299.9MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=================>                                 ]  317.7MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=================>                                 ]  321.9MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Pull complete 
+ eb77aa907276 Downloading [==================>                                ]  330.3MB/907.7MB
+ 47a60771af96 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Pull complete 
+ dda3d8fbd5ed Pull complete 
+ eb77aa907276 Downloading [===================>                               ]    346MB/907.7MB
+ 47a60771af96 Pull complete 
+ 7b28be0c8c4d Pull complete 
+ 283a477db7bb Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ edcaff0d5e7e Pull complete 
+ 22dca8215bc4 Extracting 1 s
+ eb77aa907276 Downloading [====================>                              ]  363.9MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ 283a477db7bb Pull complete 
+ f9dd052e142d Extracting 2 s
+ 91d2729fa4d5 Extracting 1 s
+ eb77aa907276 Downloading [=====================>                             ]  381.7MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ 91d2729fa4d5 Pull complete 
+ 22dca8215bc4 Extracting 1 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [=====================>                             ]  398.1MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [======================>                            ]  415.3MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [=======================>                           ]  434.1MB/907.7MB
+ 4f4fb700ef54 Pull complete 
+ c5761dea9b0e Extracting 1 s
+ bbf018d6d4b8 Pull complete 
+ 22dca8215bc4 Pull complete 
+ f9dd052e142d Extracting 3 s
+ 9739ced65621 Extracting 1 s
+ c5761dea9b0e Pull complete 
+ redis Pulled 
+ eb77aa907276 Downloading [========================>                          ]  451.9MB/907.7MB
+ ae3bb1b347a4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 9739ced65621 Pull complete 
+ eb77aa907276 Downloading [=========================>                         ]  470.8MB/907.7MB
+ c199bff16b05 Pull complete 
+ f8406d9c00ea Pull complete 
+ ae3bb1b347a4 Pull complete 
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [===========================>                       ]  490.7MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [============================>                      ]  511.7MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [============================>                      ]  521.1MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=============================>                     ]    539MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [==============================>                    ]  557.6MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [===============================>                   ]  576.7MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [================================>                  ]  595.4MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ f9dd052e142d Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [=================================>                 ]  615.5MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ e8c6d4883897 Extracting 1 s
+ eb77aa907276 Downloading [===================================>               ]  635.4MB/907.7MB
+ 648eb81b3252 Pull complete 
+ e8c6d4883897 Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [====================================>              ]  657.5MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [=====================================>             ]  676.7MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [======================================>            ]  700.4MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=======================================>           ]  721.4MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [========================================>          ]  742.4MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=========================================>         ]  761.3MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===========================================>       ]  786.4MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [============================================>      ]  808.5MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=============================================>     ]  829.4MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==============================================>    ]  852.5MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [================================================>  ]  874.5MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================================> ]  896.5MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Pull complete 
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ c1cb13b19080 Extracting 1 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ c1cb13b19080 Pull complete 
+ eb77aa907276 Download complete 
+ 050d9f8c3b1c Pull complete 
+ 873532e5f8c7 Pull complete 
+ 710e142705f8 Pull complete 
+ eb77aa907276 Extracting 1 s
+ cb628c265f09 Pull complete 
+ postgresql Pulled 
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ 4f4fb700ef54 Pull complete 
+ 0ffa8f8aba1e Pull complete 
+ 2e81b9cb93cd Pull complete 
+ eb77aa907276 Pull complete 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-opensearch-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original
+configfile: setup.cfg
+testpaths: tests, invenio_userprofiles
+plugins: isort-4.0.0, flask-1.3.0, black-ng-0.4.1, invenio-3.4.2, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, pycodestyle-2.5.0
+collected 25 items
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+
+tests/test_api.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py,line=29::current_userprofile is deprecated, use current_user instead
+                                                     [  8%]
+tests/test_forms.py .......                                              [ 36%]
+tests/test_invenio_userprofile.py ..s                                    [ 48%]
+tests/test_models.py ..::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+                                                [ 64%]
+tests/test_validators.py .                                               [ 68%]
+tests/test_views.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+                                             [100%]
+
+=============================== warnings summary ===============================
+invenio_userprofiles/api.py:29: 51 warnings
+tests/test_api.py: 3 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/invenio_userprofiles/api.py:29: DeprecationWarning: current_userprofile is deprecated, use current_user instead
+    warn(
+
+tests/test_api.py: 2 warnings
+tests/test_views.py: 10 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    created = datetime.utcnow()
+
+tests/test_api.py: 3 warnings
+tests/test_views.py: 39 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py:68: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+    return cls(int(id_s, 16), datetime.utcfromtimestamp(int(created_s, 16)))
+
+tests/test_api.py: 3 warnings
+tests/test_views.py: 39 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py:54: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    now = now or datetime.utcnow()
+
+tests/test_api.py: 4 warnings
+tests/test_models.py: 8 warnings
+tests/test_views.py: 36 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py:3624: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore
+
+tests/test_api.py: 1 warning
+tests/test_views.py: 9 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/flask_security/utils.py:87: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    _security.datetime_factory(),
+
+tests/test_api.py: 1 warning
+tests/test_views.py: 16 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-userprofiles/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py:33: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    target.updated = datetime.utcnow()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                                                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------
+invenio_userprofiles/__init__.py                                             12      4    67%   23-29
+invenio_userprofiles/alembic/41157f1933d6_remove_table.py                    20     10    50%   27-58, 63
+invenio_userprofiles/alembic/71634726ec7e_create_userprofiles_branch.py       8      0   100%
+invenio_userprofiles/alembic/c25ef2c50ffa_create_userprofiles_tables.py      10      2    80%   23, 40
+invenio_userprofiles/api.py                                                   9      0   100%
+invenio_userprofiles/config.py                                               16      0   100%
+invenio_userprofiles/ext.py                                                  38      1    97%   91
+invenio_userprofiles/forms.py                                               108     12    89%   51, 187-191, 249-250, 304-307
+invenio_userprofiles/models.py                                               46      8    83%   20, 57, 63-69
+invenio_userprofiles/validators.py                                            9      0   100%
+invenio_userprofiles/views.py                                                65      8    88%   45-46, 73-74, 149-153
+-------------------------------------------------------------------------------------------------------
+TOTAL                                                                       341     45    87%
+================= 24 passed, 1 skipped, 225 warnings in 9.17s ==================
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

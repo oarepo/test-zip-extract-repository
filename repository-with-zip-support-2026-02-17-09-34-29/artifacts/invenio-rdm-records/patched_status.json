@@ -1,0 +1,36 @@
+{
+  "dependencies": [],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patches": [],
+    "reference": {
+      "base": null,
+      "branch": "contribution-zip-extractors-processors",
+      "commit": "3845b70a85950c996615d1bbad6cbacdd456576b",
+      "org": "oarepo",
+      "package": "invenio-rdm-records",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-rdm-records",
+      "versions": []
+    },
+    "test": [
+      "./run-tests.sh"
+    ]
+  },
+  "status": "skipped"
+}

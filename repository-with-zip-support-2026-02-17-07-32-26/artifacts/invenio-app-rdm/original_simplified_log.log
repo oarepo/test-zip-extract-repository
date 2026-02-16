@@ -1,0 +1,127 @@
+ postgresql Pulling 
+ opensearch Pulling 
+ rabbitmq Pulling 
+ redis Pulling 
+ 4f4fb700ef54 Already exists 
+ 4f4fb700ef54 Already exists 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+ Container docker_services_cli-redis-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original
+configfile: setup.cfg
+testpaths: tests, invenio_app_rdm
+plugins: invenio-4.0.0, time-machine-2.19.0, isort-4.0.0, flask-1.3.0, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, Faker-40.4.0, cov-7.0.0, black-0.6.0, pycodestyle-2.5.0
+collected 43 items / 1 error
+==================================== ERRORS ====================================
+___ ERROR collecting invenio_app_rdm/records_ui/previewer/previewable_zip.py ___
+ImportError while importing test module '/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/invenio_app_rdm/records_ui/previewer/previewable_zip.py'
+Hint: make sure your test modules/packages have valid Python names
+Traceback:
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_app_rdm/records_ui/previewer/previewable_zip.py:17: in <module>
+    from invenio_previewer.views import is_container_item_previewable
+E   ImportError: cannot import name 'is_container_item_previewable' from 'invenio_previewer.views' (/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_previewer/views.py)
+=============================== warnings summary ===============================
+venv/lib/python3.14/site-packages/invenio_vocabularies/config.py:15
+    from idutils import is_doi, is_gnd, is_isni, is_orcid, is_ror, is_url
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9
+    pyparsing.ParserElement.enablePackrat()
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52
+    oneThru12 = oneOf(["%.2d" % i for i in range(1, 13)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53
+    oneThru13 = oneOf(["%.2d" % i for i in range(1, 14)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54
+    oneThru23 = oneOf(["%.2d" % i for i in range(1, 24)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55
+    zeroThru23 = oneOf(["%.2d" % i for i in range(0, 24)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56
+    oneThru29 = oneOf(["%.2d" % i for i in range(1, 30)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57
+    oneThru30 = oneOf(["%.2d" % i for i in range(1, 31)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58
+    oneThru31 = oneOf(["%.2d" % i for i in range(1, 32)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59
+    oneThru59 = oneOf(["%.2d" % i for i in range(1, 60)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60
+    zeroThru59 = oneOf(["%.2d" % i for i in range(0, 60)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63
+    positiveDigit = Word(nums, exact=1, excludeChars="0")
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73
+    (oneOf("01 03 05 07 08 10 12")("month") + "-" + oneThru31("day"))
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74
+    ^ (oneOf("04 06 09 11")("month") + "-" + oneThru30("day"))
+    p.addParseAction(cls.parse_action)
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119
+    UASymbol = Combine(oneOf("? ~ %"))
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122
+    seasonNumber = oneOf("21 22 23 24")
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155
+    l1Start.addParseAction(f)
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157
+    l1End.addParseAction(f)
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199
+    monthWithX = Combine(oneOf("0X 1X") ^ ("X" + digitOrX))("month")
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+    earlier = L("..").addParseAction(f)("lower") + date("upper").addParseAction(f)
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+    later = date("lower").addParseAction(f) + L("..").addParseAction(f)("upper")
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325
+    seasonL2Number = oneOf("21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41")
+venv/lib/python3.14/site-packages/invenio_rdm_records/services/facets.py:75
+    warn(
+venv/lib/python3.14/site-packages/webargs/compat.py:8
+    MARSHMALLOW_VERSION_INFO = tuple(LooseVersion(ma.__version__).version)  # type: tuple
+venv/lib/python3.14/site-packages/webargs/compat.py:8
+    MARSHMALLOW_VERSION_INFO = tuple(LooseVersion(ma.__version__).version)  # type: tuple
+venv/lib/python3.14/site-packages/webargs/__init__.py:13
+    __version_info__ = tuple(LooseVersion(__version__).version)
+venv/lib/python3.14/site-packages/datacite/jsonutils.py:15
+venv/lib/python3.14/site-packages/datacite/jsonutils.py:15
+    from jsonschema import RefResolver, validate
+=========================== short test summary info ============================
+ERROR invenio_app_rdm/records_ui/previewer/previewable_zip.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+======================== 49 warnings, 1 error in 4.83s =========================
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

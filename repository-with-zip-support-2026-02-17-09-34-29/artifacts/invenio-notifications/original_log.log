@@ -1,0 +1,731 @@
+ redis Pulling 
+ postgresql Pulling 
+ rabbitmq Pulling 
+ opensearch Pulling 
+ cb628c265f09 Pulling fs layer 
+ f8406d9c00ea Pulling fs layer 
+ 873532e5f8c7 Pulling fs layer 
+ c199bff16b05 Pulling fs layer 
+ dda3d8fbd5ed Pulling fs layer 
+ 050d9f8c3b1c Pulling fs layer 
+ e0d55fdb4d15 Pulling fs layer 
+ ae3bb1b347a4 Pulling fs layer 
+ 710e142705f8 Pulling fs layer 
+ b0a0cf830b12 Pulling fs layer 
+ 283a477db7bb Pulling fs layer 
+ c1cb13b19080 Pulling fs layer 
+ 91d2729fa4d5 Pulling fs layer 
+ 9739ced65621 Pulling fs layer 
+ 2e81b9cb93cd Pulling fs layer 
+ 648eb81b3252 Pulling fs layer 
+ f9dd052e142d Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ eb77aa907276 Pulling fs layer 
+ 0ffa8f8aba1e Pulling fs layer 
+ e8c6d4883897 Pulling fs layer 
+ c5761dea9b0e Pulling fs layer 
+ 22dca8215bc4 Pulling fs layer 
+ edcaff0d5e7e Pulling fs layer 
+ 7b28be0c8c4d Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 47a60771af96 Pulling fs layer 
+ bbf018d6d4b8 Pulling fs layer 
+ 4831516dd0cb Pulling fs layer 
+ d686b50ce172 Pulling fs layer 
+ 20043066d3d5 Pulling fs layer 
+ 7084ac8f4ab6 Pulling fs layer 
+ 14e6209d5fa8 Pulling fs layer 
+ 5e1c03b67a78 Pulling fs layer 
+ 3fadc669ef11 Pulling fs layer 
+ beb0d870d438 Pulling fs layer 
+ d63c4408fdb7 Pulling fs layer 
+ efa05c660812 Pulling fs layer 
+ f4e7f62f4b80 Pulling fs layer 
+ 9739ced65621 Downloading [======>                                            ]  1.049MB/8.069MB
+ 4f4fb700ef54 Already exists 
+ 4f4fb700ef54 Already exists 
+ c5761dea9b0e Download complete 
+ 20043066d3d5 Downloading [=======>                                           ]  4.194MB/29.72MB
+ 283a477db7bb Download complete 
+ 2e81b9cb93cd Download complete 
+ 47a60771af96 Download complete 
+ 9739ced65621 Download complete 
+ 14e6209d5fa8 Download complete 
+ 648eb81b3252 Download complete 
+ 050d9f8c3b1c Download complete 
+ d686b50ce172 Downloading [====>                                              ]  1.049MB/12.47MB
+ 7084ac8f4ab6 Downloading [============================>                      ]  4.194MB/7.468MB
+ 20043066d3d5 Downloading [======================>                            ]  13.18MB/29.72MB
+ edcaff0d5e7e Downloading [====================================>              ]  1.049MB/1.438MB
+ 91d2729fa4d5 Download complete 
+ 0ffa8f8aba1e Download complete 
+ 7b28be0c8c4d Download complete 
+ 22dca8215bc4 Downloading [====================>                              ]  6.291MB/15.35MB
+ e8c6d4883897 Downloading [===========>                                       ]  1.049MB/4.398MB
+ f9dd052e142d Downloading [==>                                                ]  2.097MB/52.33MB
+ cb628c265f09 Download complete 
+ f8406d9c00ea Download complete 
+ c1cb13b19080 Download complete 
+ dda3d8fbd5ed Download complete 
+ e0d55fdb4d15 Downloading [=>                                                 ]  4.194MB/109MB
+ 873532e5f8c7 Download complete 
+ c199bff16b05 Download complete 
+ b0a0cf830b12 Downloading [===>                                               ]  2.097MB/29.15MB
+ ae3bb1b347a4 Download complete 
+ 710e142705f8 Download complete 
+ e0d55fdb4d15 Downloading [===>                                               ]  8.389MB/109MB
+ b0a0cf830b12 Downloading [==========>                                        ]  6.038MB/29.15MB
+ beb0d870d438 Download complete 
+ d686b50ce172 Downloading [=====================>                             ]  5.243MB/12.47MB
+ 22dca8215bc4 Downloading [=====================================>             ]  11.53MB/15.35MB
+ f9dd052e142d Downloading [======>                                            ]  6.291MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  4.194MB/907.7MB
+ bbf018d6d4b8 Download complete 
+ 7084ac8f4ab6 Download complete 
+ d63c4408fdb7 Downloading [=======>                                           ]  3.146MB/21.31MB
+ e8c6d4883897 Download complete 
+ efa05c660812 Download complete 
+ edcaff0d5e7e Download complete 
+ 4831516dd0cb Downloading [=====>                                             ]  3.146MB/28.23MB
+ f4e7f62f4b80 Download complete 
+ 3fadc669ef11 Downloading [===>                                               ]  3.146MB/43.48MB
+ 20043066d3d5 Downloading [=============================>                     ]  17.83MB/29.72MB
+ 5e1c03b67a78 Download complete 
+ b0a0cf830b12 Downloading [===================>                               ]  11.53MB/29.15MB
+ e0d55fdb4d15 Downloading [======>                                            ]  13.63MB/109MB
+ d63c4408fdb7 Downloading [=================>                                 ]   7.34MB/21.31MB
+ 56b5e4f0933d Download complete 
+ 7ec4c696b8bb Download complete 
+ 22dca8215bc4 Download complete 
+ 4831516dd0cb Downloading [==============>                                    ]  8.389MB/28.23MB
+ 16ef6b12768c Downloading [========================>                          ]  1.491MB/3.088MB
+ 3fadc669ef11 Downloading [=========>                                         ]  8.389MB/43.48MB
+ 20043066d3d5 Downloading [======================================>            ]  23.07MB/29.72MB
+ d686b50ce172 Downloading [==========================================>        ]  10.49MB/12.47MB
+ f9dd052e142d Downloading [===========>                                       ]  11.53MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  9.437MB/907.7MB
+ e7da101a9486 Download complete 
+ e0d55fdb4d15 Downloading [=========>                                         ]  19.92MB/109MB
+ 5682dec5b749 Downloading [=============================>                     ]  3.416MB/5.719MB
+ b0a0cf830b12 Downloading [=============================>                     ]  16.93MB/29.15MB
+ 4831516dd0cb Downloading [==========================>                        ]  14.68MB/28.23MB
+ f9dd052e142d Downloading [=================>                                 ]  17.83MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  14.68MB/907.7MB
+ c4cc93acbec6 Download complete 
+ d686b50ce172 Download complete 
+ d63c4408fdb7 Downloading [===============================>                   ]  13.63MB/21.31MB
+ 16ef6b12768c Download complete 
+ 3fadc669ef11 Downloading [================>                                  ]  14.68MB/43.48MB
+ 20043066d3d5 Downloading [==================================================>]  29.72MB/29.72MB
+ e0d55fdb4d15 Downloading [============>                                      ]  28.31MB/109MB
+ 5682dec5b749 Download complete 
+ 3fadc669ef11 Downloading [=========================>                         ]  22.02MB/43.48MB
+ 4831516dd0cb Downloading [=======================================>           ]  22.02MB/28.23MB
+ eb77aa907276 Downloading [=>                                                 ]  22.02MB/907.7MB
+ f9dd052e142d Downloading [========================>                          ]  25.17MB/52.33MB
+ b0a0cf830b12 Downloading [=========================================>         ]  24.12MB/29.15MB
+ 20043066d3d5 Download complete 
+ d63c4408fdb7 Downloading [==============================================>    ]  19.92MB/21.31MB
+ 20043066d3d5 Extracting 1 s
+ f9dd052e142d Downloading [================================>                  ]  33.55MB/52.33MB
+ eb77aa907276 Downloading [=>                                                 ]  30.41MB/907.7MB
+ 4831516dd0cb Download complete 
+ d63c4408fdb7 Download complete 
+ 3fadc669ef11 Downloading [=================================>                 ]  29.42MB/43.48MB
+ b0a0cf830b12 Download complete 
+ e0d55fdb4d15 Downloading [================>                                  ]   36.7MB/109MB
+ 20043066d3d5 Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [====================>                              ]  44.04MB/109MB
+ f9dd052e142d Downloading [========================================>          ]  41.94MB/52.33MB
+ eb77aa907276 Downloading [==>                                                ]  37.75MB/907.7MB
+ 3fadc669ef11 Downloading [===========================================>       ]  37.75MB/43.48MB
+ 20043066d3d5 Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [==>                                                ]  46.14MB/907.7MB
+ e0d55fdb4d15 Downloading [=========================>                         ]  54.53MB/109MB
+ f9dd052e142d Downloading [==================================================>]  52.33MB/52.33MB
+ 3fadc669ef11 Download complete 
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=============================>                     ]  63.96MB/109MB
+ f9dd052e142d Download complete 
+ eb77aa907276 Downloading [===>                                               ]  57.67MB/907.7MB
+ 4831516dd0cb Extracting 1 s
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [===================================>               ]  77.59MB/109MB
+ eb77aa907276 Downloading [===>                                               ]  68.43MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [========================================>          ]  88.08MB/109MB
+ eb77aa907276 Downloading [====>                                              ]  80.74MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=====>                                             ]  92.27MB/907.7MB
+ e0d55fdb4d15 Downloading [==============================================>    ]  100.7MB/109MB
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=====>                                             ]  105.9MB/907.7MB
+ e0d55fdb4d15 Downloading [==================================================>]    109MB/109MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Download complete 
+ eb77aa907276 Downloading [======>                                            ]  120.6MB/907.7MB
+ 20043066d3d5 Extracting 1 s
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=======>                                           ]  138.4MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [========>                                          ]  156.2MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=========>                                         ]    173MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==========>                                        ]  190.8MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===========>                                       ]  205.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  222.3MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=============>                                     ]  240.1MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==============>                                    ]  257.9MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==============>                                    ]  271.6MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===============>                                   ]  287.3MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ f9dd052e142d Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [================>                                  ]  294.6MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Pull complete 
+ b0a0cf830b12 Extracting 2 s
+ 3fadc669ef11 Extracting 1 s
+ eb77aa907276 Downloading [================>                                  ]  307.9MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 2 s
+ 3fadc669ef11 Extracting 1 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=================>                                 ]  321.9MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ b0a0cf830b12 Extracting 3 s
+ eb77aa907276 Downloading [==================>                                ]  337.6MB/907.7MB
+ 47a60771af96 Pull complete 
+ 7b28be0c8c4d Pull complete 
+ edcaff0d5e7e Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Pull complete 
+ 3fadc669ef11 Extracting 1 s
+ b0a0cf830b12 Extracting 3 s
+ 283a477db7bb Extracting 1 s
+ eb77aa907276 Downloading [===================>                               ]  353.4MB/907.7MB
+ edcaff0d5e7e Pull complete 
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ dda3d8fbd5ed Pull complete 
+ 3fadc669ef11 Extracting 1 s
+ b0a0cf830b12 Pull complete 
+ eb77aa907276 Downloading [====================>                              ]  369.1MB/907.7MB
+ 283a477db7bb Extracting 1 s
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 283a477db7bb Extracting 1 s
+ eb77aa907276 Downloading [=====================>                             ]  383.8MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ 3fadc669ef11 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=====================>                             ]  398.5MB/907.7MB
+ 283a477db7bb Pull complete 
+ 9739ced65621 Extracting 1 s
+ 22dca8215bc4 Extracting 1 s
+ 91d2729fa4d5 Pull complete 
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ eb77aa907276 Downloading [======================>                            ]  414.2MB/907.7MB
+ 9739ced65621 Extracting 1 s
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [=======================>                           ]    432MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [========================>                          ]  448.8MB/907.7MB
+ bbf018d6d4b8 Pull complete 
+ f9dd052e142d Extracting 3 s
+ 22dca8215bc4 Pull complete 
+ 3fadc669ef11 Extracting 1 s
+ eb77aa907276 Downloading [=========================>                         ]  462.4MB/907.7MB
+ 4f4fb700ef54 Pull complete 
+ 9739ced65621 Extracting 1 s
+ c5761dea9b0e Pull complete 
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 2 s
+ redis Pulled 
+ eb77aa907276 Downloading [==========================>                        ]  477.1MB/907.7MB
+ 9739ced65621 Pull complete 
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 2 s
+ ae3bb1b347a4 Extracting 1 s
+ eb77aa907276 Downloading [===========================>                       ]  493.9MB/907.7MB
+ f8406d9c00ea Pull complete 
+ f9dd052e142d Extracting 3 s
+ c199bff16b05 Pull complete 
+ ae3bb1b347a4 Pull complete 
+ 3fadc669ef11 Extracting 2 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [============================>                      ]    512MB/907.7MB
+ 7084ac8f4ab6 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Pull complete 
+ eb77aa907276 Downloading [=============================>                     ]  531.7MB/907.7MB
+ 7084ac8f4ab6 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [==============================>                    ]  550.8MB/907.7MB
+ 7084ac8f4ab6 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [===============================>                   ]  571.5MB/907.7MB
+ 7084ac8f4ab6 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [================================>                  ]  589.3MB/907.7MB
+ beb0d870d438 Pull complete 
+ 7084ac8f4ab6 Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ d63c4408fdb7 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [=================================>                 ]  602.9MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ d63c4408fdb7 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [==================================>                ]  622.9MB/907.7MB
+ d63c4408fdb7 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [===================================>               ]  642.6MB/907.7MB
+ f9dd052e142d Extracting 4 s
+ e0d55fdb4d15 Extracting 1 s
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [====================================>              ]  660.6MB/907.7MB
+ d63c4408fdb7 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [=====================================>             ]  679.5MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Pull complete 
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [======================================>            ]  697.3MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ d63c4408fdb7 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=======================================>           ]  714.1MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ d63c4408fdb7 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [========================================>          ]    734MB/907.7MB
+ 648eb81b3252 Extracting 1 s
+ e8c6d4883897 Pull complete 
+ d63c4408fdb7 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=========================================>         ]    756MB/907.7MB
+ 648eb81b3252 Pull complete 
+ e0d55fdb4d15 Extracting 2 s
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [==========================================>        ]    777MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ 14e6209d5fa8 Pull complete 
+ eb77aa907276 Downloading [===========================================>       ]    798MB/907.7MB
+ efa05c660812 Pull complete 
+ f4e7f62f4b80 Pull complete 
+ 5e1c03b67a78 Pull complete 
+ e0d55fdb4d15 Extracting 2 s
+ d686b50ce172 Extracting 1 s
+ d63c4408fdb7 Pull complete 
+ eb77aa907276 Downloading [============================================>      ]  815.8MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==============================================>    ]  835.7MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===============================================>   ]  859.8MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [================================================>  ]  882.9MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================================> ]  904.9MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 3 s
+ d686b50ce172 Extracting 1 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ d686b50ce172 Pull complete 
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Pull complete 
+ rabbitmq Pulled 
+ 050d9f8c3b1c Pull complete 
+ cb628c265f09 Pull complete 
+ c1cb13b19080 Pull complete 
+ 873532e5f8c7 Pull complete 
+ 710e142705f8 Pull complete 
+ postgresql Pulled 
+ eb77aa907276 Download complete 
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ 4f4fb700ef54 Pull complete 
+ 2e81b9cb93cd Pull complete 
+ 0ffa8f8aba1e Pull complete 
+ eb77aa907276 Pull complete 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+ Container docker_services_cli-opensearch-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original
+configfile: setup.cfg
+testpaths: docs, tests, invenio_notifications
+plugins: isort-4.0.0, flask-1.3.0, black-ng-0.4.1, invenio-3.4.2, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, pycodestyle-2.5.0
+collected 2 items
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=9::'enablePackrat' deprecated - use 'enable_packrat'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=52::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=53::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=54::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=55::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=56::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=57::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=58::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=59::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=60::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=63::'excludeChars' argument is deprecated, use 'exclude_chars'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=73::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=74::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=119::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=122::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=155::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=157::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=199::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=325::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+
+tests/test_invenio_notifications.py ..                                   [100%]
+
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14: DeprecationWarning: jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+    from jsonschema import RefResolutionError, RefResolver
+
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+    from jsonschema import RefResolutionError, RefResolver
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    pyparsing.ParserElement.enablePackrat()
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru12 = oneOf(["%.2d" % i for i in range(1, 13)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru13 = oneOf(["%.2d" % i for i in range(1, 14)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru23 = oneOf(["%.2d" % i for i in range(1, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru23 = oneOf(["%.2d" % i for i in range(0, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru29 = oneOf(["%.2d" % i for i in range(1, 30)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru30 = oneOf(["%.2d" % i for i in range(1, 31)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru31 = oneOf(["%.2d" % i for i in range(1, 32)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru59 = oneOf(["%.2d" % i for i in range(1, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru59 = oneOf(["%.2d" % i for i in range(0, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63: PyparsingDeprecationWarning: 'excludeChars' argument is deprecated, use 'exclude_chars'
+    positiveDigit = Word(nums, exact=1, excludeChars="0")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    (oneOf("01 03 05 07 08 10 12")("month") + "-" + oneThru31("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    ^ (oneOf("04 06 09 11")("month") + "-" + oneThru30("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: 19 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    p.addParseAction(cls.parse_action)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    UASymbol = Combine(oneOf("? ~ %"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonNumber = oneOf("21 22 23 24")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1Start.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1End.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    monthWithX = Combine(oneOf("0X 1X") ^ ("X" + digitOrX))("month")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    earlier = L("..").addParseAction(f)("lower") + date("upper").addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    later = date("lower").addParseAction(f) + L("..").addParseAction(f)("upper")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-notifications/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonL2Number = oneOf("21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                               Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------
+invenio_notifications/__init__.py                      4      0   100%
+invenio_notifications/backends/__init__.py             3      0   100%
+invenio_notifications/backends/base.py                 7      1    86%   23
+invenio_notifications/backends/email.py               11      3    73%   26-40
+invenio_notifications/backends/utils/__init__.py       2      0   100%
+invenio_notifications/backends/utils/loaders.py       14      8    43%   30-58
+invenio_notifications/config.py                        8      0   100%
+invenio_notifications/errors.py                        7      2    71%   24, 37
+invenio_notifications/ext.py                          32      5    84%   58-59, 64-74
+invenio_notifications/manager.py                      20     12    40%   36-38, 43-54, 63
+invenio_notifications/models.py                        9      2    78%   25, 42
+invenio_notifications/proxies.py                       6      0   100%
+invenio_notifications/registry.py                      6      1    83%   23
+invenio_notifications/services/__init__.py             0      0   100%
+invenio_notifications/services/builders.py            37     15    59%   36, 41-44, 49-52, 57-59, 64-67
+invenio_notifications/services/filters.py             17      9    47%   22, 30-31, 35-42
+invenio_notifications/services/generators.py          42     20    52%   25, 34, 42-43, 46, 50-56, 65, 73, 77-82, 90-92
+invenio_notifications/services/uow.py                  7      2    71%   21, 25
+invenio_notifications/tasks.py                         9      2    78%   21, 27
+invenio_notifications/views.py                        14     10    29%   18-25, 30-50
+--------------------------------------------------------------------------------
+TOTAL                                                255     92    64%
+======================== 2 passed, 46 warnings in 2.79s ========================
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

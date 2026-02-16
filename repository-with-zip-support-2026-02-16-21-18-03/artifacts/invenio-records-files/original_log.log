@@ -1,0 +1,7 @@
+/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-files/original/.venv/bin/isort:12: UserWarning: W0502: The following deprecated single dash CLI flags were used and translated: -df!
+  sys.exit(main())
+/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-files/original/.venv/bin/isort:12: UserWarning: W0501: The following deprecated CLI flags were used and ignored: -rc!
+  sys.exit(main())
+/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-files/original/.venv/bin/isort:12: UserWarning: W0500: Please see the 5.0.0 Upgrade guide: https://pycqa.github.io/isort/docs/upgrade_guides/5.0.0.html
+  sys.exit(main())
+Couldn't find version control data (git/hg/bzr/svn supported)

@@ -1,0 +1,356 @@
+running extract_messages
+extracting messages from invenio_records_permissions/__init__.py
+extracting messages from invenio_records_permissions/api.py
+extracting messages from invenio_records_permissions/config.py
+extracting messages from invenio_records_permissions/errors.py
+extracting messages from invenio_records_permissions/ext.py
+extracting messages from invenio_records_permissions/generators.py
+extracting messages from invenio_records_permissions/policies/__init__.py
+extracting messages from invenio_records_permissions/policies/base.py
+extracting messages from invenio_records_permissions/policies/records.py
+writing PO template file to /dev/null
+ redis Pulling 
+ opensearch Pulling 
+ postgresql Pulling 
+ 4f4fb700ef54 Already exists 
+ 4f4fb700ef54 Already exists 
+ redis Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-redis-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original
+configfile: setup.cfg
+testpaths: tests, invenio_records_permissions
+plugins: mock-3.15.1, invenio-4.0.0, isort-4.0.0, flask-1.3.0, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, black-0.6.0, pycodestyle-2.5.0
+collected 28 items
+tests/test_generators.py ....::error file=workdir/tests/invenio-records-permissions/original/tests/test_generators.py,line=89::test_system_process_without_superuser%0A%0AAssertionError: assert [Need(method=...0d3211c5442')] == [Need(method=...user-access')]%0A  %0A  At index 0 diff: Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442') != Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    [%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442'),%0A    ]
+F.........::error file=workdir/tests/invenio-records-permissions/original/tests/test_generators.py,line=295::test_admin_action%0A%0AAttributeError: 'list' object has no attribute 'to_dict'
+F                                 [ 53%]
+tests/test_invenio_records_permissions.py ..                             [ 60%]
+tests/test_permissions_base.py 
+::error file=workdir/tests/invenio-records-permissions/original/tests/test_permissions_base.py,line=57::test_permission_policy_needs_excludes%0A%0AAssertionError: assert {Need(method=...e='any_user')} == {Need(method=...e='any_user')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42'),%0A        Need(method='system_role', value='any_user'),%0A    }
+F::error file=workdir/tests/invenio-records-permissions/original/tests/test_permissions_base.py,line=84::test_permission_policy_query_filters%0A%0Aassert [MatchAll()] == []%0A  %0A  Left contains one more item: MatchAll()%0A  %0A  Full diff:%0A  - []%0A  + [%0A  +     MatchAll(),%0A  + ]
+F.                                     [ 78%]
+tests/test_record_permission_policy.py ::error file=workdir/tests/invenio-records-permissions/original/tests/test_record_permission_policy.py,line=19::test_delete_record_policy%0A%0AAssertionError: assert {Need(method=...b2a52bc4aa1')} == {Need(method=...user-access')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1'),%0A    }
+F
+::error file=workdir/tests/invenio-records-permissions/original/tests/test_record_permission_policy.py,line=28::test_create_record_policy%0A%0AAssertionError: assert {Need(method=...ddec4bc53c4')} == {Need(method=...user-access')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4'),%0A    }
+F::error file=workdir/tests/invenio-records-permissions/original/tests/test_record_permission_policy.py,line=40::test_update_record_policy%0A%0AAssertionError: assert {Need(method=...c62d4e59621')} == {Need(method=...user-access')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A        Need(method='id', value=1),%0A        Need(method='id', value=2),%0A        Need(method='id', value=3),%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621'),%0A    }
+F..::error file=workdir/tests/invenio-records-permissions/original/tests/test_record_permission_policy.py,line=75::test_update_files_policy%0A%0AAssertionError: assert {Need(method=...7a23c705a7d')} == {Need(method=...user-access')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A        Need(method='id', value=1),%0A        Need(method='id', value=2),%0A        Need(method='id', value=3),%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d'),%0A    }
+F                            [100%]
+=================================== FAILURES ===================================
+____________________ test_system_process_without_superuser _____________________
+mocker = <pytest_mock.plugin.MockerFixture object at 0x7f5a3e546e90>
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+    def test_system_process_without_superuser(mocker, role_w_superuser_access_need):
+        generator = SystemProcessWithoutSuperUser()
+        assert generator.needs() == [system_process]
+>       assert generator.excludes() == [role_w_superuser_access_need]
+E       AssertionError: assert [Need(method=...0d3211c5442')] == [Need(method=...user-access')]
+E         
+E         At index 0 diff: Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442') != Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           [
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442'),
+E           ]
+tests/test_generators.py:89: AssertionError
+------------------------------ Captured log setup ------------------------------
+  MARSHMALLOW_VERSION_INFO = tuple(LooseVersion(ma.__version__).version)  # type: tuple
+  MARSHMALLOW_VERSION_INFO = tuple(LooseVersion(ma.__version__).version)  # type: tuple
+  __version_info__ = tuple(LooseVersion(__version__).version)
+  self.init_app(app)
+______________________________ test_admin_action _______________________________
+app = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+mocker = <pytest_mock.plugin.MockerFixture object at 0x7f5a3e4df410>
+    def test_admin_action(app, db, mocker):
+        """Test AdminAction generator."""
+        action = ActionNeed("admin")
+        generator = AdminAction(action)
+        assert generator.needs() == [action]
+        # Role doesn't have any action associated with it
+        assert not generator.query_filter(
+            identity=mocker.Mock(provides=[Need(method="role", value="admin")])
+        )
+        # Action directly assigned to the identity
+        assert generator.query_filter(
+            identity=mocker.Mock(provides=[action])
+        ).to_dict() == {"match_all": {}}
+        # Create role and asign the right action to it
+        admin = Role(name="admin")
+        db.session.add(ActionRoles.allow(action, role=admin))
+        db.session.commit()
+        assert generator.query_filter(
+            identity=mocker.Mock(provides=[Need(method="role", value="admin")])
+>       ).to_dict() == {"match_all": {}}
+          ^^^^^^^
+E       AttributeError: 'list' object has no attribute 'to_dict'
+tests/test_generators.py:295: AttributeError
+____________________ test_permission_policy_needs_excludes _____________________
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+    def test_permission_policy_needs_excludes(role_w_superuser_access_need):
+        create_perm = TestPermissionPolicy(action="create")
+        list_perm = TestPermissionPolicy(action="search")
+        read_perm = TestPermissionPolicy(action="read")
+        update_perm = TestPermissionPolicy(action="update")
+        delete_perm = TestPermissionPolicy(action="delete")
+        foo_bar_perm = TestPermissionPolicy(action="foo_bar")
+>       assert create_perm.needs == {role_w_superuser_access_need, any_user}
+E       AssertionError: assert {Need(method=...e='any_user')} == {Need(method=...e='any_user')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42'),
+E               Need(method='system_role', value='any_user'),
+E           }
+tests/test_permissions_base.py:57: AssertionError
+_____________________ test_permission_policy_query_filters _____________________
+superuser_identity = <Identity id="1" auth_type="None" provides={Need(method='id', value=1), Need(method='system_role', value='any_user'), Need(method='system_role', value='authenticated_user'), Need(method='role', value='role-superuser-access')}>
+    def test_permission_policy_query_filters(superuser_identity):
+        # Any user
+        any_user_identity = Identity(1)
+        any_user_identity.provides.add(any_user)
+        permission = TestPermissionPolicy(action="baz", identity=any_user_identity)
+        assert [] == permission.query_filters
+        permission = TestPermissionPolicy(action="baz", identity=superuser_identity)
+>       assert [dsl.Q()] == permission.query_filters
+E       assert [MatchAll()] == []
+E         
+E         Left contains one more item: MatchAll()
+E         
+E         Full diff:
+E         - []
+E         + [
+E         +     MatchAll(),
+E         + ]
+tests/test_permissions_base.py:84: AssertionError
+__________________________ test_delete_record_policy ___________________________
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+    def test_delete_record_policy(role_w_superuser_access_need):
+        """Test delete record policy."""
+        delete_perm = RecordPermissionPolicy(action="delete")
+        # only superuser can delete
+>       assert delete_perm.needs == {role_w_superuser_access_need}
+E       AssertionError: assert {Need(method=...b2a52bc4aa1')} == {Need(method=...user-access')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1'),
+E           }
+tests/test_record_permission_policy.py:19: AssertionError
+__________________________ test_create_record_policy ___________________________
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+    def test_create_record_policy(role_w_superuser_access_need):
+        """Test create record policy."""
+        create_perm = RecordPermissionPolicy(action="create")
+        # superuser role added by base policy
+>       assert create_perm.needs == {role_w_superuser_access_need}
+E       AssertionError: assert {Need(method=...ddec4bc53c4')} == {Need(method=...user-access')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4'),
+E           }
+tests/test_record_permission_policy.py:28: AssertionError
+__________________________ test_update_record_policy ___________________________
+create_record = <function create_record.<locals>._create_record at 0x7f5a3e43afb0>
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+    def test_update_record_policy(create_record, role_w_superuser_access_need):
+        """Test create record policy."""
+        record = create_record()
+        update_perm = RecordPermissionPolicy(action="update", record=record)
+        # only owners should be able to update
+>       assert update_perm.needs == {
+            UserNeed(1),
+            UserNeed(2),
+            UserNeed(3),
+            role_w_superuser_access_need,
+        }
+E       AssertionError: assert {Need(method=...c62d4e59621')} == {Need(method=...user-access')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E               Need(method='id', value=1),
+E               Need(method='id', value=2),
+E               Need(method='id', value=3),
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621'),
+E           }
+tests/test_record_permission_policy.py:40: AssertionError
+___________________________ test_update_files_policy ___________________________
+create_record = <function create_record.<locals>._create_record at 0x7f5a3e43afb0>
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+    def test_update_files_policy(create_record, role_w_superuser_access_need):
+        """Test update record files policy."""
+        record = create_record()
+        read_perm = RecordPermissionPolicy(action="update_files", record=record)
+        # only owners should be able to update
+>       assert read_perm.needs == {
+            UserNeed(1),
+            UserNeed(2),
+            UserNeed(3),
+            role_w_superuser_access_need,
+        }
+E       AssertionError: assert {Need(method=...7a23c705a7d')} == {Need(method=...user-access')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E               Need(method='id', value=1),
+E               Need(method='id', value=2),
+E               Need(method='id', value=3),
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d'),
+E           }
+tests/test_record_permission_policy.py:75: AssertionError
+=============================== warnings summary ===============================
+tests/test_permissions_base.py:29
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/tests/test_permissions_base.py:29: PytestCollectionWarning: cannot collect test class 'TestPermissionPolicy' because it has a __init__ constructor (from: tests/test_permissions_base.py)
+    class TestPermissionPolicy(BasePermissionPolicy):
+tests/test_permissions_base.py::test_base_permission_policy_generators
+tests/test_record_permission_policy.py::test_delete_record_policy
+    self.init_app(app)
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                               Stmts   Miss  Cover   Missing
+invenio_records_permissions/__init__.py                4      0   100%
+invenio_records_permissions/api.py                     6      0   100%
+invenio_records_permissions/config.py                  2      0   100%
+invenio_records_permissions/errors.py                  1      0   100%
+invenio_records_permissions/ext.py                    14      1    93%   32
+invenio_records_permissions/generators.py            117      2    98%   182, 279
+invenio_records_permissions/policies/__init__.py       2      0   100%
+invenio_records_permissions/policies/base.py          44      1    98%   124
+invenio_records_permissions/policies/records.py       32      7    78%   23, 38-42, 85
+TOTAL                                                222     11    95%
+=========================== short test summary info ============================
+FAILED tests/test_generators.py::test_system_process_without_superuser - AssertionError: assert [Need(method=...0d3211c5442')] == [Need(method=...user-access')]
+  At index 0 diff: Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442') != Need(method='role', value='role-superuser-access')
+  Full diff:
+    [
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442'),
+    ]
+FAILED tests/test_generators.py::test_admin_action - AttributeError: 'list' object has no attribute 'to_dict'
+FAILED tests/test_permissions_base.py::test_permission_policy_needs_excludes - AssertionError: assert {Need(method=...e='any_user')} == {Need(method=...e='any_user')}
+  Extra items in the left set:
+  Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  Full diff:
+    {
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42'),
+        Need(method='system_role', value='any_user'),
+    }
+FAILED tests/test_permissions_base.py::test_permission_policy_query_filters - assert [MatchAll()] == []
+  Left contains one more item: MatchAll()
+  Full diff:
+  - []
+  + [
+  +     MatchAll(),
+  + ]
+FAILED tests/test_record_permission_policy.py::test_delete_record_policy - AssertionError: assert {Need(method=...b2a52bc4aa1')} == {Need(method=...user-access')}
+  Extra items in the left set:
+  Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  Full diff:
+    {
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1'),
+    }
+FAILED tests/test_record_permission_policy.py::test_create_record_policy - AssertionError: assert {Need(method=...ddec4bc53c4')} == {Need(method=...user-access')}
+  Extra items in the left set:
+  Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  Full diff:
+    {
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4'),
+    }
+FAILED tests/test_record_permission_policy.py::test_update_record_policy - AssertionError: assert {Need(method=...c62d4e59621')} == {Need(method=...user-access')}
+  Extra items in the left set:
+  Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  Full diff:
+    {
+        Need(method='id', value=1),
+        Need(method='id', value=2),
+        Need(method='id', value=3),
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621'),
+    }
+FAILED tests/test_record_permission_policy.py::test_update_files_policy - AssertionError: assert {Need(method=...7a23c705a7d')} == {Need(method=...user-access')}
+  Extra items in the left set:
+  Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  Full diff:
+    {
+        Need(method='id', value=1),
+        Need(method='id', value=2),
+        Need(method='id', value=3),
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d'),
+    }
+=================== 8 failed, 20 passed, 3 warnings in 3.55s ===================
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

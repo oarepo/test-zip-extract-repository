@@ -1,0 +1,36 @@
+{
+  "dependencies": [],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patches": [],
+    "reference": {
+      "base": null,
+      "branch": "v7.0.0",
+      "commit": "976a07b428f0c506a8bfc9f648b98ba15629b598",
+      "org": "inveniosoftware",
+      "package": "invenio-oauthclient",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-oauthclient",
+      "versions": []
+    },
+    "test": [
+      "./run-tests.sh"
+    ]
+  },
+  "status": "skipped"
+}

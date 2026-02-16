@@ -1,0 +1,1091 @@
+ redis Pulling 
+ postgresql Pulling 
+ opensearch Pulling 
+ c5761dea9b0e Pulling fs layer 
+ edcaff0d5e7e Pulling fs layer 
+ 22dca8215bc4 Pulling fs layer 
+ 47a60771af96 Pulling fs layer 
+ bbf018d6d4b8 Pulling fs layer 
+ 7b28be0c8c4d Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 4831516dd0cb Pulling fs layer 
+ 4f4fb700ef54 Already exists 
+ 2e81b9cb93cd Pulling fs layer 
+ 648eb81b3252 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 0ffa8f8aba1e Pulling fs layer 
+ f9dd052e142d Pulling fs layer 
+ eb77aa907276 Pulling fs layer 
+ e8c6d4883897 Pulling fs layer 
+ cb628c265f09 Pulling fs layer 
+ b0a0cf830b12 Pulling fs layer 
+ c199bff16b05 Pulling fs layer 
+ dda3d8fbd5ed Pulling fs layer 
+ 050d9f8c3b1c Pulling fs layer 
+ e0d55fdb4d15 Pulling fs layer 
+ 283a477db7bb Pulling fs layer 
+ c1cb13b19080 Pulling fs layer 
+ 873532e5f8c7 Pulling fs layer 
+ 9739ced65621 Pulling fs layer 
+ ae3bb1b347a4 Pulling fs layer 
+ 710e142705f8 Pulling fs layer 
+ 91d2729fa4d5 Pulling fs layer 
+ f8406d9c00ea Pulling fs layer 
+ cb628c265f09 Downloading [==================================================>]     184B/184B
+ 0ffa8f8aba1e Download complete 
+ e8c6d4883897 Downloading [===========>                                       ]  1.049MB/4.398MB
+ 2e81b9cb93cd Download complete 
+ edcaff0d5e7e Download complete 
+ bbf018d6d4b8 Download complete 
+ 4f4fb700ef54 Already exists 
+ 7b28be0c8c4d Download complete 
+ e7da101a9486 Download complete 
+ c4cc93acbec6 Download complete 
+ c5761dea9b0e Download complete 
+ 22dca8215bc4 Downloading [===>                                               ]  1.049MB/15.35MB
+ 47a60771af96 Download complete 
+ c199bff16b05 Download complete 
+ 22dca8215bc4 Downloading [=============>                                     ]  4.194MB/15.35MB
+ 4831516dd0cb Downloading [=========>                                         ]  5.243MB/28.23MB
+ e8c6d4883897 Download complete 
+ 648eb81b3252 Download complete 
+ f9dd052e142d Downloading [=========>                                         ]  9.437MB/52.33MB
+ 050d9f8c3b1c Download complete 
+ c1cb13b19080 Download complete 
+ 5682dec5b749 Downloading [==================>                                ]  2.097MB/5.719MB
+ f8406d9c00ea Download complete 
+ 710e142705f8 Download complete 
+ e0d55fdb4d15 Downloading [=>                                                 ]  3.146MB/109MB
+ 283a477db7bb Download complete 
+ 56b5e4f0933d Download complete 
+ cb628c265f09 Download complete 
+ b0a0cf830b12 Downloading [==>                                                ]  1.364MB/29.15MB
+ 873532e5f8c7 Download complete 
+ 9739ced65621 Downloading [======================================>            ]  6.291MB/8.069MB
+ ae3bb1b347a4 Download complete 
+ 91d2729fa4d5 Download complete 
+ 4831516dd0cb Downloading [================>                                  ]  9.437MB/28.23MB
+ 22dca8215bc4 Downloading [===========================>                       ]  8.389MB/15.35MB
+ eb77aa907276 Downloading [>                                                  ]  5.243MB/907.7MB
+ 5682dec5b749 Download complete 
+ e0d55fdb4d15 Downloading [=====>                                             ]  11.53MB/109MB
+ f9dd052e142d Downloading [===============>                                   ]  16.21MB/52.33MB
+ dda3d8fbd5ed Download complete 
+ b0a0cf830b12 Downloading [=================>                                 ]  10.49MB/29.15MB
+ 9739ced65621 Download complete 
+ e0d55fdb4d15 Downloading [========>                                          ]  17.83MB/109MB
+ b0a0cf830b12 Downloading [=========================>                         ]  14.68MB/29.15MB
+ 22dca8215bc4 Downloading [==================================>                ]  10.49MB/15.35MB
+ 4831516dd0cb Downloading [=================================>                 ]  18.87MB/28.23MB
+ f9dd052e142d Downloading [=======================>                           ]  24.12MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  9.437MB/907.7MB
+ 4831516dd0cb Downloading [=======================================>           ]  22.02MB/28.23MB
+ 22dca8215bc4 Downloading [============================================>      ]  13.63MB/15.35MB
+ b0a0cf830b12 Downloading [===================================>               ]  20.97MB/29.15MB
+ e0d55fdb4d15 Downloading [==========>                                        ]  23.07MB/109MB
+ f9dd052e142d Downloading [=================================>                 ]   34.6MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  11.53MB/907.7MB
+ f9dd052e142d Downloading [==========================================>        ]  44.04MB/52.33MB
+ 4831516dd0cb Downloading [========================================>          ]  23.07MB/28.23MB
+ 22dca8215bc4 Download complete 
+ b0a0cf830b12 Download complete 
+ e0d55fdb4d15 Downloading [=============>                                     ]  29.36MB/109MB
+ eb77aa907276 Downloading [>                                                  ]  15.73MB/907.7MB
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=====================>                             ]  46.14MB/109MB
+ f9dd052e142d Downloading [===============================================>   ]  49.28MB/52.33MB
+ eb77aa907276 Downloading [=>                                                 ]  23.79MB/907.7MB
+ 4831516dd0cb Download complete 
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [==========================>                        ]  58.72MB/109MB
+ f9dd052e142d Download complete 
+ eb77aa907276 Downloading [=>                                                 ]  31.46MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=================================>                 ]   73.4MB/109MB
+ eb77aa907276 Downloading [=>                                                 ]  35.65MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [======================================>            ]  82.84MB/109MB
+ eb77aa907276 Downloading [==>                                                ]   38.8MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=======================================>           ]  87.03MB/109MB
+ eb77aa907276 Downloading [==>                                                ]  46.14MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=============================================>     ]  99.61MB/109MB
+ eb77aa907276 Downloading [==>                                                ]  50.33MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [===>                                               ]  63.96MB/907.7MB
+ e0d55fdb4d15 Downloading [==================================================>]    109MB/109MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [===>                                               ]   71.3MB/907.7MB
+ e0d55fdb4d15 Download complete 
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [====>                                              ]   75.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [====>                                              ]   75.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [====>                                              ]   75.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [====>                                              ]   75.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [====>                                              ]  77.59MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [====>                                              ]  80.74MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [====>                                              ]  83.89MB/907.7MB
+ 283a477db7bb Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ dda3d8fbd5ed Pull complete 
+ b0a0cf830b12 Pull complete 
+ eb77aa907276 Downloading [====>                                              ]  84.93MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ eb77aa907276 Downloading [====>                                              ]  85.98MB/907.7MB
+ 4831516dd0cb Pull complete 
+ 283a477db7bb Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 47a60771af96 Pull complete 
+ 283a477db7bb Extracting 1 s
+ eb77aa907276 Downloading [=====>                                             ]  96.47MB/907.7MB
+ edcaff0d5e7e Extracting 1 s
+ 7b28be0c8c4d Pull complete 
+ 283a477db7bb Pull complete 
+ f9dd052e142d Extracting 2 s
+ 91d2729fa4d5 Extracting 1 s
+ eb77aa907276 Downloading [=====>                                             ]  101.7MB/907.7MB
+ edcaff0d5e7e Pull complete 
+ f9dd052e142d Extracting 2 s
+ 22dca8215bc4 Extracting 1 s
+ 91d2729fa4d5 Pull complete 
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [=====>                                             ]  103.8MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [=====>                                             ]  104.9MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [======>                                            ]  110.1MB/907.7MB
+ 4f4fb700ef54 Pull complete 
+ bbf018d6d4b8 Pull complete 
+ c5761dea9b0e Pull complete 
+ 22dca8215bc4 Pull complete 
+ ae3bb1b347a4 Extracting 1 s
+ 9739ced65621 Pull complete 
+ f9dd052e142d Extracting 3 s
+ redis Pulled 
+ eb77aa907276 Downloading [======>                                            ]  124.8MB/907.7MB
+ c199bff16b05 Pull complete 
+ f8406d9c00ea Pull complete 
+ f9dd052e142d Extracting 3 s
+ ae3bb1b347a4 Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [=======>                                           ]  138.4MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=======>                                           ]  143.3MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [========>                                          ]    152MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=========>                                         ]  164.4MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=========>                                         ]  174.1MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [=========>                                         ]  180.4MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Pull complete 
+ eb77aa907276 Downloading [==========>                                        ]  185.6MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [==========>                                        ]  190.8MB/907.7MB
+ e8c6d4883897 Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ 648eb81b3252 Pull complete 
+ eb77aa907276 Downloading [==========>                                        ]  197.1MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [===========>                                       ]  201.3MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [===========>                                       ]  207.6MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  219.2MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  231.7MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=============>                                     ]  245.4MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==============>                                    ]  261.1MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==============>                                    ]  270.5MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===============>                                   ]  276.8MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===============>                                   ]  280.7MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [================>                                  ]  291.8MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [================>                                  ]  304.1MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================>                                 ]  314.6MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [=================>                                 ]  325.1MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ 050d9f8c3b1c Pull complete 
+ c1cb13b19080 Pull complete 
+ 710e142705f8 Pull complete 
+ cb628c265f09 Pull complete 
+ 873532e5f8c7 Pull complete 
+ e0d55fdb4d15 Pull complete 
+ postgresql Pulled 
+ eb77aa907276 Downloading [==================>                                ]  333.4MB/907.7MB
+ eb77aa907276 Downloading [==================>                                ]  339.7MB/907.7MB
+ eb77aa907276 Downloading [===================>                               ]  355.5MB/907.7MB
+ eb77aa907276 Downloading [====================>                              ]    366MB/907.7MB
+ eb77aa907276 Downloading [====================>                              ]  380.6MB/907.7MB
+ eb77aa907276 Downloading [=====================>                             ]    388MB/907.7MB
+ eb77aa907276 Downloading [=====================>                             ]  398.5MB/907.7MB
+ eb77aa907276 Downloading [======================>                            ]  413.1MB/907.7MB
+ eb77aa907276 Downloading [=======================>                           ]  425.7MB/907.7MB
+ eb77aa907276 Downloading [=======================>                           ]  435.5MB/907.7MB
+ eb77aa907276 Downloading [========================>                          ]  445.6MB/907.7MB
+ eb77aa907276 Downloading [=========================>                         ]  455.6MB/907.7MB
+ eb77aa907276 Downloading [=========================>                         ]  466.6MB/907.7MB
+ eb77aa907276 Downloading [==========================>                        ]  481.3MB/907.7MB
+ eb77aa907276 Downloading [===========================>                       ]  496.7MB/907.7MB
+ eb77aa907276 Downloading [============================>                      ]  508.6MB/907.7MB
+ eb77aa907276 Downloading [============================>                      ]    518MB/907.7MB
+ eb77aa907276 Downloading [=============================>                     ]  532.7MB/907.7MB
+ eb77aa907276 Downloading [=============================>                     ]    540MB/907.7MB
+ eb77aa907276 Downloading [==============================>                    ]  551.6MB/907.7MB
+ eb77aa907276 Downloading [==============================>                    ]  552.6MB/907.7MB
+ eb77aa907276 Downloading [==============================>                    ]  555.7MB/907.7MB
+ eb77aa907276 Downloading [==============================>                    ]    562MB/907.7MB
+ eb77aa907276 Downloading [===============================>                   ]  567.3MB/907.7MB
+ eb77aa907276 Downloading [===============================>                   ]  570.4MB/907.7MB
+ eb77aa907276 Downloading [===============================>                   ]  575.7MB/907.7MB
+ eb77aa907276 Downloading [===============================>                   ]    580MB/907.7MB
+ eb77aa907276 Downloading [================================>                  ]  589.3MB/907.7MB
+ eb77aa907276 Downloading [================================>                  ]  593.5MB/907.7MB
+ eb77aa907276 Downloading [=================================>                 ]    604MB/907.7MB
+ eb77aa907276 Downloading [=================================>                 ]  616.6MB/907.7MB
+ eb77aa907276 Downloading [==================================>                ]  623.9MB/907.7MB
+ eb77aa907276 Downloading [===================================>               ]  637.5MB/907.7MB
+ eb77aa907276 Downloading [===================================>               ]  652.2MB/907.7MB
+ eb77aa907276 Downloading [====================================>              ]  660.6MB/907.7MB
+ eb77aa907276 Downloading [====================================>              ]  671.1MB/907.7MB
+ eb77aa907276 Downloading [=====================================>             ]  682.6MB/907.7MB
+ eb77aa907276 Downloading [=====================================>             ]  686.8MB/907.7MB
+ eb77aa907276 Downloading [======================================>            ]  697.3MB/907.7MB
+ eb77aa907276 Downloading [======================================>            ]  706.7MB/907.7MB
+ eb77aa907276 Downloading [=======================================>           ]  714.1MB/907.7MB
+ eb77aa907276 Downloading [========================================>          ]  726.7MB/907.7MB
+ eb77aa907276 Downloading [========================================>          ]  735.1MB/907.7MB
+ eb77aa907276 Downloading [=========================================>         ]  745.5MB/907.7MB
+ eb77aa907276 Downloading [=========================================>         ]  749.7MB/907.7MB
+ eb77aa907276 Downloading [=========================================>         ]  751.8MB/907.7MB
+ eb77aa907276 Downloading [=========================================>         ]    756MB/907.7MB
+ eb77aa907276 Downloading [==========================================>        ]  769.7MB/907.7MB
+ eb77aa907276 Downloading [==========================================>        ]  779.1MB/907.7MB
+ eb77aa907276 Downloading [===========================================>       ]  787.5MB/907.7MB
+ eb77aa907276 Downloading [===========================================>       ]  796.9MB/907.7MB
+ eb77aa907276 Downloading [============================================>      ]  800.1MB/907.7MB
+ eb77aa907276 Downloading [============================================>      ]  805.3MB/907.7MB
+ eb77aa907276 Downloading [============================================>      ]  815.8MB/907.7MB
+ eb77aa907276 Downloading [=============================================>     ]  826.3MB/907.7MB
+ eb77aa907276 Downloading [==============================================>    ]  839.9MB/907.7MB
+ eb77aa907276 Downloading [===============================================>   ]  856.7MB/907.7MB
+ eb77aa907276 Downloading [===============================================>   ]    864MB/907.7MB
+ eb77aa907276 Downloading [================================================>  ]  874.5MB/907.7MB
+ eb77aa907276 Downloading [================================================>  ]  880.8MB/907.7MB
+ eb77aa907276 Downloading [================================================>  ]  889.2MB/907.7MB
+ eb77aa907276 Downloading [=================================================> ]  896.5MB/907.7MB
+ eb77aa907276 Downloading [=================================================> ]  902.8MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Download complete 
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ 0ffa8f8aba1e Pull complete 
+ 2e81b9cb93cd Pull complete 
+ 4f4fb700ef54 Pull complete 
+ eb77aa907276 Pull complete 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-opensearch-1  Started
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=9::'enablePackrat' deprecated - use 'enable_packrat'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=52::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=53::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=54::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=55::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=56::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=57::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=58::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=59::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=60::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=63::'excludeChars' argument is deprecated, use 'exclude_chars'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=73::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=74::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=119::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=122::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=155::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=157::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=199::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=325::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/fs/__init__.py,line=4::pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py,line=3148::Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/fs/__init__.py,line=4::Deprecated call to `pkg_resources.declare_namespace('fs')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/fs/opener/__init__.py,line=6::Deprecated call to `pkg_resources.declare_namespace('fs.opener')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py,line=2560::Deprecated call to `pkg_resources.declare_namespace('fs')`.%0AImplementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/schema.py,line=154::The 'default' argument to fields is deprecated. Use 'dump_default' instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py,line=140::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py,line=140::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py,line=140::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py,line=140::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original
+configfile: setup.cfg
+testpaths: docs, tests, invenio_pages
+plugins: isort-4.0.0, flask-1.3.0, black-ng-0.4.1, invenio-3.4.2, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, pycodestyle-2.5.0
+collected 39 items
+
+tests/alembic/test_alembic.py .                                          [  2%]
+tests/records/test_records.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_caching/__init__.py,line=145::Using the initialization functions in flask_caching.backend is deprecated.  Use the a full path to backend classes directly.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/tests/records/test_records.py,line=29::nested transaction already deassociated from connection
+...::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=59::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+..                                   [ 23%]
+tests/resources/test_resources.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_caching/__init__.py,line=145::Using the initialization functions in flask_caching.backend is deprecated.  Use the a full path to backend classes directly.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=59::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=564::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=212::nested transaction already deassociated from connection
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=59::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=128::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+..::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=59::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py,line=207::get_user method is deprecated, user get_user_by_email/get_user_by_id
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/utils.py,line=87::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=39::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=68::datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py,line=54::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+                              [ 46%]
+tests/services/test_services.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_caching/__init__.py,line=145::Using the initialization functions in flask_caching.backend is deprecated.  Use the a full path to backend classes directly.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=59::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py,line=564::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=212::nested transaction already deassociated from connection
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=59::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=128::nested transaction already deassociated from connection
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=90::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py,line=59::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py,line=193::nested transaction already deassociated from connection
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py,line=105::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+.::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py,line=36::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py,line=3624::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py,line=33::datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+...                            [ 79%]
+tests/test_invenio_pages.py ..                                           [ 84%]
+tests/test_views.py ssssss                                               [100%]
+
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    pyparsing.ParserElement.enablePackrat()
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru12 = oneOf(["%.2d" % i for i in range(1, 13)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru13 = oneOf(["%.2d" % i for i in range(1, 14)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru23 = oneOf(["%.2d" % i for i in range(1, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru23 = oneOf(["%.2d" % i for i in range(0, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru29 = oneOf(["%.2d" % i for i in range(1, 30)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru30 = oneOf(["%.2d" % i for i in range(1, 31)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru31 = oneOf(["%.2d" % i for i in range(1, 32)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru59 = oneOf(["%.2d" % i for i in range(1, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru59 = oneOf(["%.2d" % i for i in range(0, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63: PyparsingDeprecationWarning: 'excludeChars' argument is deprecated, use 'exclude_chars'
+    positiveDigit = Word(nums, exact=1, excludeChars="0")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    (oneOf("01 03 05 07 08 10 12")("month") + "-" + oneThru31("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    ^ (oneOf("04 06 09 11")("month") + "-" + oneThru30("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: 19 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    p.addParseAction(cls.parse_action)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    UASymbol = Combine(oneOf("? ~ %"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonNumber = oneOf("21 22 23 24")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1Start.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1End.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    monthWithX = Combine(oneOf("0X 1X") ^ ("X" + digitOrX))("month")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    earlier = L("..").addParseAction(f)("lower") + date("upper").addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    later = date("lower").addParseAction(f) + L("..").addParseAction(f)("upper")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonL2Number = oneOf("21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41")
+
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14: DeprecationWarning: jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+    from jsonschema import RefResolutionError, RefResolver
+
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+    from jsonschema import RefResolutionError, RefResolver
+
+.venv/lib/python3.14/site-packages/fs/__init__.py:4
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/fs/__init__.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+    __import__("pkg_resources").declare_namespace(__name__)  # type: ignore
+
+.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:3148
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:3148: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('sphinxcontrib')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(pkg)
+
+.venv/lib/python3.14/site-packages/fs/__init__.py:4
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/fs/__init__.py:4: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('fs')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    __import__("pkg_resources").declare_namespace(__name__)  # type: ignore
+
+.venv/lib/python3.14/site-packages/fs/opener/__init__.py:6
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/fs/opener/__init__.py:6: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('fs.opener')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    __import__("pkg_resources").declare_namespace(__name__)  # type: ignore
+
+.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:2560
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pkg_resources/__init__.py:2560: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('fs')`.
+  Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+    declare_namespace(parent)
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/schema.py:154
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/files/schema.py:154: RemovedInMarshmallow4Warning: The 'default' argument to fields is deprecated. Use 'dump_default' instead.
+    storage_class = Str(default="L", dump_only=False)
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py:140
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py:140
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py:140
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py:140
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/links.py:140: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    warnings.warn(
+
+tests/records/test_records.py::test_page_repr
+tests/resources/test_resources.py::test_page_content
+tests/services/test_services.py::test_page_read
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py:29: FutureWarning: CSRF validation will be enabled by default in the version 1.3.x
+    self.init_app(app)
+
+tests/records/test_records.py::test_page_repr
+tests/resources/test_resources.py::test_page_content
+tests/services/test_services.py::test_page_read
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_caching/__init__.py:145: DeprecationWarning: Using the initialization functions in flask_caching.backend is deprecated.  Use the a full path to backend classes directly.
+    self._set_cache(app, config)
+
+tests/records/test_records.py: 7 warnings
+tests/resources/test_resources.py: 45 warnings
+tests/services/test_services.py: 43 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy/sql/schema.py:3624: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore
+
+tests/records/test_records.py: 1 warning
+tests/resources/test_resources.py: 18 warnings
+tests/services/test_services.py: 14 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/sqlalchemy_utils/models.py:33: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    target.updated = datetime.utcnow()
+
+tests/records/test_records.py::test_page_versions
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/tests/records/test_records.py:29: SAWarning: nested transaction already deassociated from connection
+    db.session.commit()
+
+tests/records/test_records.py::test_create
+tests/resources/test_resources.py::test_create
+tests/resources/test_resources.py::test_delete
+tests/resources/test_resources.py::test_delete_denied
+tests/services/test_services.py::test_create
+tests/services/test_services.py::test_delete
+tests/services/test_services.py::test_delete_denied
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py:59: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+tests/resources/test_resources.py: 40 warnings
+tests/services/test_services.py: 35 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py:105: RemovedInMarshmallow4Warning: The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+    return self.schema(context=context, **schema_args).dump(data)
+
+tests/resources/test_resources.py: 6 warnings
+tests/services/test_services.py: 11 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/user.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    self._confirmed = datetime.utcnow() if confirmed else None
+
+tests/resources/test_resources.py: 12 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py:207: DeprecationWarning: get_user method is deprecated, user get_user_by_email/get_user_by_id
+    warnings.warn(
+
+tests/resources/test_resources.py::test_create
+tests/resources/test_resources.py::test_delete
+tests/resources/test_resources.py::test_update
+tests/resources/test_resources.py::test_create_denied
+tests/resources/test_resources.py::test_delete_denied
+tests/resources/test_resources.py::test_delete_denied
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_security/utils.py:87: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    _security.datetime_factory(),
+
+tests/resources/test_resources.py::test_create
+tests/resources/test_resources.py::test_delete
+tests/resources/test_resources.py::test_update
+tests/resources/test_resources.py::test_create_denied
+tests/resources/test_resources.py::test_delete_denied
+tests/resources/test_resources.py::test_delete_denied
+tests/resources/test_resources.py::test_delete_denied
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    created = datetime.utcnow()
+
+tests/resources/test_resources.py: 15 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py:68: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+    return cls(int(id_s, 16), datetime.utcfromtimestamp(int(created_s, 16)))
+
+tests/resources/test_resources.py: 15 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/flask_kvsession/__init__.py:54: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    now = now or datetime.utcnow()
+
+tests/resources/test_resources.py: 5 warnings
+tests/services/test_services.py: 5 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py:90: RemovedInMarshmallow4Warning: The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+    valid_data = self.schema(context=context, **schema_args).load(data)
+
+tests/resources/test_resources.py::test_create
+tests/resources/test_resources.py::test_delete
+tests/resources/test_resources.py::test_delete_denied
+tests/services/test_services.py::test_create
+tests/services/test_services.py::test_delete
+tests/services/test_services.py::test_delete_denied
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py:193: SAWarning: nested transaction already deassociated from connection
+    self.session.commit()
+
+tests/resources/test_resources.py::test_create
+tests/services/test_services.py::test_create
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/pytest_invenio/fixtures.py:564: SAWarning: nested transaction already deassociated from connection
+    self._transaction.rollback(_to_root=False)
+
+tests/resources/test_resources.py::test_create
+tests/services/test_services.py::test_create
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py:212: SAWarning: nested transaction already deassociated from connection
+    self.session.commit()
+
+tests/resources/test_resources.py::test_delete
+tests/services/test_services.py::test_delete
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-pages/original/invenio_pages/records/models.py:128: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                                                    Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------------------------------
+invenio_pages/__init__.py                                                   4      0   100%
+invenio_pages/administration/__init__.py                                    0      0   100%
+invenio_pages/administration/views/__init__.py                              0      0   100%
+invenio_pages/administration/views/pages.py                                40      0   100%
+invenio_pages/alembic/9fae3c5404d9_remove_has_custom_view_to_pages.py      12      0   100%
+invenio_pages/alembic/98e0a418340d_create_invenio_pages_branch.py          10      0   100%
+invenio_pages/alembic/145402e8523a_create_pages_table.py                   28      0   100%
+invenio_pages/alembic/1737449793_add_language_and_new_uq.py                16      0   100%
+invenio_pages/alembic/__init__.py                                           0      0   100%
+invenio_pages/alembic/b0f93ca4a147_add_has_custom_view_to_pages.py         14      0   100%
+invenio_pages/config.py                                                    17      0   100%
+invenio_pages/ext.py                                                       51      7    86%   58-66, 75
+invenio_pages/proxies.py                                                    6      0   100%
+invenio_pages/records/__init__.py                                           2      0   100%
+invenio_pages/records/errors.py                                             7      0   100%
+invenio_pages/records/models.py                                            82      3    96%   83-84, 145
+invenio_pages/resources/__init__.py                                         3      0   100%
+invenio_pages/resources/config.py                                          11      0   100%
+invenio_pages/resources/resource.py                                        38      0   100%
+invenio_pages/services/__init__.py                                          4      0   100%
+invenio_pages/services/config.py                                           27      0   100%
+invenio_pages/services/permissions.py                                       9      0   100%
+invenio_pages/services/results.py                                          38      2    95%   92-93
+invenio_pages/services/schemas.py                                          21      0   100%
+invenio_pages/services/service.py                                          66      2    97%   117, 131
+invenio_pages/views.py                                                     37     20    46%   34, 39-53, 58-65, 81-88, 105-115
+-----------------------------------------------------------------------------------------------------
+TOTAL                                                                     543     34    94%
+================= 33 passed, 6 skipped, 367 warnings in 5.66s ==================
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-opensearch-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

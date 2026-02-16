@@ -1,0 +1,1166 @@
+ rabbitmq Pulling 
+ postgresql Pulling 
+ redis Pulling 
+ elasticsearch Pulling 
+ 4f4fb700ef54 Already exists 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ elasticsearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-elasticsearch-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-elasticsearch-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-elasticsearch-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+ Container docker_services_cli-elasticsearch-1  Started
+ Container docker_services_cli-redis-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original
+configfile: setup.cfg
+testpaths: docs, tests, invenio_jobs
+plugins: isort-4.0.0, flask-1.3.0, black-ng-0.4.1, invenio-3.4.2, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, pycodestyle-2.5.0
+collected 25 items
+tests/resources/test_resources.py ::error file=workdir/tests/invenio-jobs/original/tests/resources/test_resources.py,line=115::test_simple_flow%0A%0AKeyError: 'identity'
+Fs
+s                                [ 28%]
+tests/test_alembic.py s                                                  [ 32%]
+tests/test_deprecated.py .                                               [ 36%]
+tests/test_invenio_jobs.py ..                                            [ 44%]
+tests/test_services_job_logs.py 
+                                       [ 52%]
+tests/test_services_subtasks.py ::error file=workdir/tests/invenio-jobs/original/tests/test_services_subtasks.py,line=39::test_create_subtask_run%0A%0AKeyError: 'identity'
+F
+::error file=workdir/tests/invenio-jobs/original/tests/test_services_subtasks.py,line=78::test_start_processing_subtask%0A%0AKeyError: 'identity'
+F
+::error file=workdir/tests/invenio-jobs/original/tests/test_services_subtasks.py,line=127::test_finalize_subtask_success%0A%0AKeyError: 'identity'
+F
+::error file=workdir/tests/invenio-jobs/original/tests/test_services_subtasks.py,line=166::test_finalize_subtask_failure%0A%0AKeyError: 'identity'
+F
+::error file=workdir/tests/invenio-jobs/original/tests/test_services_subtasks.py,line=246::test_add_total_entries%0A%0AKeyError: 'identity'
+F
+                              [ 96%]
+tests/test_utils.py .                                                    [100%]
+=================================== FAILURES ===================================
+_______________________________ test_simple_flow _______________________________
+mock_apply_async = <MagicMock name='apply_async' id='140313329466544'>
+app = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+client = <FlaskClient <Flask 'invenio'>>
+user = <pytest_invenio.user.UserFixtureBase object at 0x7f9d3e4bfa10>
+    @patch.object(execute_run, "apply_async")
+    def test_simple_flow(mock_apply_async, app, db, client, user):
+        """Test simple flow."""
+        client = user.login(client)
+        job_payload = {
+            "title": "Test job",
+            "task": "update_expired_embargos",
+            "description": "Test description",
+            "active": False,
+            "default_queue": "low",
+            "schedule": {"type": "interval", "hours": 4},
+        }
+        # Create a job
+        res = client.post("/jobs", json=job_payload)
+        assert res.status_code == 201
+        job_id = res.json["id"]
+        expected_job = {
+            "id": job_id,
+            "title": "Test job",
+            "description": "Test description",
+            "active": False,
+            "task": "update_expired_embargos",
+            "default_queue": "low",
+            "default_args": '{"since": null}',
+            "schedule": {"type": "interval", "hours": 4},
+            "created": res.json["created"],
+            "updated": res.json["updated"],
+            "links": {
+                "self": f"https://127.0.0.1:5000/api/jobs/{job_id}",
+                "runs": f"https://127.0.0.1:5000/api/jobs/{job_id}/runs",
+                "self_admin_html": f"https://127.0.0.1:5000/administration/jobs/{job_id}",
+            },
+        }
+        assert res.json == expected_job
+        # Activate the job (i.e. update)
+        res = client.put(f"/jobs/{job_id}", json={**job_payload, "active": True})
+        assert res.status_code == 200
+        expected_job["active"] = True
+        expected_job["updated"] = res.json["updated"]
+        assert res.json == expected_job
+        list_repr = deepcopy(expected_job)
+        list_repr.update(
+            {
+                "last_run": {
+                    "title": "Manual run",
+                    "total_subtasks": 0,
+                    "completed_subtasks": 0,
+                    "failed_subtasks": 0,
+                    "errored_entries": 0,
+                    "total_entries": 0,
+                },
+                "last_runs": {
+                    "cancelled": {},
+                    "cancelling": {},
+                    "failed": {},
+                    "partial_success": {},
+                    "queued": {},
+                    "running": {},
+                    "success": {},
+                    "warning": {},
+                },
+            }
+        )
+        # List jobs
+        res = client.get("/jobs")
+        assert res.status_code == 200
+        assert res.json["hits"]["total"] == 1
+        assert res.json["hits"]["hits"][0] == list_repr
+        # Get job
+        res = client.get(f"/jobs/{job_id}")
+        assert res.status_code == 200
+        assert res.json == expected_job
+        # Create/trigger a run with invalid `since` to test correct failure
+        invalid_since_arg = "2025-05-20T00:00:00+aa:bb"  # slightly invalid ISO timestamp
+        res = client.post(
+            f"/jobs/{job_id}/runs",
+            json={
+                "title": "Manually triggered run",
+                "args": {
+                    "since": invalid_since_arg,
+                    "job_arg_schema": "PredefinedArgsSchema",
+                },
+                "queue": "celery",
+            },
+        )
+        assert res.status_code == 400
+        # Create/trigger a run with no inputs, expecting it to rely on a default value for `since`
+>       res = client.post(
+            f"/jobs/{job_id}/runs",
+            json={
+                "title": "Manually triggered run",
+                "args": {},
+                "queue": "celery",
+            },
+        )
+tests/resources/test_resources.py:115: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/werkzeug/test.py:1167: in post
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+invenio_jobs/resources/resources.py:193: in create
+    return item.to_dict(), 201
+           ^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/results.py:106: in to_dict
+    res = self.data
+          ^^^^^^^^^
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/results.py:78: in data
+    self._data = self._schema.dump(
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py:118: in dump
+    return self.schema(**schema_args).dump(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:656: in _serialize
+    return schema.dump(nested_obj, many=many)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:85: in dump
+    result = result_data = self._dump(obj, **kwargs)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:122: in _dump
+    result = schema.dump(obj, many=False, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:2026: in _serialize
+    return self._serialize_method(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <UserSchema(many=False)>
+obj = <UserAggregate: {'id': 1, 'version_id': 2, 'email': 'user@inveniosoftware.org', 'domain': 'inveniosoftware.org', 'user...atetime.datetime(2026, 2, 17, 9, 37, 0, 486291), 'current_login_at': datetime.datetime(2026, 2, 17, 9, 37, 0, 484479)}>
+    def is_self(self, obj):
+        """Determine if identity is the current identity."""
+>       current_identity = self.context["identity"]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'identity'
+venv/lib/python3.14/site-packages/invenio_users_resources/services/schemas.py:130: KeyError
+---------------------------- Captured stderr setup -----------------------------
+JSONSCHEMAS_HOST is set to localhost
+Flask-DebugToolbar extension not installed
+------------------------------ Captured log setup ------------------------------
+  self.init_app(app)
+  self._set_cache(app, config)
+WARNING  invenio:ext.py:291 JSONSCHEMAS_HOST is set to localhost
+DEBUG    invenio:ext.py:99 Flask-DebugToolbar extension not installed
+  MARSHMALLOW_VERSION_INFO = tuple(LooseVersion(ma.__version__).version)  # type: tuple
+  MARSHMALLOW_VERSION_INFO = tuple(LooseVersion(ma.__version__).version)  # type: tuple
+  __version_info__ = tuple(LooseVersion(__version__).version)
+  self._confirmed = datetime.utcnow() if confirmed else None
+  return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py:235: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  return self.user_model.query.get(identifier)
+----------------------------- Captured stderr call -----------------------------
+A resource error handler caught the following exception:
+Traceback (most recent call last):
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/resources.py", line 65, in view
+    return view_meth()
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py", line 116, in inner_content_negotiation
+    return f(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py", line 90, in inner
+    return f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py", line 51, in inner
+    return f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/responses.py", line 39, in inner
+    res = f(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/resources/resources.py", line 188, in create
+    item = self.service.create(
+        g.identity,
+        job_id=resource_requestctx.view_args["job_id"],
+        data=resource_requestctx.data or {},
+    )
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/logging/jobs.py", line 82, in wrapper
+    return func(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py", line 251, in inner
+    res = f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/services/services.py", line 259, in create
+    valid_data, errors = self.schema.load(
+                         ~~~~~~~~~~~~~~~~^
+        data,
+        ^^^^^
+        context={"identity": identity, "job": job},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        raise_errors=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py", line 97, in load
+    valid_data = self.schema(**schema_args).load(data)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/marshmallow/schema.py", line 792, in load
+    return self._do_load(
+           ~~~~~~~~~~~~~^
+        data, many=many, partial=partial, unknown=unknown, postprocess=True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/marshmallow/schema.py", line 999, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'args': {'since': ['Not a valid datetime.']}}
+[2026-02-17 09:37:00,608] DEBUG in errors: A resource error handler caught the following exception:
+Traceback (most recent call last):
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/resources.py", line 65, in view
+    return view_meth()
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py", line 116, in inner_content_negotiation
+    return f(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py", line 90, in inner
+    return f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py", line 51, in inner
+    return f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/responses.py", line 39, in inner
+    res = f(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/resources/resources.py", line 188, in create
+    item = self.service.create(
+        g.identity,
+        job_id=resource_requestctx.view_args["job_id"],
+        data=resource_requestctx.data or {},
+    )
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/logging/jobs.py", line 82, in wrapper
+    return func(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py", line 251, in inner
+    res = f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/services/services.py", line 259, in create
+    valid_data, errors = self.schema.load(
+                         ~~~~~~~~~~~~~~~~^
+        data,
+        ^^^^^
+        context={"identity": identity, "job": job},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        raise_errors=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py", line 97, in load
+    valid_data = self.schema(**schema_args).load(data)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/marshmallow/schema.py", line 792, in load
+    return self._do_load(
+           ~~~~~~~~~~~~~^
+        data, many=many, partial=partial, unknown=unknown, postprocess=True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/marshmallow/schema.py", line 999, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'args': {'since': ['Not a valid datetime.']}}
+Run created
+[2026-02-17 09:37:00,628] DEBUG in services: Run created
+------------------------------ Captured log call -------------------------------
+  warnings.warn(
+  _security.datetime_factory(),
+  target.updated = datetime.utcnow()
+  created = datetime.utcnow()
+  return cls(int(id_s, 16), datetime.utcfromtimestamp(int(created_s, 16)))
+  now = now or datetime.utcnow()
+DEBUG    invenio:errors.py:38 A resource error handler caught the following exception:
+Traceback (most recent call last):
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/resources.py", line 65, in view
+    return view_meth()
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py", line 116, in inner_content_negotiation
+    return f(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py", line 90, in inner
+    return f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py", line 51, in inner
+    return f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_resources/responses.py", line 39, in inner
+    res = f(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/resources/resources.py", line 188, in create
+    item = self.service.create(
+        g.identity,
+        job_id=resource_requestctx.view_args["job_id"],
+        data=resource_requestctx.data or {},
+    )
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/logging/jobs.py", line 82, in wrapper
+    return func(*args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/invenio_db/uow.py", line 251, in inner
+    res = f(self, *args, **kwargs)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/invenio_jobs/services/services.py", line 259, in create
+    valid_data, errors = self.schema.load(
+                         ~~~~~~~~~~~~~~~~^
+        data,
+        ^^^^^
+        context={"identity": identity, "job": job},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        raise_errors=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py", line 97, in load
+    valid_data = self.schema(**schema_args).load(data)
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/marshmallow/schema.py", line 792, in load
+    return self._do_load(
+           ~~~~~~~~~~~~~^
+        data, many=many, partial=partial, unknown=unknown, postprocess=True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/marshmallow/schema.py", line 999, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'args': {'since': ['Not a valid datetime.']}}
+DEBUG    invenio:services.py:285 Run created
+___________________________ test_create_subtask_run ____________________________
+app = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+anon_identity = <AnonymousIdentity id="1" auth_type="None" provides={Need(method='system_role', value='any_user')}>
+jobs = namespace(interval=<invenio_jobs.services.results.JobItem object at 0x7f9d3a78d910>, crontab=<invenio_jobs.services.results.JobItem object at 0x7f9d39f592e0>, simple=<invenio_jobs.services.results.JobItem object at 0x7f9d39f589f0>)
+    def test_create_subtask_run(app, db, anon_identity, jobs):
+        """Test creating a subtask run."""
+        # Create a parent run first
+        parent_run = current_runs_service.create(
+            anon_identity,
+            jobs.simple.id,
+            {"title": "Parent run"},
+        )
+        # Create a subtask run
+        subtask_run = current_runs_service.create_subtask_run(
+            anon_identity,
+            parent_run_id=parent_run.id,
+            job_id=jobs.simple.id,
+        )
+        # Verify subtask was created correctly
+        assert subtask_run.id is not None
+>       assert subtask_run.data["parent_run_id"] == parent_run.id
+               ^^^^^^^^^^^^^^^^
+tests/test_services_subtasks.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/results.py:78: in data
+    self._data = self._schema.dump(
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py:118: in dump
+    return self.schema(**schema_args).dump(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:656: in _serialize
+    return schema.dump(nested_obj, many=many)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:85: in dump
+    result = result_data = self._dump(obj, **kwargs)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:122: in _dump
+    result = schema.dump(obj, many=False, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:2026: in _serialize
+    return self._serialize_method(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <UserSchema(many=False)>
+obj = <UserAggregate: {'id': 1, 'version_id': 1, 'email': 'user@inveniosoftware.org', 'domain': 'inveniosoftware.org', 'user...2026, 2, 17, 9, 37, 3, 985958), 'updated': datetime.datetime(2026, 2, 17, 9, 37, 3, 985962), 'current_login_at': None}>
+    def is_self(self, obj):
+        """Determine if identity is the current identity."""
+>       current_identity = self.context["identity"]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'identity'
+venv/lib/python3.14/site-packages/invenio_users_resources/services/schemas.py:130: KeyError
+---------------------------- Captured stderr setup -----------------------------
+JSONSCHEMAS_HOST is set to localhost
+[2026-02-17 09:37:03,077] WARNING in ext: JSONSCHEMAS_HOST is set to localhost
+JSONSCHEMAS_HOST is set to localhost
+JSONSCHEMAS_HOST is set to localhost
+Flask-DebugToolbar extension not installed
+[2026-02-17 09:37:03,119] DEBUG in ext: Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+Flask-DebugToolbar extension not installed
+------------------------------ Captured log setup ------------------------------
+WARNING  invenio:ext.py:291 JSONSCHEMAS_HOST is set to localhost
+DEBUG    invenio:ext.py:99 Flask-DebugToolbar extension not installed
+----------------------------- Captured stderr call -----------------------------
+Run created
+[2026-02-17 09:37:04,036] DEBUG in services: Run created
+Run created
+Run created
+Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.QUEUED and active subtasks: False
+[2026-02-17 09:37:04,046] INFO in tasks: Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.QUEUED and active subtasks: False
+Executing run f84af853-4ff4-4453-bf8a-6fc26c375a28 with task mock_module.tasks.mock_task and args None
+[2026-02-17 09:37:04,176] DEBUG in tasks: Executing run f84af853-4ff4-4453-bf8a-6fc26c375a28 with task mock_module.tasks.mock_task and args None
+Executing run f84af853-4ff4-4453-bf8a-6fc26c375a28 with task mock_module.tasks.mock_task and args None
+Executing run f84af853-4ff4-4453-bf8a-6fc26c375a28 with task mock_module.tasks.mock_task and args None
+Run f84af853-4ff4-4453-bf8a-6fc26c375a28 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+[2026-02-17 09:37:04,183] ERROR in tasks: Run f84af853-4ff4-4453-bf8a-6fc26c375a28 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run f84af853-4ff4-4453-bf8a-6fc26c375a28 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run f84af853-4ff4-4453-bf8a-6fc26c375a28 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.RUNNING and active subtasks: False
+[2026-02-17 09:37:04,186] INFO in tasks: Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.RUNNING and active subtasks: False
+------------------------------ Captured log call -------------------------------
+DEBUG    invenio:services.py:285 Run created
+INFO     invenio:tasks.py:35 Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.QUEUED and active subtasks: False
+DEBUG    invenio:tasks.py:63 Executing run f84af853-4ff4-4453-bf8a-6fc26c375a28 with task mock_module.tasks.mock_task and args None
+ERROR    invenio:tasks.py:114 Run f84af853-4ff4-4453-bf8a-6fc26c375a28 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+INFO     invenio:tasks.py:35 Updating run f84af853-4ff4-4453-bf8a-6fc26c375a28 with status RunStatusEnum.RUNNING and active subtasks: False
+________________________ test_start_processing_subtask _________________________
+app = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+anon_identity = <AnonymousIdentity id="3" auth_type="None" provides={Need(method='system_role', value='any_user')}>
+jobs = namespace(interval=<invenio_jobs.services.results.JobItem object at 0x7f9d3a120730>, crontab=<invenio_jobs.services.results.JobItem object at 0x7f9d3a120a50>, simple=<invenio_jobs.services.results.JobItem object at 0x7f9d3a120af0>)
+    def test_start_processing_subtask(app, db, anon_identity, jobs):
+        """Test starting processing of a subtask."""
+        # Create parent and subtask
+        parent_run = current_runs_service.create(
+            anon_identity, jobs.simple.id, {"title": "Parent run"}
+        )
+        subtask_run = current_runs_service.create_subtask_run(
+            anon_identity, parent_run_id=parent_run.id, job_id=jobs.simple.id
+        )
+        # Start processing the subtask
+        result = current_runs_service.start_processing_subtask(
+            anon_identity, run_id=subtask_run.id, job_id=jobs.simple.id
+        )
+        # Verify status changed and started_at was set
+>       assert result.data["status"] == RunStatusEnum.RUNNING.name
+               ^^^^^^^^^^^
+tests/test_services_subtasks.py:78: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/results.py:78: in data
+    self._data = self._schema.dump(
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py:118: in dump
+    return self.schema(**schema_args).dump(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:656: in _serialize
+    return schema.dump(nested_obj, many=many)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:85: in dump
+    result = result_data = self._dump(obj, **kwargs)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:122: in _dump
+    result = schema.dump(obj, many=False, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:2026: in _serialize
+    return self._serialize_method(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <UserSchema(many=False)>
+obj = <UserAggregate: {'id': 3, 'version_id': 1, 'email': 'user@inveniosoftware.org', 'domain': 'inveniosoftware.org', 'user...2026, 2, 17, 9, 37, 4, 383580), 'updated': datetime.datetime(2026, 2, 17, 9, 37, 4, 383585), 'current_login_at': None}>
+    def is_self(self, obj):
+        """Determine if identity is the current identity."""
+>       current_identity = self.context["identity"]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'identity'
+venv/lib/python3.14/site-packages/invenio_users_resources/services/schemas.py:130: KeyError
+----------------------------- Captured stderr call -----------------------------
+Run created
+[2026-02-17 09:37:04,424] DEBUG in services: Run created
+Run created
+Run created
+Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.QUEUED and active subtasks: False
+[2026-02-17 09:37:04,429] INFO in tasks: Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.QUEUED and active subtasks: False
+Executing run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with task mock_module.tasks.mock_task and args None
+[2026-02-17 09:37:04,436] DEBUG in tasks: Executing run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with task mock_module.tasks.mock_task and args None
+Executing run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with task mock_module.tasks.mock_task and args None
+Executing run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with task mock_module.tasks.mock_task and args None
+Run 2b48682b-0078-4bd9-b59d-4367a90a60a3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+[2026-02-17 09:37:04,442] ERROR in tasks: Run 2b48682b-0078-4bd9-b59d-4367a90a60a3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run 2b48682b-0078-4bd9-b59d-4367a90a60a3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run 2b48682b-0078-4bd9-b59d-4367a90a60a3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.RUNNING and active subtasks: False
+[2026-02-17 09:37:04,444] INFO in tasks: Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.RUNNING and active subtasks: False
+------------------------------ Captured log call -------------------------------
+DEBUG    invenio:services.py:285 Run created
+INFO     invenio:tasks.py:35 Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.QUEUED and active subtasks: False
+DEBUG    invenio:tasks.py:63 Executing run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with task mock_module.tasks.mock_task and args None
+ERROR    invenio:tasks.py:114 Run 2b48682b-0078-4bd9-b59d-4367a90a60a3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+INFO     invenio:tasks.py:35 Updating run 2b48682b-0078-4bd9-b59d-4367a90a60a3 with status RunStatusEnum.RUNNING and active subtasks: False
+________________________ test_finalize_subtask_success _________________________
+app = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+anon_identity = <AnonymousIdentity id="5" auth_type="None" provides={Need(method='system_role', value='any_user')}>
+jobs = namespace(interval=<invenio_jobs.services.results.JobItem object at 0x7f9d3a1200f0>, crontab=<invenio_jobs.services.results.JobItem object at 0x7f9d3e4719f0>, simple=<invenio_jobs.services.results.JobItem object at 0x7f9d3a121270>)
+    def test_finalize_subtask_success(app, db, anon_identity, jobs):
+        """Test finalizing a successful subtask."""
+        # Create parent and subtask
+        parent_run = current_runs_service.create(
+            anon_identity, jobs.simple.id, {"title": "Parent run"}
+        )
+        subtask_run = current_runs_service.create_subtask_run(
+            anon_identity, parent_run_id=parent_run.id, job_id=jobs.simple.id
+        )
+        # Start processing
+        current_runs_service.start_processing_subtask(
+            anon_identity, run_id=subtask_run.id, job_id=jobs.simple.id
+        )
+        # Finalize subtask as successful
+        result = current_runs_service.finalize_subtask(
+            anon_identity, run_id=subtask_run.id, job_id=jobs.simple.id, success=True
+        )
+        # Verify subtask is marked as successful
+>       assert result.data["status"] == RunStatusEnum.SUCCESS.name
+               ^^^^^^^^^^^
+tests/test_services_subtasks.py:127: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/results.py:78: in data
+    self._data = self._schema.dump(
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py:118: in dump
+    return self.schema(**schema_args).dump(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:656: in _serialize
+    return schema.dump(nested_obj, many=many)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:85: in dump
+    result = result_data = self._dump(obj, **kwargs)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:122: in _dump
+    result = schema.dump(obj, many=False, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:2026: in _serialize
+    return self._serialize_method(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <UserSchema(many=False)>
+obj = <UserAggregate: {'id': 5, 'version_id': 1, 'email': 'user@inveniosoftware.org', 'domain': 'inveniosoftware.org', 'user...2026, 2, 17, 9, 37, 4, 703168), 'updated': datetime.datetime(2026, 2, 17, 9, 37, 4, 703173), 'current_login_at': None}>
+    def is_self(self, obj):
+        """Determine if identity is the current identity."""
+>       current_identity = self.context["identity"]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'identity'
+venv/lib/python3.14/site-packages/invenio_users_resources/services/schemas.py:130: KeyError
+----------------------------- Captured stderr call -----------------------------
+Run created
+[2026-02-17 09:37:04,744] DEBUG in services: Run created
+Run created
+Run created
+Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.QUEUED and active subtasks: False
+[2026-02-17 09:37:04,748] INFO in tasks: Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.QUEUED and active subtasks: False
+Executing run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with task mock_module.tasks.mock_task and args None
+[2026-02-17 09:37:04,755] DEBUG in tasks: Executing run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with task mock_module.tasks.mock_task and args None
+Executing run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with task mock_module.tasks.mock_task and args None
+Executing run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with task mock_module.tasks.mock_task and args None
+Run 6cf126aa-dafc-4b84-9a89-0b944507ed5e encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+[2026-02-17 09:37:04,760] ERROR in tasks: Run 6cf126aa-dafc-4b84-9a89-0b944507ed5e encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run 6cf126aa-dafc-4b84-9a89-0b944507ed5e encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run 6cf126aa-dafc-4b84-9a89-0b944507ed5e encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.RUNNING and active subtasks: False
+[2026-02-17 09:37:04,762] INFO in tasks: Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.RUNNING and active subtasks: False
+------------------------------ Captured log call -------------------------------
+DEBUG    invenio:services.py:285 Run created
+INFO     invenio:tasks.py:35 Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.QUEUED and active subtasks: False
+DEBUG    invenio:tasks.py:63 Executing run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with task mock_module.tasks.mock_task and args None
+ERROR    invenio:tasks.py:114 Run 6cf126aa-dafc-4b84-9a89-0b944507ed5e encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+INFO     invenio:tasks.py:35 Updating run 6cf126aa-dafc-4b84-9a89-0b944507ed5e with status RunStatusEnum.RUNNING and active subtasks: False
+________________________ test_finalize_subtask_failure _________________________
+app = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+anon_identity = <AnonymousIdentity id="6" auth_type="None" provides={Need(method='system_role', value='any_user')}>
+jobs = namespace(interval=<invenio_jobs.services.results.JobItem object at 0x7f9d3a123cf0>, crontab=<invenio_jobs.services.results.JobItem object at 0x7f9d3a123f70>, simple=<invenio_jobs.services.results.JobItem object at 0x7f9d3a120910>)
+    def test_finalize_subtask_failure(app, db, anon_identity, jobs):
+        """Test finalizing a failed subtask."""
+        # Create parent and subtask
+        parent_run = current_runs_service.create(
+            anon_identity, jobs.simple.id, {"title": "Parent run"}
+        )
+        subtask_run = current_runs_service.create_subtask_run(
+            anon_identity, parent_run_id=parent_run.id, job_id=jobs.simple.id
+        )
+        # Start processing
+        current_runs_service.start_processing_subtask(
+            anon_identity, run_id=subtask_run.id, job_id=jobs.simple.id
+        )
+        # Finalize subtask as failed
+        result = current_runs_service.finalize_subtask(
+            anon_identity,
+            run_id=subtask_run.id,
+            job_id=jobs.simple.id,
+            success=False,
+            errored_entries_count=5,
+        )
+        # Verify subtask is marked as failed
+>       assert result.data["status"] == RunStatusEnum.FAILED.name
+               ^^^^^^^^^^^
+tests/test_services_subtasks.py:166: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/results.py:78: in data
+    self._data = self._schema.dump(
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py:118: in dump
+    return self.schema(**schema_args).dump(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:656: in _serialize
+    return schema.dump(nested_obj, many=many)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:85: in dump
+    result = result_data = self._dump(obj, **kwargs)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:122: in _dump
+    result = schema.dump(obj, many=False, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:2026: in _serialize
+    return self._serialize_method(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <UserSchema(many=False)>
+obj = <UserAggregate: {'id': 6, 'version_id': 1, 'email': 'user@inveniosoftware.org', 'domain': 'inveniosoftware.org', 'user...2026, 2, 17, 9, 37, 4, 922152), 'updated': datetime.datetime(2026, 2, 17, 9, 37, 4, 922157), 'current_login_at': None}>
+    def is_self(self, obj):
+        """Determine if identity is the current identity."""
+>       current_identity = self.context["identity"]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'identity'
+venv/lib/python3.14/site-packages/invenio_users_resources/services/schemas.py:130: KeyError
+----------------------------- Captured stderr call -----------------------------
+Run created
+[2026-02-17 09:37:04,966] DEBUG in services: Run created
+Run created
+Run created
+Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.QUEUED and active subtasks: False
+[2026-02-17 09:37:04,971] INFO in tasks: Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.QUEUED and active subtasks: False
+Executing run 2899945b-2d27-464a-818d-69530e3fe6e3 with task mock_module.tasks.mock_task and args None
+[2026-02-17 09:37:04,979] DEBUG in tasks: Executing run 2899945b-2d27-464a-818d-69530e3fe6e3 with task mock_module.tasks.mock_task and args None
+Executing run 2899945b-2d27-464a-818d-69530e3fe6e3 with task mock_module.tasks.mock_task and args None
+Executing run 2899945b-2d27-464a-818d-69530e3fe6e3 with task mock_module.tasks.mock_task and args None
+Run 2899945b-2d27-464a-818d-69530e3fe6e3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+[2026-02-17 09:37:04,985] ERROR in tasks: Run 2899945b-2d27-464a-818d-69530e3fe6e3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run 2899945b-2d27-464a-818d-69530e3fe6e3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run 2899945b-2d27-464a-818d-69530e3fe6e3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.RUNNING and active subtasks: False
+[2026-02-17 09:37:04,987] INFO in tasks: Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.RUNNING and active subtasks: False
+------------------------------ Captured log call -------------------------------
+DEBUG    invenio:services.py:285 Run created
+INFO     invenio:tasks.py:35 Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.QUEUED and active subtasks: False
+DEBUG    invenio:tasks.py:63 Executing run 2899945b-2d27-464a-818d-69530e3fe6e3 with task mock_module.tasks.mock_task and args None
+ERROR    invenio:tasks.py:114 Run 2899945b-2d27-464a-818d-69530e3fe6e3 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+INFO     invenio:tasks.py:35 Updating run 2899945b-2d27-464a-818d-69530e3fe6e3 with status RunStatusEnum.RUNNING and active subtasks: False
+____________________________ test_add_total_entries ____________________________
+app = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+anon_identity = <AnonymousIdentity id="8" auth_type="None" provides={Need(method='system_role', value='any_user')}>
+jobs = namespace(interval=<invenio_jobs.services.results.JobItem object at 0x7f9d39ec0230>, crontab=<invenio_jobs.services.results.JobItem object at 0x7f9d39ec02d0>, simple=<invenio_jobs.services.results.JobItem object at 0x7f9d39ec1130>)
+    def test_add_total_entries(app, db, anon_identity, jobs):
+        """Test adding total entries to a run."""
+        # Create a run
+        run = current_runs_service.create(
+            anon_identity, jobs.simple.id, {"title": "Test run"}
+        )
+        # Add total entries
+        result = current_runs_service.add_total_entries(
+            anon_identity, run_id=run.id, job_id=jobs.simple.id, total_entries=100
+        )
+        # Verify total entries was updated
+>       assert result.data["total_entries"] == 100
+               ^^^^^^^^^^^
+tests/test_services_subtasks.py:246: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/results.py:78: in data
+    self._data = self._schema.dump(
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/schema.py:118: in dump
+    return self.schema(**schema_args).dump(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:656: in _serialize
+    return schema.dump(nested_obj, many=many)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:85: in dump
+    result = result_data = self._dump(obj, **kwargs)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow_oneofschema/one_of_schema.py:122: in _dump
+    result = schema.dump(obj, many=False, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:621: in dump
+    result = self._serialize(processed_obj, many=many)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/schema.py:589: in _serialize
+    value = field_obj.serialize(attr_name, obj, accessor=self.get_attribute)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:348: in serialize
+    return self._serialize(value, attr, obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/marshmallow/fields.py:2026: in _serialize
+    return self._serialize_method(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+self = <UserSchema(many=False)>
+obj = <UserAggregate: {'id': 8, 'version_id': 1, 'email': 'user@inveniosoftware.org', 'domain': 'inveniosoftware.org', 'user...2026, 2, 17, 9, 37, 5, 364719), 'updated': datetime.datetime(2026, 2, 17, 9, 37, 5, 364724), 'current_login_at': None}>
+    def is_self(self, obj):
+        """Determine if identity is the current identity."""
+>       current_identity = self.context["identity"]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+E       KeyError: 'identity'
+venv/lib/python3.14/site-packages/invenio_users_resources/services/schemas.py:130: KeyError
+----------------------------- Captured stderr call -----------------------------
+Run created
+[2026-02-17 09:37:05,407] DEBUG in services: Run created
+Run created
+Run created
+Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.QUEUED and active subtasks: False
+[2026-02-17 09:37:05,412] INFO in tasks: Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.QUEUED and active subtasks: False
+Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.QUEUED and active subtasks: False
+Executing run 1c34623e-8142-4a59-b5d6-f211ac970d35 with task mock_module.tasks.mock_task and args None
+[2026-02-17 09:37:05,419] DEBUG in tasks: Executing run 1c34623e-8142-4a59-b5d6-f211ac970d35 with task mock_module.tasks.mock_task and args None
+Executing run 1c34623e-8142-4a59-b5d6-f211ac970d35 with task mock_module.tasks.mock_task and args None
+Executing run 1c34623e-8142-4a59-b5d6-f211ac970d35 with task mock_module.tasks.mock_task and args None
+Run 1c34623e-8142-4a59-b5d6-f211ac970d35 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+[2026-02-17 09:37:05,425] ERROR in tasks: Run 1c34623e-8142-4a59-b5d6-f211ac970d35 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run 1c34623e-8142-4a59-b5d6-f211ac970d35 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Run 1c34623e-8142-4a59-b5d6-f211ac970d35 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.RUNNING and active subtasks: False
+[2026-02-17 09:37:05,427] INFO in tasks: Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.RUNNING and active subtasks: False
+Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.RUNNING and active subtasks: False
+------------------------------ Captured log call -------------------------------
+DEBUG    invenio:services.py:285 Run created
+INFO     invenio:tasks.py:35 Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.QUEUED and active subtasks: False
+DEBUG    invenio:tasks.py:63 Executing run 1c34623e-8142-4a59-b5d6-f211ac970d35 with task mock_module.tasks.mock_task and args None
+ERROR    invenio:tasks.py:114 Run 1c34623e-8142-4a59-b5d6-f211ac970d35 encountered an unexpected error: mock_task() got an unexpected keyword argument 'since'
+INFO     invenio:tasks.py:35 Updating run 1c34623e-8142-4a59-b5d6-f211ac970d35 with status RunStatusEnum.RUNNING and active subtasks: False
+=============================== warnings summary ===============================
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9
+    pyparsing.ParserElement.enablePackrat()
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52
+    oneThru12 = oneOf(["%.2d" % i for i in range(1, 13)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53
+    oneThru13 = oneOf(["%.2d" % i for i in range(1, 14)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54
+    oneThru23 = oneOf(["%.2d" % i for i in range(1, 24)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55
+    zeroThru23 = oneOf(["%.2d" % i for i in range(0, 24)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56
+    oneThru29 = oneOf(["%.2d" % i for i in range(1, 30)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57
+    oneThru30 = oneOf(["%.2d" % i for i in range(1, 31)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58
+    oneThru31 = oneOf(["%.2d" % i for i in range(1, 32)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59
+    oneThru59 = oneOf(["%.2d" % i for i in range(1, 60)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60
+    zeroThru59 = oneOf(["%.2d" % i for i in range(0, 60)])
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63
+    positiveDigit = Word(nums, exact=1, excludeChars="0")
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73
+    (oneOf("01 03 05 07 08 10 12")("month") + "-" + oneThru31("day"))
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74
+    ^ (oneOf("04 06 09 11")("month") + "-" + oneThru30("day"))
+    p.addParseAction(cls.parse_action)
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119
+    UASymbol = Combine(oneOf("? ~ %"))
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122
+    seasonNumber = oneOf("21 22 23 24")
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155
+    l1Start.addParseAction(f)
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157
+    l1End.addParseAction(f)
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199
+    monthWithX = Combine(oneOf("0X 1X") ^ ("X" + digitOrX))("month")
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+    earlier = L("..").addParseAction(f)("lower") + date("upper").addParseAction(f)
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+    later = date("lower").addParseAction(f) + L("..").addParseAction(f)("upper")
+venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325
+    seasonL2Number = oneOf("21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41")
+venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+    from jsonschema import RefResolutionError, RefResolver
+venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+    from jsonschema import RefResolutionError, RefResolver
+venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:91
+    "self": Link("{+api}/domains/{domain}", vars=domainvar),
+venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:92
+    "admin_self_html": Link(
+venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:95
+    "admin_users_html": Link(
+venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:99
+    links_search = pagination_links("{+api}/domains{?args*}")
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57
+    "prev": Link(
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64
+    "self": Link(tpl),
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65
+venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65
+    "next": Link(
+venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:78
+    "self": Link("{+api}/groups/{id}"),
+venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:79
+    "avatar": Link("{+api}/groups/{id}/avatar.svg"),
+venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:81
+    links_search = pagination_links("{+api}/groups{?args*}")
+venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:203
+    "self": Link("{+api}/users/{id}"),
+venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:204
+    "avatar": Link("{+api}/users/{id}/avatar.svg"),
+venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:205
+    "records_html": Link("{+ui}/search/records?q=parent.access.owned_by.user:{id}"),
+venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:206
+    "admin_records_html": Link(
+venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:210
+    "admin_drafts_html": Link(
+venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:214
+    "admin_moderation_html": Link(
+venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:219
+    links_search = pagination_links("{+api}/users{?args*}")
+venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/marshmallow/fields.py:986: RemovedInMarshmallow4Warning: The 'default' argument to fields is deprecated. Use 'dump_default' instead
+    super().__init__(**kwargs)
+venv/lib/python3.14/site-packages/marshmallow/utils.py:361
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/marshmallow/utils.py:361: ChangedInMarshmallow4Warning: `Field` should not be instantiated. Use `fields.Raw` or  another field subclass instead
+    return cls_or_instance()
+invenio_jobs/services/config.py:73
+    links_search = pagination_links("{+api}/tasks{?args*}")
+invenio_jobs/services/config.py:108
+    "self": JobLink("{+api}/jobs/{id}"),
+invenio_jobs/services/config.py:109
+    "runs": JobLink("{+api}/jobs/{id}/runs"),
+invenio_jobs/services/config.py:110
+    "self_admin_html": JobLink("{+ui}/administration/jobs/{id}"),
+invenio_jobs/services/config.py:113
+    links_search = pagination_links("{+api}/jobs{?args*}")
+invenio_jobs/services/config.py:148
+    "self": RunLink("{+api}/jobs/{job_id}/runs/{id}"),
+invenio_jobs/services/config.py:149
+    "stop": RunLink("{+api}/jobs/{job_id}/runs/{id}/actions/stop"),
+invenio_jobs/services/config.py:150
+    "logs": RunLink("{+api}/logs/jobs?q={id}"),
+invenio_jobs/services/config.py:153
+    links_search = pagination_links("{+api}/jobs/{job_id}{?args*}")
+    return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore
+    self._confirmed = datetime.utcnow() if confirmed else None
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-jobs/original/.venv/lib/python3.14/site-packages/flask_security/datastore.py:235: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    return self.user_model.query.get(identifier)
+    target.updated = datetime.utcnow()
+tests/test_services_job_logs.py::test_job_logs_search_limits_to_max_docs
+tests/test_services_subtasks.py::test_create_subtask_run
+    self.init_app(app)
+tests/test_services_job_logs.py::test_job_logs_search_limits_to_max_docs
+tests/test_services_subtasks.py::test_create_subtask_run
+    self._set_cache(app, config)
+tests/test_services_subtasks.py::test_create_subtask_run
+tests/test_services_subtasks.py::test_start_processing_subtask
+tests/test_services_subtasks.py::test_start_processing_subtask_invalid_status
+tests/test_services_subtasks.py::test_finalize_subtask_success
+tests/test_services_subtasks.py::test_finalize_subtask_failure
+tests/test_services_subtasks.py::test_finalize_subtask_partial_success
+tests/test_services_subtasks.py::test_add_total_entries
+tests/test_services_subtasks.py::test_add_total_entries_invalid_values
+tests/test_services_subtasks.py::test_finalize_subtask_with_errored_entries_message
+    update_run(run, status=RunStatusEnum.RUNNING, started_at=datetime.utcnow())
+tests/test_services_subtasks.py::test_create_subtask_run
+tests/test_services_subtasks.py::test_start_processing_subtask
+tests/test_services_subtasks.py::test_start_processing_subtask_invalid_status
+tests/test_services_subtasks.py::test_finalize_subtask_success
+tests/test_services_subtasks.py::test_finalize_subtask_failure
+tests/test_services_subtasks.py::test_finalize_subtask_partial_success
+tests/test_services_subtasks.py::test_add_total_entries
+tests/test_services_subtasks.py::test_add_total_entries_invalid_values
+tests/test_services_subtasks.py::test_finalize_subtask_with_errored_entries_message
+    finished_at=datetime.utcnow(),
+tests/test_services_subtasks.py::test_start_processing_subtask
+tests/test_services_subtasks.py::test_finalize_subtask_success
+tests/test_services_subtasks.py::test_finalize_subtask_failure
+tests/test_services_subtasks.py::test_finalize_subtask_partial_success
+tests/test_services_subtasks.py::test_finalize_subtask_partial_success
+tests/test_services_subtasks.py::test_finalize_subtask_with_errored_entries_message
+    run.started_at = datetime.utcnow()
+tests/test_services_subtasks.py::test_finalize_subtask_success
+tests/test_services_subtasks.py::test_finalize_subtask_failure
+tests/test_services_subtasks.py::test_finalize_subtask_partial_success
+tests/test_services_subtasks.py::test_finalize_subtask_with_errored_entries_message
+    finished_at_value = datetime.utcnow()
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                                  Stmts   Miss  Cover   Missing
+invenio_jobs/__init__.py                                                  3      0   100%
+invenio_jobs/administration/__init__.py                                   0      0   100%
+invenio_jobs/administration/jobs.py                                      73     15    79%   105, 109-115, 119-124, 133-138
+invenio_jobs/administration/runs.py                                      46     25    46%   39-54, 58-65, 69-70, 74-75
+invenio_jobs/alembic/1f896f6990b8_update_jobs_module_table_names.py      20     10    50%   25-32, 40-45
+invenio_jobs/alembic/371f4cbcb73d_create_invenio_jobs_branch.py          10      2    80%   22, 27
+invenio_jobs/alembic/356496a01197_create_invenio_jobs_tables.py          17      4    76%   30-62, 105-106
+invenio_jobs/alembic/1753948224_add_subtasks_columns_to_jobs_run.py      31     22    29%   23-91, 102-114
+invenio_jobs/api.py                                                       4      0   100%
+invenio_jobs/config.py                                                   32      0   100%
+invenio_jobs/errors.py                                                   11      3    73%   20-22
+invenio_jobs/ext.py                                                      57      1    98%   106
+invenio_jobs/jobs.py                                                     32      7    78%   65-67, 89, 102, 105-113
+invenio_jobs/logging/__init__.py                                          0      0   100%
+invenio_jobs/logging/celery_signals.py                                   19      5    74%   23-26, 38-40, 49
+invenio_jobs/logging/index_templates/__init__.py                          0      0   100%
+invenio_jobs/logging/index_templates/os-v1/__init__.py                    0      0   100%
+invenio_jobs/logging/index_templates/os-v2/__init__.py                    0      0   100%
+invenio_jobs/logging/jobs.py                                             63      5    92%   98, 119-121, 125-126
+invenio_jobs/logging/tasks.py                                             8      2    75%   20-21
+invenio_jobs/models.py                                                  130     11    92%   80-88, 215-217
+invenio_jobs/proxies.py                                                  12      0   100%
+invenio_jobs/registry.py                                                 26      5    81%   23, 32-35
+invenio_jobs/resources/__init__.py                                        3      0   100%
+invenio_jobs/resources/config.py                                         57      0   100%
+invenio_jobs/resources/resources.py                                     126     25    80%   48-53, 58-63, 175-181, 199-204, 210-217, 223-229, 237-243, 249-255, 280-287
+invenio_jobs/services/__init__.py                                         4      0   100%
+invenio_jobs/services/config.py                                          79      0   100%
+invenio_jobs/services/errors.py                                          22      1    95%   63
+invenio_jobs/services/links.py                                           11      1    91%   38
+invenio_jobs/services/permissions.py                                     25      0   100%
+invenio_jobs/services/results.py                                        100     21    79%   53-54, 83, 92-95, 109-123, 148-149, 167, 169-170
+invenio_jobs/services/scheduler.py                                       55     31    44%   31-32, 37-39, 59, 66, 70-71, 75-94, 99-106, 113-117
+invenio_jobs/services/schema.py                                         149     10    93%   51-56, 132, 185, 288, 321-322
+invenio_jobs/services/services.py                                       246     48    80%   52, 60-64, 91-93, 192-194, 198-233, 309, 418, 438, 474-488, 493-499, 504-514, 544, 555, 561-562
+invenio_jobs/services/ui_schema.py                                       19      0   100%
+invenio_jobs/tasks.py                                                    63     23    63%   28, 40-43, 67, 71-86, 88-107, 112, 117, 130
+invenio_jobs/utils.py                                                    28     19    32%   20-31, 36-47, 55
+invenio_jobs/views.py                                                    14      0   100%
+invenio_jobs/webpack.py                                                   2      0   100%
+TOTAL                                                                  1597    296    81%
+=========================== short test summary info ============================
+FAILED tests/resources/test_resources.py::test_simple_flow - KeyError: 'identity'
+FAILED tests/test_services_subtasks.py::test_create_subtask_run - KeyError: 'identity'
+FAILED tests/test_services_subtasks.py::test_start_processing_subtask - KeyError: 'identity'
+FAILED tests/test_services_subtasks.py::test_finalize_subtask_success - KeyError: 'identity'
+FAILED tests/test_services_subtasks.py::test_finalize_subtask_failure - KeyError: 'identity'
+FAILED tests/test_services_subtasks.py::test_add_total_entries - KeyError: 'identity'
+============ 6 failed, 16 passed, 3 skipped, 351 warnings in 8.66s =============
+ Container docker_services_cli-elasticsearch-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-elasticsearch-1  Stopped
+ Container docker_services_cli-elasticsearch-1  Removing
+ Container docker_services_cli-elasticsearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

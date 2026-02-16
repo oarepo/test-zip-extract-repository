@@ -1,0 +1,36 @@
+{
+  "dependencies": [],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patches": [],
+    "reference": {
+      "base": null,
+      "branch": "v1.9.2",
+      "commit": "e738f2cb456e7071fcbd5cf2c96379cc398a9e78",
+      "org": "inveniosoftware",
+      "package": "invenio-cli",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-cli",
+      "versions": []
+    },
+    "test": [
+      "./run-tests.sh"
+    ]
+  },
+  "status": "skipped"
+}

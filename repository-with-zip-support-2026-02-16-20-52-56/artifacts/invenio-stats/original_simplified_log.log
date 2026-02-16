@@ -1,0 +1,171 @@
+ redis Pulling 
+ rabbitmq Pulling 
+ opensearch Pulling 
+ postgresql Pulling 
+ 4f4fb700ef54 Already exists 
+ 4f4fb700ef54 Already exists 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-stats/original
+configfile: setup.cfg
+testpaths: tests, invenio_stats
+plugins: isort-4.0.0, flask-1.3.0, black-ng-0.4.1, invenio-3.4.2, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, pycodestyle-2.5.0
+collected 52 items
+tests/contrib/test_event_builders.py 
+                                  [  3%]
+tests/test_aggregations.py 
+                                     [ 21%]
+tests/test_cli.py 
+                                                   [ 28%]
+tests/test_events.py 
+                                                  [ 32%]
+tests/test_invenio_stats.py 
+                                          [ 38%]
+tests/test_prefixing.py 
+                                                [ 40%]
+tests/test_processors.py 
+                            [ 78%]
+tests/test_queries.py 
+                                                 [ 82%]
+tests/test_receivers.py 
+                                               [ 86%]
+tests/test_tasks.py 
+                                                    [ 88%]
+tests/test_utils.py 
+                                                   [ 92%]
+tests/test_views.py 
+                                                 [100%]
+=============================== warnings summary ===============================
+venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+    from jsonschema import RefResolutionError, RefResolver
+venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+    from jsonschema import RefResolutionError, RefResolver
+    return util.wrap_callable(lambda ctx: fn(), fn)  # type: ignore
+tests/contrib/test_event_builders.py::test_record_view_event_builder
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-stats/original/.venv/lib/python3.14/site-packages/invenio_records/api.py:335: SAWarning: nested transaction already deassociated from connection
+    with db.session.begin_nested():
+    self.init_app(app)
+    self._set_cache(app, config)
+    msg["updated_timestamp"] = datetime.utcnow().isoformat()
+    target.updated = datetime.utcnow()
+tests/test_cli.py::test_aggregations_process[indexed_events0]
+tests/test_cli.py::test_aggregations_process[indexed_events0]
+    datetime.utcnow(),
+    aggregation_data["updated_timestamp"] = datetime.utcnow().isoformat()
+    self._confirmed = datetime.utcnow() if confirmed else None
+tests/test_processors.py::test_flag_robots
+tests/test_processors.py::test_flag_robots
+tests/test_processors.py::test_flag_machines
+tests/test_processors.py::test_flag_machines
+tests/test_processors.py::test_flag_machines
+tests/test_processors.py::test_referrer
+    "timestamp": datetime.datetime.utcnow().isoformat(),
+tests/test_views.py::test_post_request
+tests/test_views.py::test_unauthorized_request[authorized-200]
+tests/test_views.py::test_unauthorized_request[authorized-200]
+tests/test_views.py::test_unauthorized_request[unauthorized-403]
+tests/test_views.py::test_unauthorized_request[unauthorized-403]
+    warnings.warn(
+tests/test_views.py::test_post_request
+tests/test_views.py::test_unauthorized_request[authorized-200]
+tests/test_views.py::test_unauthorized_request[unauthorized-403]
+    _security.datetime_factory(),
+tests/test_views.py::test_post_request
+tests/test_views.py::test_unauthorized_request[authorized-200]
+tests/test_views.py::test_unauthorized_request[unauthorized-403]
+    target.updated = datetime.utcnow()
+tests/test_views.py::test_post_request
+tests/test_views.py::test_unauthorized_request[authorized-200]
+tests/test_views.py::test_unauthorized_request[unauthorized-403]
+    created = datetime.utcnow()
+tests/test_views.py::test_post_request
+tests/test_views.py::test_unauthorized_request[authorized-200]
+tests/test_views.py::test_unauthorized_request[unauthorized-403]
+    return cls(int(id_s, 16), datetime.utcfromtimestamp(int(created_s, 16)))
+tests/test_views.py::test_post_request
+tests/test_views.py::test_unauthorized_request[authorized-200]
+tests/test_views.py::test_unauthorized_request[unauthorized-403]
+    now = now or datetime.utcnow()
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                                                      Stmts   Miss  Cover   Missing
+invenio_stats/__init__.py                                                     4      0   100%
+invenio_stats/aggregations.py                                               130      2    98%   142, 280
+invenio_stats/bookmark.py                                                    52      5    90%   100-102, 126, 128, 130
+invenio_stats/cli.py                                                         88      0   100%
+invenio_stats/config.py                                                      14      0   100%
+invenio_stats/contrib/__init__.py                                             0      0   100%
+invenio_stats/contrib/aggregations/__init__.py                                0      0   100%
+invenio_stats/contrib/aggregations/aggr_file_download/__init__.py             0      0   100%
+invenio_stats/contrib/aggregations/aggr_file_download/os-v1/__init__.py       0      0   100%
+invenio_stats/contrib/aggregations/aggr_file_download/os-v2/__init__.py       0      0   100%
+invenio_stats/contrib/aggregations/aggr_file_download/v7/__init__.py          0      0   100%
+invenio_stats/contrib/aggregations/aggr_record_view/__init__.py               0      0   100%
+invenio_stats/contrib/aggregations/aggr_record_view/os-v1/__init__.py         0      0   100%
+invenio_stats/contrib/aggregations/aggr_record_view/os-v2/__init__.py         0      0   100%
+invenio_stats/contrib/aggregations/aggr_record_view/v7/__init__.py            0      0   100%
+invenio_stats/contrib/config.py                                               7      0   100%
+invenio_stats/contrib/event_builders.py                                      15      0   100%
+invenio_stats/contrib/file_download/__init__.py                               0      0   100%
+invenio_stats/contrib/file_download/os-v1/__init__.py                         0      0   100%
+invenio_stats/contrib/file_download/os-v2/__init__.py                         0      0   100%
+invenio_stats/contrib/file_download/v7/__init__.py                            0      0   100%
+invenio_stats/contrib/record_view/__init__.py                                 0      0   100%
+invenio_stats/contrib/record_view/os-v1/__init__.py                           0      0   100%
+invenio_stats/contrib/record_view/os-v2/__init__.py                           0      0   100%
+invenio_stats/contrib/record_view/v7/__init__.py                              0      0   100%
+invenio_stats/errors.py                                                      19      2    89%   61-62
+invenio_stats/ext.py                                                         88      7    92%   51-56, 78, 98, 116, 177
+invenio_stats/processors.py                                                  87      4    95%   104, 125, 194, 196
+invenio_stats/proxies.py                                                      3      0   100%
+invenio_stats/queries.py                                                    150     19    87%   40-43, 45, 50, 104, 115, 120, 138, 176, 245, 263, 281, 323-328
+invenio_stats/queues.py                                                       3      0   100%
+invenio_stats/receivers.py                                                   31      3    90%   35, 54-57
+invenio_stats/tasks.py                                                       24      0   100%
+invenio_stats/templates.py                                                   14      4    71%   31, 37-39
+invenio_stats/utils.py                                                       41      1    98%   110
+invenio_stats/views.py                                                       41      6    85%   49, 63, 95-99
+TOTAL                                                                       811     53    93%
+====================== 52 passed, 613 warnings in 23.47s =======================
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

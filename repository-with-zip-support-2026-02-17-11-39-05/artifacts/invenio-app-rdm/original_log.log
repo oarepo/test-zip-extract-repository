@@ -1,0 +1,2157 @@
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-rabbitmq-1  Started
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/config.py,line=15::Implicit imports (e.g., 'import idutils; idutils.function;') might be removed in the next major version. Please use explicit imports (e.g., 'from idutils import function;') instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=9::'enablePackrat' deprecated - use 'enable_packrat'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=52::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=53::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=54::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=55::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=56::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=57::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=58::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=59::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=60::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=63::'excludeChars' argument is deprecated, use 'exclude_chars'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=73::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=74::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=119::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=122::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=155::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=157::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=199::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=325::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py,line=91::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py,line=92::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py,line=95::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py,line=99::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py,line=78::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py,line=79::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py,line=81::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=203::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=204::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=205::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=206::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=210::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=214::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=219::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/marshmallow/utils.py,line=361::`Field` should not be instantiated. Use `fields.Raw` or  another field subclass instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=73::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=108::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=109::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=110::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=113::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=148::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=149::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=150::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=153::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/marshmallow/utils.py,line=361::`Field` should not be instantiated. Use `fields.Raw` or  another field subclass instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=127::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=138::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=153::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=157::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=173::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original
+configfile: setup.cfg
+testpaths: tests, invenio_app_rdm
+plugins: invenio-4.0.0, time-machine-2.19.0, isort-4.0.0, flask-1.3.0, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, Faker-40.4.0, cov-7.0.0, black-0.6.0, pycodestyle-2.5.0
+collected 11 items / 51 errors
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py,line=109::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py,line=111::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py,line=109::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py,line=110::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py,line=112::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=107::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=108::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=109::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=110::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=111::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=112::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=113::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=115::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=116::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=117::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py,line=59::Relying on context is deprecated, please look for different solutions!
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_pages/services/config.py,line=96::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_pages/services/config.py,line=98::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+
+==================================== ERRORS ====================================
+_________________ ERROR collecting tests/fixtures/test_cli.py __________________
+tests/fixtures/test_cli.py:11: in <module>
+    from invenio_rdm_records.proxies import current_oaipmh_server_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_________________ ERROR collecting tests/fixtures/test_cli.py __________________
+tests/fixtures/test_cli.py:11: in <module>
+    from invenio_rdm_records.proxies import current_oaipmh_server_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_______________ ERROR collecting tests/fixtures/test_fixtures.py _______________
+tests/fixtures/test_fixtures.py:12: in <module>
+    from invenio_rdm_records.proxies import current_oaipmh_server_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_______________ ERROR collecting tests/fixtures/test_fixtures.py _______________
+tests/fixtures/test_fixtures.py:12: in <module>
+    from invenio_rdm_records.proxies import current_oaipmh_server_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_____________ ERROR collecting tests/test_migrate_13_0_to_14_0.py ______________
+tests/test_migrate_13_0_to_14_0.py:12: in <module>
+    from invenio_rdm_records.records.api import RDMDraft, RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_____________ ERROR collecting tests/test_migrate_13_0_to_14_0.py ______________
+tests/test_migrate_13_0_to_14_0.py:12: in <module>
+    from invenio_rdm_records.records.api import RDMDraft, RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_____________________ ERROR collecting tests/test_tasks.py _____________________
+tests/test_tasks.py:16: in <module>
+    from invenio_rdm_records.proxies import current_rdm_records
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_____________________ ERROR collecting tests/test_tasks.py _____________________
+tests/test_tasks.py:16: in <module>
+    from invenio_rdm_records.proxies import current_rdm_records
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_____________________ ERROR collecting tests/test_utils.py _____________________
+tests/test_utils.py:12: in <module>
+    from invenio_app_rdm.records_ui.utils import set_default_value
+invenio_app_rdm/records_ui/utils.py:17: in <module>
+    from invenio_rdm_records.records.api import RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_____________________ ERROR collecting tests/test_utils.py _____________________
+tests/test_utils.py:12: in <module>
+    from invenio_app_rdm.records_ui.utils import set_default_value
+invenio_app_rdm/records_ui/utils.py:17: in <module>
+    from invenio_rdm_records.records.api import RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+__________________________ ERROR collecting tests/ui ___________________________
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+.venv/lib/python3.14/site-packages/_pytest/assertion/rewrite.py:186: in exec_module
+    exec(co, module.__dict__)
+tests/ui/conftest.py:23: in <module>
+    from invenio_rdm_records.proxies import current_rdm_records_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____ ERROR collecting invenio_app_rdm/administration/moderation/__init__.py ____
+invenio_app_rdm/administration/moderation/__init__.py:9: in <module>
+    from .requests import ModerationRequestDetailView, ModerationRequestListView
+invenio_app_rdm/administration/moderation/requests.py:19: in <module>
+    from invenio_rdm_records.requests import RecordDeletion
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____ ERROR collecting invenio_app_rdm/administration/moderation/requests.py ____
+invenio_app_rdm/administration/moderation/requests.py:19: in <module>
+    from invenio_rdm_records.requests import RecordDeletion
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+___________________ ERROR collecting invenio_app_rdm/cli.py ____________________
+invenio_app_rdm/cli.py:15: in <module>
+    from .fixtures import FixturesEngine, Pages
+invenio_app_rdm/fixtures/__init__.py:14: in <module>
+    from .oai_sets import OAICustomSets
+invenio_app_rdm/fixtures/oai_sets.py:11: in <module>
+    from invenio_rdm_records.fixtures.fixture import FixtureMixin
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+______ ERROR collecting invenio_app_rdm/communities_ui/views/__init__.py _______
+invenio_app_rdm/communities_ui/views/__init__.py:11: in <module>
+    from .ui import create_ui_blueprint
+invenio_app_rdm/communities_ui/views/ui.py:13: in <module>
+    from invenio_collections.searchapp import search_app_context as c_search_app_context
+.venv/lib/python3.14/site-packages/invenio_collections/__init__.py:12: in <module>
+    from .ext import InvenioCollections
+.venv/lib/python3.14/site-packages/invenio_collections/ext.py:11: in <module>
+    from invenio_collections.resources.config import CollectionsResourceConfig
+.venv/lib/python3.14/site-packages/invenio_collections/resources/config.py:16: in <module>
+    from invenio_rdm_records.resources.serializers import UIJSONSerializer
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_____ ERROR collecting invenio_app_rdm/communities_ui/views/communities.py _____
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1314: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+<frozen importlib._bootstrap_external>:759: in exec_module
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+invenio_app_rdm/communities_ui/views/__init__.py:11: in <module>
+    from .ui import create_ui_blueprint
+invenio_app_rdm/communities_ui/views/ui.py:13: in <module>
+    from invenio_collections.searchapp import search_app_context as c_search_app_context
+.venv/lib/python3.14/site-packages/invenio_collections/__init__.py:12: in <module>
+    from .ext import InvenioCollections
+.venv/lib/python3.14/site-packages/invenio_collections/ext.py:11: in <module>
+    from invenio_collections.resources.config import CollectionsResourceConfig
+.venv/lib/python3.14/site-packages/invenio_collections/resources/config.py:16: in <module>
+    from invenio_rdm_records.resources.serializers import UIJSONSerializer
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_________ ERROR collecting invenio_app_rdm/communities_ui/views/ui.py __________
+invenio_app_rdm/communities_ui/views/ui.py:13: in <module>
+    from invenio_collections.searchapp import search_app_context as c_search_app_context
+.venv/lib/python3.14/site-packages/invenio_collections/__init__.py:12: in <module>
+    from .ext import InvenioCollections
+.venv/lib/python3.14/site-packages/invenio_collections/ext.py:11: in <module>
+    from invenio_collections.resources.config import CollectionsResourceConfig
+.venv/lib/python3.14/site-packages/invenio_collections/resources/config.py:16: in <module>
+    from invenio_rdm_records.resources.serializers import UIJSONSerializer
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+__________________ ERROR collecting invenio_app_rdm/config.py __________________
+invenio_app_rdm/config.py:70: in <module>
+    from invenio_rdm_records.proxies import current_rdm_records_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+___________________ ERROR collecting invenio_app_rdm/ext.py ____________________
+invenio_app_rdm/ext.py:17: in <module>
+    from .communities_ui.views.ui import _show_browse_page
+invenio_app_rdm/communities_ui/views/__init__.py:11: in <module>
+    from .ui import create_ui_blueprint
+invenio_app_rdm/communities_ui/views/ui.py:13: in <module>
+    from invenio_collections.searchapp import search_app_context as c_search_app_context
+.venv/lib/python3.14/site-packages/invenio_collections/__init__.py:12: in <module>
+    from .ext import InvenioCollections
+.venv/lib/python3.14/site-packages/invenio_collections/ext.py:11: in <module>
+    from invenio_collections.resources.config import CollectionsResourceConfig
+.venv/lib/python3.14/site-packages/invenio_collections/resources/config.py:16: in <module>
+    from invenio_rdm_records.resources.serializers import UIJSONSerializer
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____________ ERROR collecting invenio_app_rdm/fixtures/__init__.py _____________
+invenio_app_rdm/fixtures/__init__.py:14: in <module>
+    from .oai_sets import OAICustomSets
+invenio_app_rdm/fixtures/oai_sets.py:11: in <module>
+    from invenio_rdm_records.fixtures.fixture import FixtureMixin
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____________ ERROR collecting invenio_app_rdm/fixtures/oai_sets.py _____________
+invenio_app_rdm/fixtures/oai_sets.py:11: in <module>
+    from invenio_rdm_records.fixtures.fixture import FixtureMixin
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+______________ ERROR collecting invenio_app_rdm/fixtures/pages.py ______________
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1314: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+<frozen importlib._bootstrap_external>:759: in exec_module
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+invenio_app_rdm/fixtures/__init__.py:14: in <module>
+    from .oai_sets import OAICustomSets
+invenio_app_rdm/fixtures/oai_sets.py:11: in <module>
+    from invenio_rdm_records.fixtures.fixture import FixtureMixin
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+___ ERROR collecting invenio_app_rdm/records_ui/previewer/previewable_zip.py ___
+invenio_app_rdm/records_ui/previewer/previewable_zip.py:19: in <module>
+    from ..views.records import PreviewContainerItem
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+___________ ERROR collecting invenio_app_rdm/records_ui/searchapp.py ___________
+invenio_app_rdm/records_ui/searchapp.py:13: in <module>
+    from invenio_rdm_records.requests import CommunityInclusion, CommunitySubmission
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____________ ERROR collecting invenio_app_rdm/records_ui/sitemap.py ____________
+invenio_app_rdm/records_ui/sitemap.py:12: in <module>
+    from invenio_rdm_records.proxies import current_rdm_records_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_____________ ERROR collecting invenio_app_rdm/records_ui/utils.py _____________
+invenio_app_rdm/records_ui/utils.py:17: in <module>
+    from invenio_rdm_records.records.api import RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+________ ERROR collecting invenio_app_rdm/records_ui/views/__init__.py _________
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_______ ERROR collecting invenio_app_rdm/records_ui/views/decorators.py ________
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1314: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+<frozen importlib._bootstrap_external>:759: in exec_module
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+________ ERROR collecting invenio_app_rdm/records_ui/views/deposits.py _________
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1314: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+<frozen importlib._bootstrap_external>:759: in exec_module
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_________ ERROR collecting invenio_app_rdm/records_ui/views/filters.py _________
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1314: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+<frozen importlib._bootstrap_external>:759: in exec_module
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_________ ERROR collecting invenio_app_rdm/records_ui/views/records.py _________
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1314: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+<frozen importlib._bootstrap_external>:759: in exec_module
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+________ ERROR collecting invenio_app_rdm/requests_ui/views/__init__.py ________
+invenio_app_rdm/requests_ui/views/__init__.py:11: in <module>
+    from .ui import create_ui_blueprint
+invenio_app_rdm/requests_ui/views/ui.py:13: in <module>
+    from invenio_rdm_records.access_requests_ui.views import (
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+________ ERROR collecting invenio_app_rdm/requests_ui/views/requests.py ________
+/opt/hostedtoolcache/Python/3.14.2/x64/lib/python3.14/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1314: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+<frozen importlib._bootstrap>:1398: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1371: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1342: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:938: in _load_unlocked
+    ???
+<frozen importlib._bootstrap_external>:759: in exec_module
+    ???
+<frozen importlib._bootstrap>:491: in _call_with_frames_removed
+    ???
+invenio_app_rdm/requests_ui/views/__init__.py:11: in <module>
+    from .ui import create_ui_blueprint
+invenio_app_rdm/requests_ui/views/ui.py:13: in <module>
+    from invenio_rdm_records.access_requests_ui.views import (
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+___________ ERROR collecting invenio_app_rdm/requests_ui/views/ui.py ___________
+invenio_app_rdm/requests_ui/views/ui.py:13: in <module>
+    from invenio_rdm_records.access_requests_ui.views import (
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+__________________ ERROR collecting invenio_app_rdm/tasks.py ___________________
+invenio_app_rdm/tasks.py:14: in <module>
+    from .utils.files import send_integrity_report_email
+invenio_app_rdm/utils/files.py:18: in <module>
+    from invenio_rdm_records.records.models import RDMDraftMetadata, RDMRecordMetadata
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_ ERROR collecting invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py _
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py:10: in <module>
+    from invenio_rdm_records.records.api import RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_ ERROR collecting invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py _
+invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py:14: in <module>
+    from invenio_rdm_records.records.api import RDMDraft, RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+___ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py ___
+invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py:50: in <module>
+    from invenio_rdm_records.fixtures import PrioritizedVocabulariesFixtures
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+___ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py ___
+invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py:30: in <module>
+    from invenio_rdm_records.proxies import current_rdm_records_service as records_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+___ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py ___
+invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py:27: in <module>
+    from invenio_rdm_records.proxies import current_rdm_records_service as records_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py _
+invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py:18: in <module>
+    from invenio_rdm_records.records.api import RDMDraft, RDMParent, RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py ____
+invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py:18: in <module>
+    from invenio_rdm_records.records.api import RDMDraft, RDMParent, RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py ____
+invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py:17: in <module>
+    from invenio_rdm_records.records.api import RDMDraft, RDMParent, RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py ____
+invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py:20: in <module>
+    from invenio_rdm_records.records.api import RDMDraft, RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py ____
+invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py:18: in <module>
+    from invenio_rdm_records.proxies import current_rdm_records_service
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py ____
+invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py:18: in <module>
+    import invenio_rdm_records.fixtures as fixtures
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____ ERROR collecting invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py ____
+invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py:18: in <module>
+    from invenio_rdm_records.records.api import RDMRecord
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_________ ERROR collecting invenio_app_rdm/users_ui/views/__init__.py __________
+invenio_app_rdm/users_ui/views/__init__.py:12: in <module>
+    from .ui import create_ui_blueprint
+invenio_app_rdm/users_ui/views/ui.py:16: in <module>
+    from .dashboard import communities, requests, uploads
+invenio_app_rdm/users_ui/views/dashboard.py:16: in <module>
+    from ...records_ui.views.deposits import get_search_url
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_________ ERROR collecting invenio_app_rdm/users_ui/views/dashboard.py _________
+invenio_app_rdm/users_ui/views/dashboard.py:16: in <module>
+    from ...records_ui.views.deposits import get_search_url
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+____________ ERROR collecting invenio_app_rdm/users_ui/views/ui.py _____________
+invenio_app_rdm/users_ui/views/ui.py:16: in <module>
+    from .dashboard import communities, requests, uploads
+invenio_app_rdm/users_ui/views/dashboard.py:16: in <module>
+    from ...records_ui.views.deposits import get_search_url
+invenio_app_rdm/records_ui/views/__init__.py:19: in <module>
+    from invenio_rdm_records.services.errors import RecordDeletedException
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+_______________ ERROR collecting invenio_app_rdm/utils/files.py ________________
+invenio_app_rdm/utils/files.py:18: in <module>
+    from invenio_rdm_records.records.models import RDMDraftMetadata, RDMRecordMetadata
+.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/invenio_vocabularies/config.py:15
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/config.py:15: DeprecationWarning: Implicit imports (e.g., 'import idutils; idutils.function;') might be removed in the next major version. Please use explicit imports (e.g., 'from idutils import function;') instead.
+    from idutils import is_doi, is_gnd, is_isni, is_orcid, is_ror, is_url
+
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14: DeprecationWarning: jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+    from jsonschema import RefResolutionError, RefResolver
+
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+    from jsonschema import RefResolutionError, RefResolver
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    pyparsing.ParserElement.enablePackrat()
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru12 = oneOf(["%.2d" % i for i in range(1, 13)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru13 = oneOf(["%.2d" % i for i in range(1, 14)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru23 = oneOf(["%.2d" % i for i in range(1, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru23 = oneOf(["%.2d" % i for i in range(0, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru29 = oneOf(["%.2d" % i for i in range(1, 30)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru30 = oneOf(["%.2d" % i for i in range(1, 31)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru31 = oneOf(["%.2d" % i for i in range(1, 32)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru59 = oneOf(["%.2d" % i for i in range(1, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru59 = oneOf(["%.2d" % i for i in range(0, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63: PyparsingDeprecationWarning: 'excludeChars' argument is deprecated, use 'exclude_chars'
+    positiveDigit = Word(nums, exact=1, excludeChars="0")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    (oneOf("01 03 05 07 08 10 12")("month") + "-" + oneThru31("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    ^ (oneOf("04 06 09 11")("month") + "-" + oneThru30("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: 19 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    p.addParseAction(cls.parse_action)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    UASymbol = Combine(oneOf("? ~ %"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonNumber = oneOf("21 22 23 24")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1Start.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1End.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    monthWithX = Combine(oneOf("0X 1X") ^ ("X" + digitOrX))("month")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    earlier = L("..").addParseAction(f)("lower") + date("upper").addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    later = date("lower").addParseAction(f) + L("..").addParseAction(f)("upper")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonL2Number = oneOf("21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41")
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:91
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:91: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link("{+api}/domains/{domain}", vars=domainvar),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:92
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:92: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_self_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:95
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:95: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_users_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:99
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:99: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/domains{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57: 13 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "prev": Link(
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64: 13 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link(tpl),
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65: 13 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "next": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:78
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:78: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link("{+api}/groups/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:79
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:79: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "avatar": Link("{+api}/groups/{id}/avatar.svg"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:81
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:81: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/groups{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:203
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:203: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link("{+api}/users/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:204
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:204: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "avatar": Link("{+api}/users/{id}/avatar.svg"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:205
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:205: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "records_html": Link("{+ui}/search/records?q=parent.access.owned_by.user:{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:206
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:206: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_records_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:210
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:210: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_drafts_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:214
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:214: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_moderation_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:219
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:219: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/users{?args*}")
+
+.venv/lib/python3.14/site-packages/marshmallow/utils.py:361
+.venv/lib/python3.14/site-packages/marshmallow/utils.py:361
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/marshmallow/utils.py:361: ChangedInMarshmallow4Warning: `Field` should not be instantiated. Use `fields.Raw` or  another field subclass instead.
+    return cls_or_instance()
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:73
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:73: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/tasks{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:108
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:108: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": JobLink("{+api}/jobs/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:109
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:109: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "runs": JobLink("{+api}/jobs/{id}/runs"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:110
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:110: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self_admin_html": JobLink("{+ui}/administration/jobs/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:113
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:113: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/jobs{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:148
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:148: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": RunLink("{+api}/jobs/{job_id}/runs/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:149
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:149: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "stop": RunLink("{+api}/jobs/{job_id}/runs/{id}/actions/stop"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:150
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:150: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "logs": RunLink("{+api}/logs/jobs?q={id}"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:153
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:153: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/jobs/{job_id}{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:127
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:127: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link(
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:138
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:138: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/vocabularies/{type}{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:153
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:153: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    if_=Link(
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:157
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:157: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    else_=Link(
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:173
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:173: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/vocabularies/{type}{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py:109
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py:109: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link("{+api}/audit-logs/{id}", vars=idvar),
+
+.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py:111
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py:111: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/audit-logs{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:109
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:109: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": RequestEventLink("{+api}/requests/{request_id}/comments/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:110
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:110: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self_html": RequestEventLink("{+ui}/requests/{request_id}#commentevent-{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:112
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:112: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/requests/{request_id}/timeline{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:107
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:107: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": RequestLink("{+api}/requests/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:108
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:108: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self_html": RequestLink("{+ui}/requests/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:109
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:109: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "comments": RequestLink("{+api}/requests/{id}/comments"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:110
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:110: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "timeline": RequestLink("{+api}/requests/{id}/timeline"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:111
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:111: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "timeline_focused": RequestLink("{+api}/requests/{id}/timeline_focused"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:112
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:112: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "lock": RequestLink("{+api}/requests/{id}/lock"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:113
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:113: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "unlock": RequestLink("{+api}/requests/{id}/unlock"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:115
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:115: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/requests{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:116
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:116: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_user_requests_search = pagination_links("{+api}/user/requests{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:117
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:117: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    action_link = RequestLink(
+
+.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py:59
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py:59: DeprecationWarning: Relying on context is deprecated, please look for different solutions!
+    warn(
+
+.venv/lib/python3.14/site-packages/invenio_pages/services/config.py:96
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_pages/services/config.py:96: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": PagesLink("{+api}/pages/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_pages/services/config.py:98
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-app-rdm/original/.venv/lib/python3.14/site-packages/invenio_pages/services/config.py:98: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/pages{?args*}")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR tests/fixtures/test_cli.py - AttributeError: UTCDateTime
+ERROR tests/fixtures/test_cli.py - AttributeError: UTCDateTime
+ERROR tests/fixtures/test_fixtures.py - AttributeError: UTCDateTime
+ERROR tests/fixtures/test_fixtures.py - AttributeError: UTCDateTime
+ERROR tests/test_migrate_13_0_to_14_0.py - AttributeError: UTCDateTime
+ERROR tests/test_migrate_13_0_to_14_0.py - AttributeError: UTCDateTime
+ERROR tests/test_tasks.py - AttributeError: UTCDateTime
+ERROR tests/test_tasks.py - AttributeError: UTCDateTime
+ERROR tests/test_utils.py - AttributeError: UTCDateTime
+ERROR tests/test_utils.py - AttributeError: UTCDateTime
+ERROR tests/ui - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/administration/moderation/__init__.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/administration/moderation/requests.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/cli.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/communities_ui/views/__init__.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/communities_ui/views/communities.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/communities_ui/views/ui.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/config.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/ext.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/fixtures/__init__.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/fixtures/oai_sets.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/fixtures/pages.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/previewer/previewable_zip.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/searchapp.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/sitemap.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/utils.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/views/__init__.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/views/decorators.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/views/deposits.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/views/filters.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/records_ui/views/records.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/requests_ui/views/__init__.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/requests_ui/views/requests.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/requests_ui/views/ui.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/tasks.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_1_0_to_2_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/fix_migrated_records_from_8_0_to_9_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_11_0_to_12_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_12_0_to_13_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_13_0_to_14_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_1_0_records_to_2_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_2_0_to_3_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_3_0_to_4_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_4_0_to_6_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_6_0_to_7_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_7_0_to_8_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/upgrade_scripts/migrate_8_0_to_9_0.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/users_ui/views/__init__.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/users_ui/views/dashboard.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/users_ui/views/ui.py - AttributeError: UTCDateTime
+ERROR invenio_app_rdm/utils/files.py - AttributeError: UTCDateTime
+!!!!!!!!!!!!!!!!!!! Interrupted: 51 errors during collection !!!!!!!!!!!!!!!!!!!
+======================= 134 warnings, 51 errors in 4.09s =======================
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed
