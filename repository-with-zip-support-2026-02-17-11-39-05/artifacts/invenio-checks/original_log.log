@@ -1,0 +1,1052 @@
+ postgresql Pulling 
+ redis Pulling 
+ opensearch Pulling 
+ rabbitmq Pulling 
+ c5761dea9b0e Pulling fs layer 
+ bbf018d6d4b8 Pulling fs layer 
+ 7b28be0c8c4d Pulling fs layer 
+ 22dca8215bc4 Pulling fs layer 
+ 47a60771af96 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 4831516dd0cb Pulling fs layer 
+ edcaff0d5e7e Pulling fs layer 
+ 2e81b9cb93cd Pulling fs layer 
+ e8c6d4883897 Pulling fs layer 
+ eb77aa907276 Pulling fs layer 
+ f9dd052e142d Pulling fs layer 
+ 648eb81b3252 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 0ffa8f8aba1e Pulling fs layer 
+ cb628c265f09 Pulling fs layer 
+ f8406d9c00ea Pulling fs layer 
+ c1cb13b19080 Pulling fs layer 
+ dda3d8fbd5ed Pulling fs layer 
+ 873532e5f8c7 Pulling fs layer 
+ 283a477db7bb Pulling fs layer 
+ c199bff16b05 Pulling fs layer 
+ 050d9f8c3b1c Pulling fs layer 
+ 91d2729fa4d5 Pulling fs layer 
+ e0d55fdb4d15 Pulling fs layer 
+ ae3bb1b347a4 Pulling fs layer 
+ b0a0cf830b12 Pulling fs layer 
+ 9739ced65621 Pulling fs layer 
+ 710e142705f8 Pulling fs layer 
+ 4f4fb700ef54 Already exists 
+ 4f4fb700ef54 Already exists 
+ bbf018d6d4b8 Download complete 
+ d686b50ce172 Pulling fs layer 
+ 20043066d3d5 Pulling fs layer 
+ d63c4408fdb7 Pulling fs layer 
+ f4e7f62f4b80 Pulling fs layer 
+ 5e1c03b67a78 Pulling fs layer 
+ 3fadc669ef11 Pulling fs layer 
+ 14e6209d5fa8 Pulling fs layer 
+ 7084ac8f4ab6 Pulling fs layer 
+ efa05c660812 Pulling fs layer 
+ beb0d870d438 Pulling fs layer 
+ 283a477db7bb Download complete 
+ 2e81b9cb93cd Download complete 
+ 47a60771af96 Download complete 
+ 7b28be0c8c4d Download complete 
+ c5761dea9b0e Download complete 
+ edcaff0d5e7e Download complete 
+ f9dd052e142d Downloading [====>                                              ]  4.194MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  2.097MB/907.7MB
+ c4cc93acbec6 Download complete 
+ cb628c265f09 Download complete 
+ 648eb81b3252 Download complete 
+ 22dca8215bc4 Downloading [=============>                                     ]  4.194MB/15.35MB
+ 4831516dd0cb Downloading [=============>                                     ]   7.34MB/28.23MB
+ 7ec4c696b8bb Download complete 
+ 16ef6b12768c Downloading [==================================================>]  3.088MB/3.088MB
+ e7da101a9486 Download complete 
+ 710e142705f8 Download complete 
+ 0ffa8f8aba1e Download complete 
+ e8c6d4883897 Download complete 
+ 56b5e4f0933d Download complete 
+ 873532e5f8c7 Download complete 
+ 050d9f8c3b1c Download complete 
+ c1cb13b19080 Download complete 
+ c199bff16b05 Download complete 
+ ae3bb1b347a4 Download complete 
+ f8406d9c00ea Download complete 
+ dda3d8fbd5ed Download complete 
+ d686b50ce172 Downloading [====>                                              ]  1.049MB/12.47MB
+ d63c4408fdb7 Downloading [=======>                                           ]  3.146MB/21.31MB
+ 5682dec5b749 Downloading [===========================>                       ]  3.146MB/5.719MB
+ 9739ced65621 Downloading [======================================>            ]  6.291MB/8.069MB
+ b0a0cf830b12 Downloading [=======>                                           ]  4.194MB/29.15MB
+ 91d2729fa4d5 Download complete 
+ e0d55fdb4d15 Downloading [==>                                                ]  5.243MB/109MB
+ f4e7f62f4b80 Download complete 
+ 4831516dd0cb Downloading [======================>                            ]  12.58MB/28.23MB
+ 22dca8215bc4 Downloading [=================================>                 ]  10.19MB/15.35MB
+ 5e1c03b67a78 Download complete 
+ eb77aa907276 Downloading [>                                                  ]   7.34MB/907.7MB
+ f9dd052e142d Downloading [=========>                                         ]  9.437MB/52.33MB
+ efa05c660812 Download complete 
+ 16ef6b12768c Download complete 
+ 3fadc669ef11 Downloading [=>                                                 ]  1.049MB/43.48MB
+ 14e6209d5fa8 Download complete 
+ beb0d870d438 Download complete 
+ f9dd052e142d Downloading [=============>                                     ]  13.63MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  11.53MB/907.7MB
+ 9739ced65621 Download complete 
+ d686b50ce172 Downloading [=====================>                             ]  5.243MB/12.47MB
+ 20043066d3d5 Downloading [=======>                                           ]  4.194MB/29.72MB
+ d63c4408fdb7 Downloading [=================>                                 ]   7.34MB/21.31MB
+ 7084ac8f4ab6 Downloading [===================================>               ]  5.243MB/7.468MB
+ 3fadc669ef11 Downloading [======>                                            ]  5.243MB/43.48MB
+ 22dca8215bc4 Downloading [===============================================>   ]  14.68MB/15.35MB
+ 4831516dd0cb Downloading [=============================>                     ]  16.78MB/28.23MB
+ b0a0cf830b12 Downloading [==============>                                    ]  8.389MB/29.15MB
+ e0d55fdb4d15 Downloading [====>                                              ]  9.437MB/109MB
+ 5682dec5b749 Download complete 
+ e0d55fdb4d15 Downloading [=======>                                           ]  15.73MB/109MB
+ b0a0cf830b12 Downloading [=======================>                           ]  13.64MB/29.15MB
+ f9dd052e142d Downloading [===================>                               ]  19.92MB/52.33MB
+ eb77aa907276 Downloading [=>                                                 ]  18.87MB/907.7MB
+ 3fadc669ef11 Downloading [==============>                                    ]  12.58MB/43.48MB
+ d686b50ce172 Downloading [==============================================>    ]  11.53MB/12.47MB
+ 20043066d3d5 Downloading [===============>                                   ]  9.437MB/29.72MB
+ d63c4408fdb7 Downloading [===============================>                   ]  13.63MB/21.31MB
+ 22dca8215bc4 Download complete 
+ 4831516dd0cb Downloading [========================================>          ]  23.07MB/28.23MB
+ 7084ac8f4ab6 Download complete 
+ f9dd052e142d Downloading [=========================>                         ]  26.21MB/52.33MB
+ eb77aa907276 Downloading [=>                                                 ]  25.17MB/907.7MB
+ b0a0cf830b12 Downloading [===================================>               ]  20.97MB/29.15MB
+ e0d55fdb4d15 Downloading [==========>                                        ]  22.02MB/109MB
+ 3fadc669ef11 Downloading [====================>                              ]  17.83MB/43.48MB
+ 4831516dd0cb Download complete 
+ d686b50ce172 Download complete 
+ 20043066d3d5 Downloading [==========================>                        ]  15.73MB/29.72MB
+ d63c4408fdb7 Downloading [==============================================>    ]  19.92MB/21.31MB
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Downloading [======================================>            ]  23.07MB/29.72MB
+ f9dd052e142d Downloading [================================>                  ]  33.55MB/52.33MB
+ eb77aa907276 Downloading [=>                                                 ]  32.51MB/907.7MB
+ b0a0cf830b12 Downloading [================================================>  ]  28.31MB/29.15MB
+ e0d55fdb4d15 Downloading [=============>                                     ]  29.36MB/109MB
+ d63c4408fdb7 Download complete 
+ 3fadc669ef11 Downloading [============================>                      ]  25.17MB/43.48MB
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Downloading [==================================================>]  29.72MB/29.72MB
+ 3fadc669ef11 Downloading [======================================>            ]  33.55MB/43.48MB
+ f9dd052e142d Downloading [=======================================>           ]  40.89MB/52.33MB
+ eb77aa907276 Downloading [==>                                                ]  39.85MB/907.7MB
+ b0a0cf830b12 Download complete 
+ e0d55fdb4d15 Downloading [================>                                  ]   36.7MB/109MB
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ 3fadc669ef11 Downloading [================================================>  ]  41.94MB/43.48MB
+ e0d55fdb4d15 Downloading [====================>                              ]  44.04MB/109MB
+ f9dd052e142d Downloading [================================================>  ]  50.41MB/52.33MB
+ eb77aa907276 Downloading [==>                                                ]  48.23MB/907.7MB
+ 20043066d3d5 Download complete 
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [========================>                          ]  53.67MB/109MB
+ f9dd052e142d Download complete 
+ eb77aa907276 Downloading [===>                                               ]  58.72MB/907.7MB
+ 3fadc669ef11 Download complete 
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ e0d55fdb4d15 Downloading [=============================>                     ]  63.96MB/109MB
+ eb77aa907276 Downloading [===>                                               ]  69.21MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [====>                                              ]  80.74MB/907.7MB
+ e0d55fdb4d15 Downloading [=================================>                 ]   73.4MB/109MB
+ 20043066d3d5 Extracting 1 s
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=======================================>           ]  87.03MB/109MB
+ eb77aa907276 Downloading [====>                                              ]  90.18MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=====>                                             ]  101.7MB/907.7MB
+ e0d55fdb4d15 Downloading [============================================>      ]  96.47MB/109MB
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=================================================> ]    107MB/109MB
+ eb77aa907276 Downloading [======>                                            ]  112.2MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Download complete 
+ eb77aa907276 Downloading [======>                                            ]  125.8MB/907.7MB
+ 4831516dd0cb Extracting 1 s
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=======>                                           ]  140.5MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 1 s
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ eb77aa907276 Downloading [========>                                          ]  155.2MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 20043066d3d5 Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=========>                                         ]    172MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 1 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==========>                                        ]  187.7MB/907.7MB
+ 20043066d3d5 Extracting 2 s
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===========>                                       ]  203.4MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  220.2MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  234.9MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=============>                                     ]  247.5MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==============>                                    ]    259MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===============>                                   ]  272.5MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===============>                                   ]  287.3MB/907.7MB
+ 4831516dd0cb Extracting 3 s
+ f9dd052e142d Extracting 2 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [================>                                  ]    302MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 3 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=================>                                 ]  316.7MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 3 s
+ 20043066d3d5 Extracting 2 s
+ b0a0cf830b12 Extracting 3 s
+ eb77aa907276 Downloading [=================>                                 ]  325.1MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Pull complete 
+ 20043066d3d5 Pull complete 
+ 3fadc669ef11 Extracting 1 s
+ b0a0cf830b12 Extracting 3 s
+ eb77aa907276 Downloading [==================>                                ]  338.7MB/907.7MB
+ 47a60771af96 Pull complete 
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 7b28be0c8c4d Pull complete 
+ edcaff0d5e7e Extracting 1 s
+ b0a0cf830b12 Extracting 3 s
+ eb77aa907276 Downloading [===================>                               ]  354.4MB/907.7MB
+ 283a477db7bb Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ edcaff0d5e7e Pull complete 
+ 22dca8215bc4 Extracting 1 s
+ dda3d8fbd5ed Pull complete 
+ 3fadc669ef11 Extracting 1 s
+ b0a0cf830b12 Pull complete 
+ eb77aa907276 Downloading [====================>                              ]    366MB/907.7MB
+ 283a477db7bb Extracting 1 s
+ 22dca8215bc4 Extracting 1 s
+ 3fadc669ef11 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=====================>                             ]  381.7MB/907.7MB
+ 283a477db7bb Pull complete 
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 91d2729fa4d5 Extracting 1 s
+ eb77aa907276 Downloading [=====================>                             ]  396.4MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ 22dca8215bc4 Extracting 1 s
+ 91d2729fa4d5 Pull complete 
+ 3fadc669ef11 Extracting 1 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [======================>                            ]    413MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [=======================>                           ]  429.9MB/907.7MB
+ 22dca8215bc4 Pull complete 
+ f9dd052e142d Extracting 3 s
+ 9739ced65621 Extracting 1 s
+ 3fadc669ef11 Extracting 1 s
+ eb77aa907276 Downloading [========================>                          ]  445.6MB/907.7MB
+ 4f4fb700ef54 Pull complete 
+ bbf018d6d4b8 Pull complete 
+ c5761dea9b0e Pull complete 
+ redis Pulled 
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [=========================>                         ]  460.3MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [==========================>                        ]  477.1MB/907.7MB
+ ae3bb1b347a4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 3fadc669ef11 Extracting 1 s
+ 9739ced65621 Pull complete 
+ eb77aa907276 Downloading [===========================>                       ]  493.9MB/907.7MB
+ c199bff16b05 Pull complete 
+ ae3bb1b347a4 Pull complete 
+ f9dd052e142d Extracting 4 s
+ f8406d9c00ea Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ 3fadc669ef11 Extracting 2 s
+ eb77aa907276 Downloading [============================>                      ]  509.6MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ 3fadc669ef11 Extracting 2 s
+ eb77aa907276 Downloading [============================>                      ]  526.4MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ 3fadc669ef11 Extracting 2 s
+ eb77aa907276 Downloading [==============================>                    ]  545.3MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ 7084ac8f4ab6 Extracting 1 s
+ 3fadc669ef11 Pull complete 
+ eb77aa907276 Downloading [==============================>                    ]    561MB/907.7MB
+ 7084ac8f4ab6 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ eb77aa907276 Downloading [===============================>                   ]  577.8MB/907.7MB
+ f9dd052e142d Extracting 4 s
+ e0d55fdb4d15 Extracting 1 s
+ 7084ac8f4ab6 Extracting 1 s
+ eb77aa907276 Downloading [================================>                  ]  593.5MB/907.7MB
+ f9dd052e142d Extracting 4 s
+ 7084ac8f4ab6 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [=================================>                 ]  610.5MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ beb0d870d438 Pull complete 
+ f9dd052e142d Extracting 4 s
+ 7084ac8f4ab6 Pull complete 
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [==================================>                ]    627MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 4 s
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [===================================>               ]    645MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Pull complete 
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [====================================>              ]  659.6MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [=====================================>             ]  678.4MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [======================================>            ]  696.3MB/907.7MB
+ 648eb81b3252 Pull complete 
+ d63c4408fdb7 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ e8c6d4883897 Pull complete 
+ eb77aa907276 Downloading [=======================================>           ]  716.6MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ d63c4408fdb7 Extracting 1 s
+ eb77aa907276 Downloading [========================================>          ]  735.1MB/907.7MB
+ d63c4408fdb7 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=========================================>         ]  750.8MB/907.7MB
+ d63c4408fdb7 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==========================================>        ]  768.6MB/907.7MB
+ d63c4408fdb7 Pull complete 
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===========================================>       ]  788.5MB/907.7MB
+ f4e7f62f4b80 Pull complete 
+ 5e1c03b67a78 Pull complete 
+ efa05c660812 Pull complete 
+ 14e6209d5fa8 Pull complete 
+ e0d55fdb4d15 Extracting 2 s
+ d686b50ce172 Extracting 1 s
+ eb77aa907276 Downloading [============================================>      ]  806.4MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=============================================>     ]  823.1MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==============================================>    ]    842MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===============================================>   ]  857.7MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [================================================>  ]  878.7MB/907.7MB
+ d686b50ce172 Extracting 1 s
+ e0d55fdb4d15 Extracting 3 s
+ d686b50ce172 Pull complete 
+ rabbitmq Pulled 
+ eb77aa907276 Downloading [=================================================> ]  894.4MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [=================================================> ]  898.6MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Extracting 4 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ e0d55fdb4d15 Pull complete 
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ c1cb13b19080 Extracting 1 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ c1cb13b19080 Extracting 1 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ c1cb13b19080 Extracting 1 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ c1cb13b19080 Pull complete 
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ 873532e5f8c7 Extracting 1 s
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ 873532e5f8c7 Pull complete 
+ cb628c265f09 Pull complete 
+ 710e142705f8 Pull complete 
+ 050d9f8c3b1c Pull complete 
+ postgresql Pulled 
+ eb77aa907276 Download complete 
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ 4f4fb700ef54 Pull complete 
+ 2e81b9cb93cd Pull complete 
+ 0ffa8f8aba1e Pull complete 
+ eb77aa907276 Pull complete 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-rabbitmq-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-redis-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original
+configfile: setup.cfg
+testpaths: docs, tests, invenio_checks
+plugins: isort-4.0.0, flask-1.3.0, invenio-3.4.2, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, black-0.6.0, pycodestyle-2.5.0
+collected 92 items
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py,line=14::jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=9::'enablePackrat' deprecated - use 'enable_packrat'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=52::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=53::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=54::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=55::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=56::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=57::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=58::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=59::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=60::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=63::'excludeChars' argument is deprecated, use 'exclude_chars'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=73::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=74::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=119::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=122::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=155::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=157::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=199::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=325::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py,line=91::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py,line=92::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py,line=95::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py,line=99::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py,line=78::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py,line=79::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py,line=81::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=203::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=204::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=205::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=206::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=210::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=214::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py,line=219::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py,line=109::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py,line=110::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py,line=112::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=107::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=108::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=109::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=110::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=111::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=112::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=113::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=115::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=116::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py,line=117::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_communities/communities/resources/ui_schema.py,line=16::Implicit imports (e.g., 'import idutils; idutils.function;') might be removed in the next major version. Please use explicit imports (e.g., 'from idutils import function;') instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/fields.py,line=986::The 'default' argument to fields is deprecated. Use 'dump_default' instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/fields.py,line=986::The 'default' argument to fields is deprecated. Use 'dump_default' instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/fields.py,line=986::The 'default' argument to fields is deprecated. Use 'dump_default' instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/fields.py,line=986::The 'default' argument to fields is deprecated. Use 'dump_default' instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/fields.py,line=986::The 'default' argument to fields is deprecated. Use 'dump_default' instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/utils.py,line=361::`Field` should not be instantiated. Use `fields.Raw` or  another field subclass instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=73::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=108::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=109::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=110::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=113::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=148::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=149::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=150::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py,line=153::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/utils.py,line=361::`Field` should not be instantiated. Use `fields.Raw` or  another field subclass instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=127::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=138::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=153::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=157::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py,line=173::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py,line=56::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py,line=59::Relying on context is deprecated, please look for different solutions!
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/flask_resources/parsers/schema.py,line=61::The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py,line=109::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py,line=111::`pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=57::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=64::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py,line=65::Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+
+tests/contrib/file_formats/test_check.py .                               [  1%]
+tests/contrib/metadata/test_expressions.py ............................. [ 32%]
+..........................................                               [ 78%]
+tests/contrib/metadata/test_rules.py ..................                  [ 97%]
+tests/test_invenio_checks.py ..                                          [100%]
+
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14: DeprecationWarning: jsonschema.exceptions.RefResolutionError is deprecated as of version 4.18.0. If you wish to catch potential reference resolution errors, directly catch referencing.exceptions.Unresolvable.
+    from jsonschema import RefResolutionError, RefResolver
+
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records/resolver.py:14: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+    from jsonschema import RefResolutionError, RefResolver
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    pyparsing.ParserElement.enablePackrat()
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru12 = oneOf(["%.2d" % i for i in range(1, 13)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru13 = oneOf(["%.2d" % i for i in range(1, 14)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru23 = oneOf(["%.2d" % i for i in range(1, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru23 = oneOf(["%.2d" % i for i in range(0, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru29 = oneOf(["%.2d" % i for i in range(1, 30)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru30 = oneOf(["%.2d" % i for i in range(1, 31)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru31 = oneOf(["%.2d" % i for i in range(1, 32)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru59 = oneOf(["%.2d" % i for i in range(1, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru59 = oneOf(["%.2d" % i for i in range(0, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63: PyparsingDeprecationWarning: 'excludeChars' argument is deprecated, use 'exclude_chars'
+    positiveDigit = Word(nums, exact=1, excludeChars="0")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    (oneOf("01 03 05 07 08 10 12")("month") + "-" + oneThru31("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    ^ (oneOf("04 06 09 11")("month") + "-" + oneThru30("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: 19 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    p.addParseAction(cls.parse_action)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    UASymbol = Combine(oneOf("? ~ %"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonNumber = oneOf("21 22 23 24")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1Start.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1End.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    monthWithX = Combine(oneOf("0X 1X") ^ ("X" + digitOrX))("month")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    earlier = L("..").addParseAction(f)("lower") + date("upper").addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    later = date("lower").addParseAction(f) + L("..").addParseAction(f)("upper")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonL2Number = oneOf("21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41")
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:91
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:91: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link("{+api}/domains/{domain}", vars=domainvar),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:92
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:92: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_self_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:95
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:95: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_users_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:99
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/domains/config.py:99: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/domains{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57: 12 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:57: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "prev": Link(
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64: 12 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:64: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link(tpl),
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65: 12 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_records_resources/services/records/links.py:65: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "next": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:78
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:78: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link("{+api}/groups/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:79
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:79: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "avatar": Link("{+api}/groups/{id}/avatar.svg"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:81
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/groups/config.py:81: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/groups{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:203
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:203: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link("{+api}/users/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:204
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:204: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "avatar": Link("{+api}/users/{id}/avatar.svg"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:205
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:205: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "records_html": Link("{+ui}/search/records?q=parent.access.owned_by.user:{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:206
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:206: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_records_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:210
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:210: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_drafts_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:214
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:214: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "admin_moderation_html": Link(
+
+.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:219
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_users_resources/services/users/config.py:219: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/users{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:109
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:109: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": RequestEventLink("{+api}/requests/{request_id}/comments/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:110
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:110: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self_html": RequestEventLink("{+ui}/requests/{request_id}#commentevent-{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:112
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/events/config.py:112: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/requests/{request_id}/timeline{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:107
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:107: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": RequestLink("{+api}/requests/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:108
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:108: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self_html": RequestLink("{+ui}/requests/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:109
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:109: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "comments": RequestLink("{+api}/requests/{id}/comments"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:110
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:110: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "timeline": RequestLink("{+api}/requests/{id}/timeline"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:111
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:111: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "timeline_focused": RequestLink("{+api}/requests/{id}/timeline_focused"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:112
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:112: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "lock": RequestLink("{+api}/requests/{id}/lock"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:113
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:113: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "unlock": RequestLink("{+api}/requests/{id}/unlock"),
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:115
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:115: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/requests{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:116
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:116: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_user_requests_search = pagination_links("{+api}/user/requests{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:117
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_requests/services/requests/config.py:117: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    action_link = RequestLink(
+
+.venv/lib/python3.14/site-packages/invenio_communities/communities/resources/ui_schema.py:16
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_communities/communities/resources/ui_schema.py:16: DeprecationWarning: Implicit imports (e.g., 'import idutils; idutils.function;') might be removed in the next major version. Please use explicit imports (e.g., 'from idutils import function;') instead.
+    from idutils import detect_identifier_schemes, to_url
+
+.venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+.venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+.venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+.venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+.venv/lib/python3.14/site-packages/marshmallow/fields.py:986
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/fields.py:986: RemovedInMarshmallow4Warning: The 'default' argument to fields is deprecated. Use 'dump_default' instead.
+    super().__init__(**kwargs)
+
+.venv/lib/python3.14/site-packages/marshmallow/utils.py:361
+.venv/lib/python3.14/site-packages/marshmallow/utils.py:361
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/marshmallow/utils.py:361: ChangedInMarshmallow4Warning: `Field` should not be instantiated. Use `fields.Raw` or  another field subclass instead.
+    return cls_or_instance()
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:73
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:73: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/tasks{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:108
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:108: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": JobLink("{+api}/jobs/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:109
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:109: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "runs": JobLink("{+api}/jobs/{id}/runs"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:110
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:110: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self_admin_html": JobLink("{+ui}/administration/jobs/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:113
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:113: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/jobs{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:148
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:148: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": RunLink("{+api}/jobs/{job_id}/runs/{id}"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:149
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:149: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "stop": RunLink("{+api}/jobs/{job_id}/runs/{id}/actions/stop"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:150
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:150: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "logs": RunLink("{+api}/logs/jobs?q={id}"),
+
+.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:153
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_jobs/services/config.py:153: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/jobs/{job_id}{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:127
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:127: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link(
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:138
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:138: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/vocabularies/{type}{?args*}")
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:153
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:153: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    if_=Link(
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:157
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:157: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    else_=Link(
+
+.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:173
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_vocabularies/services/config.py:173: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/vocabularies/{type}{?args*}")
+
+.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py:56
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py:56: RemovedInMarshmallow4Warning: The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+    self.object_schema = object_schema_cls(
+
+.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py:59
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/flask_resources/serializers/base.py:59: DeprecationWarning: Relying on context is deprecated, please look for different solutions!
+    warn(
+
+.venv/lib/python3.14/site-packages/flask_resources/parsers/schema.py:61
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/flask_resources/parsers/schema.py:61: RemovedInMarshmallow4Warning: The `context` parameter is deprecated and will be removed in marshmallow 4.0. Use `contextvars.ContextVar` to pass context instead.
+    super().__init__(**kwargs)
+
+.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py:109
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py:109: DeprecationWarning: Link is deprecated and will be removed in v14.0. Use `ExternalLink` for third-party links and `EndpointLink` for InvenioRDM links.
+    "self": Link("{+api}/audit-logs/{id}", vars=idvar),
+
+.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py:111
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-checks/original/.venv/lib/python3.14/site-packages/invenio_audit_logs/services/config.py:111: DeprecationWarning: `pagination_links` is deprecated and will be removed in v14.0. Use `pagination_endpoint_links` instead.
+    links_search = pagination_links("{+api}/audit-logs{?args*}")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                                        Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------------------
+invenio_checks/__init__.py                                      3      0   100%
+invenio_checks/alembic/1742548610_create_checks_branch.py       8      2    75%   19, 24
+invenio_checks/alembic/1742549302_create_base_tables.py        20      8    60%   28-109, 121-124
+invenio_checks/api.py                                          39     27    31%   25-27, 32-35, 48-95
+invenio_checks/base.py                                         34      7    79%   26, 30, 43, 47, 50, 59, 64
+invenio_checks/components.py                                  100     72    28%   27-29, 47-49, 53-70, 75-86, 91-104, 108-139, 143-145, 149-155, 159-164, 168-181
+invenio_checks/config.py                                        2      0   100%
+invenio_checks/contrib/__init__.py                              0      0   100%
+invenio_checks/contrib/file_formats.py                         81     10    88%   51, 55-56, 78, 115, 120, 123, 127, 131, 158
+invenio_checks/contrib/metadata/__init__.py                     4      0   100%
+invenio_checks/contrib/metadata/check.py                       90     61    32%   32-34, 38, 42-44, 57-71, 76-102, 106-119, 127-130, 135-145, 150-160
+invenio_checks/contrib/metadata/expressions.py                198     18    91%   34, 77, 190-191, 203-204, 247-248, 288, 359, 398-406
+invenio_checks/contrib/metadata/rules.py                       65      0   100%
+invenio_checks/ext.py                                          15      0   100%
+invenio_checks/models.py                                       57      6    89%   42-45, 67, 73
+invenio_checks/proxies.py                                       3      0   100%
+invenio_checks/services/__init__.py                             4      0   100%
+invenio_checks/services/config.py                              24      0   100%
+invenio_checks/services/permissions.py                         16      0   100%
+invenio_checks/services/results.py                             42     27    36%   22, 31-35, 40-47, 53-56, 61-75
+invenio_checks/services/schema.py                              24      0   100%
+invenio_checks/services/services.py                            15      6    60%   23, 31, 35, 39, 43, 47
+invenio_checks/utils.py                                         6      0   100%
+invenio_checks/views/__init__.py                                2      0   100%
+invenio_checks/views/ui.py                                      4      0   100%
+-----------------------------------------------------------------------------------------
+TOTAL                                                         856    244    71%
+======================= 92 passed, 136 warnings in 9.59s =======================
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

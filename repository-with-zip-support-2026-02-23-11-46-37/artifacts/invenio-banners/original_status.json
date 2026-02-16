@@ -1,0 +1,37 @@
+{
+  "dependencies": [],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patches": [],
+    "reference": {
+      "actual_version": "6.0.0",
+      "base": null,
+      "branch": "v6.0.0",
+      "commit": "eaeef64455a9946d07222730f5fff4fbe20c88fa",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-banners",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-banners"
+    },
+    "test": [
+      "./run-tests.sh"
+    ]
+  },
+  "status": "success"
+}

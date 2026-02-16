@@ -1,0 +1,1476 @@
+ opensearch Pulling 
+ postgresql Pulling 
+ b0a0cf830b12 Pulling fs layer 
+ e0d55fdb4d15 Pulling fs layer 
+ cb628c265f09 Pulling fs layer 
+ dda3d8fbd5ed Pulling fs layer 
+ 050d9f8c3b1c Pulling fs layer 
+ f8406d9c00ea Pulling fs layer 
+ c199bff16b05 Pulling fs layer 
+ c1cb13b19080 Pulling fs layer 
+ 9739ced65621 Pulling fs layer 
+ ae3bb1b347a4 Pulling fs layer 
+ 873532e5f8c7 Pulling fs layer 
+ 283a477db7bb Pulling fs layer 
+ 91d2729fa4d5 Pulling fs layer 
+ 710e142705f8 Pulling fs layer 
+ 2e81b9cb93cd Pulling fs layer 
+ 648eb81b3252 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ f9dd052e142d Pulling fs layer 
+ eb77aa907276 Pulling fs layer 
+ e8c6d4883897 Pulling fs layer 
+ 0ffa8f8aba1e Pulling fs layer 
+ 9739ced65621 Downloading [======>                                            ]  1.049MB/8.069MB
+ 4f4fb700ef54 Already exists 
+ 0ffa8f8aba1e Download complete 
+ dda3d8fbd5ed Download complete 
+ 2e81b9cb93cd Download complete 
+ c1cb13b19080 Download complete 
+ f8406d9c00ea Download complete 
+ 648eb81b3252 Download complete 
+ eb77aa907276 Downloading [>                                                  ]   7.34MB/907.7MB
+ e8c6d4883897 Downloading [==================================================>]  4.398MB/4.398MB
+ 9739ced65621 Download complete 
+ 91d2729fa4d5 Download complete 
+ c199bff16b05 Download complete 
+ 283a477db7bb Download complete 
+ cb628c265f09 Download complete 
+ 710e142705f8 Download complete 
+ b0a0cf830b12 Downloading [==========>                                        ]  6.291MB/29.15MB
+ e0d55fdb4d15 Downloading [==>                                                ]  6.291MB/109MB
+ 050d9f8c3b1c Download complete 
+ 56b5e4f0933d Download complete 
+ 873532e5f8c7 Download complete 
+ ae3bb1b347a4 Download complete 
+ eb77aa907276 Downloading [=>                                                 ]  18.87MB/907.7MB
+ b0a0cf830b12 Downloading [============================>                      ]  16.78MB/29.15MB
+ e0d55fdb4d15 Downloading [=========>                                         ]  19.92MB/109MB
+ 5682dec5b749 Download complete 
+ e8c6d4883897 Download complete 
+ f9dd052e142d Downloading [===========>                                       ]  11.53MB/52.33MB
+ f9dd052e142d Downloading [=======================>                           ]  24.12MB/52.33MB
+ eb77aa907276 Downloading [=>                                                 ]  33.55MB/907.7MB
+ b0a0cf830b12 Downloading [================================================>  ]  28.31MB/29.15MB
+ e0d55fdb4d15 Downloading [===============>                                   ]   34.6MB/109MB
+ eb77aa907276 Downloading [==>                                                ]  49.28MB/907.7MB
+ f9dd052e142d Downloading [==================================>                ]  35.65MB/52.33MB
+ b0a0cf830b12 Download complete 
+ e0d55fdb4d15 Downloading [====================>                              ]  44.04MB/109MB
+ b0a0cf830b12 Extracting 1 s
+ f9dd052e142d Downloading [==============================================>    ]  48.23MB/52.33MB
+ eb77aa907276 Downloading [===>                                               ]  63.96MB/907.7MB
+ e0d55fdb4d15 Downloading [==========================>                        ]  57.67MB/109MB
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=================================>                 ]   73.4MB/109MB
+ f9dd052e142d Download complete 
+ eb77aa907276 Downloading [====>                                              ]  78.64MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=======================================>           ]  87.04MB/109MB
+ eb77aa907276 Downloading [=====>                                             ]  93.32MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [===============================================>   ]  102.8MB/109MB
+ eb77aa907276 Downloading [======>                                            ]  110.1MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Download complete 
+ eb77aa907276 Downloading [======>                                            ]  126.9MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [========>                                          ]  147.8MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=========>                                         ]  166.7MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=========>                                         ]    172MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=========>                                         ]    173MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [==========>                                        ]  184.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [===========>                                       ]  204.6MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  225.4MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=============>                                     ]  246.4MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==============>                                    ]  258.9MB/907.7MB
+ dda3d8fbd5ed Pull complete 
+ 283a477db7bb Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ b0a0cf830b12 Pull complete 
+ eb77aa907276 Downloading [===============>                                   ]  276.6MB/907.7MB
+ 91d2729fa4d5 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 283a477db7bb Pull complete 
+ eb77aa907276 Downloading [================>                                  ]  294.6MB/907.7MB
+ 9739ced65621 Extracting 1 s
+ 91d2729fa4d5 Pull complete 
+ f9dd052e142d Extracting 2 s
+ eb77aa907276 Downloading [=================>                                 ]  313.5MB/907.7MB
+ 9739ced65621 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ eb77aa907276 Downloading [==================>                                ]  330.3MB/907.7MB
+ 9739ced65621 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ eb77aa907276 Downloading [===================>                               ]    345MB/907.7MB
+ f8406d9c00ea Extracting 1 s
+ 9739ced65621 Pull complete 
+ f9dd052e142d Extracting 2 s
+ ae3bb1b347a4 Pull complete 
+ eb77aa907276 Downloading [===================>                               ]  361.8MB/907.7MB
+ f8406d9c00ea Pull complete 
+ c199bff16b05 Pull complete 
+ f9dd052e142d Extracting 2 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [====================>                              ]  376.1MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ eb77aa907276 Downloading [=====================>                             ]  397.4MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ eb77aa907276 Downloading [=======================>                           ]  418.4MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [========================>                          ]  438.3MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=========================>                         ]    454MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [=========================>                         ]  469.8MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [==========================>                        ]  487.6MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ f9dd052e142d Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [===========================>                       ]  503.3MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [============================>                      ]    518MB/907.7MB
+ 648eb81b3252 Pull complete 
+ e8c6d4883897 Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [=============================>                     ]  530.6MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [=============================>                     ]  542.1MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==============================>                    ]  553.6MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===============================>                   ]  567.3MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===============================>                   ]  577.8MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [================================>                  ]  590.3MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================>                 ]  606.1MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================>                 ]  616.6MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==================================>                ]  630.2MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===================================>               ]  643.8MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===================================>               ]  653.3MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [====================================>              ]  661.7MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [=====================================>             ]  674.2MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [======================================>            ]  693.1MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [=======================================>           ]    713MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [========================================>          ]    733MB/907.7MB
+ c1cb13b19080 Extracting 1 s
+ e0d55fdb4d15 Pull complete 
+ eb77aa907276 Downloading [=========================================>         ]  752.9MB/907.7MB
+ c1cb13b19080 Pull complete 
+ 710e142705f8 Pull complete 
+ 050d9f8c3b1c Pull complete 
+ 873532e5f8c7 Pull complete 
+ cb628c265f09 Pull complete 
+ postgresql Pulled 
+ eb77aa907276 Downloading [=========================================>         ]  761.3MB/907.7MB
+ eb77aa907276 Downloading [==========================================>        ]  770.7MB/907.7MB
+ eb77aa907276 Downloading [==========================================>        ]  780.1MB/907.7MB
+ eb77aa907276 Downloading [===========================================>       ]  793.8MB/907.7MB
+ eb77aa907276 Downloading [============================================>      ]  805.3MB/907.7MB
+ eb77aa907276 Downloading [=============================================>     ]  818.9MB/907.7MB
+ eb77aa907276 Downloading [==============================================>    ]  838.9MB/907.7MB
+ eb77aa907276 Downloading [===============================================>   ]  856.7MB/907.7MB
+ eb77aa907276 Downloading [================================================>  ]  878.7MB/907.7MB
+ eb77aa907276 Downloading [=================================================> ]  894.4MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Download complete 
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ 4f4fb700ef54 Pull complete 
+ 0ffa8f8aba1e Pull complete 
+ 2e81b9cb93cd Pull complete 
+ eb77aa907276 Pull complete 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-opensearch-1  Started
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=9::'enablePackrat' deprecated - use 'enable_packrat'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=52::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=53::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=54::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=55::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=56::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=57::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=58::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=59::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=60::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=63::'excludeChars' argument is deprecated, use 'exclude_chars'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=73::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=74::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=119::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=122::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=155::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=157::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=199::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=303::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=304::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py,line=325::'oneOf' deprecated - use 'one_of'
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py,line=103::'addParseAction' deprecated - use 'add_parse_action'
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original
+configfile: setup.cfg
+testpaths: tests, invenio_banners
+plugins: invenio-4.0.0, isort-4.0.0, flask-1.3.0, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, black-0.6.0, pycodestyle-2.5.0
+collected 47 items
+
+tests/records/test_disable.py .                                          [  2%]
+tests/records/test_models.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+..........                                 [ 25%]
+tests/resources/test_resources.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::error file=workdir/tests/invenio-banners/original/tests/resources/test_resources.py,line=130::test_create_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: create
+F::error file=workdir/tests/invenio-banners/original/tests/resources/test_resources.py,line=146::test_disable_expired_after_create_action%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: create
+F::error file=workdir/tests/invenio-banners/original/tests/resources/test_resources.py,line=166::test_update_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: update
+F::error file=workdir/tests/invenio-banners/original/tests/resources/test_resources.py,line=190::test_disable_expired_after_update_action%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: update
+F.::error file=workdir/tests/invenio-banners/original/tests/resources/test_resources.py,line=217::test_update_non_existing_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: update
+F::error file=workdir/tests/invenio-banners/original/tests/resources/test_resources.py,line=229::test_delete_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: delete
+F.::error file=workdir/tests/invenio-banners/original/tests/resources/test_resources.py,line=252::test_delete_non_existing_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: delete
+F......::error file=workdir/tests/invenio-banners/original/tests/resources/test_resources.py,line=427::test_html_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: create
+F                      [ 61%]
+tests/services/test_services.py ::error file=workdir/tests/invenio-banners/original/tests/services/test_services.py,line=73::test_banner_creation%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: create
+F::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+.::error file=workdir/tests/invenio-banners/original/tests/services/test_services.py,line=101::test_update_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: update
+F.::error file=workdir/tests/invenio-banners/original/tests/services/test_services.py,line=125::test_update_non_existing_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: update
+F::error file=workdir/tests/invenio-banners/original/tests/services/test_services.py,line=135::test_delete_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: delete
+F.::error file=workdir/tests/invenio-banners/original/tests/services/test_services.py,line=153::test_delete_non_existing_banner%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: delete
+F.....::error file=workdir/tests/invenio-banners/original/tests/services/test_services.py,line=254::test_disable_expired_banners%0A%0Ainvenio_records_resources.services.errors.PermissionDeniedError: disable
+F.                          [ 93%]
+tests/test_invenio_banners.py ..                                         [ 97%]
+tests/test_macro.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+                                                    [100%]
+
+=================================== FAILURES ===================================
+______________________________ test_create_banner ______________________________
+
+client = <FlaskClient <Flask 'invenio'>>
+admin = <pytest_invenio.user.UserFixtureBase object at 0x7fb9d7fffb10>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+
+    def test_create_banner(client, admin, headers):
+        """Create a banner."""
+        banner_data = banners["banner1"]
+        admin.login(client)
+    
+>       banner = _create_banner(client, banner_data, headers, 201).json
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/resources/test_resources.py:130: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/resources/test_resources.py:83: in _create_banner
+    result = client.post("/banners/", headers=headers, json=data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1167: in post
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+invenio_banners/resources/resource.py:87: in create
+    banner = self.service.create(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:102: in create
+    self.require_permission(identity, "create")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d8046d50>
+identity = <Identity id="2" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='id', value=2), Need(method='system_role', value='authenticated_user')}>
+action_name = 'create', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: create
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+___________________ test_disable_expired_after_create_action ___________________
+
+client = <FlaskClient <Flask 'invenio'>>
+admin = <pytest_invenio.user.UserFixtureBase object at 0x7fb9d80a2210>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+
+    def test_disable_expired_after_create_action(client, admin, headers):
+        """Disable expired banners after a create a banner action."""
+        # create banner first
+        banner0 = BannerModel.create(banners["banner0"])
+        assert banner0.active is True
+        banner_data = banners["banner2"]
+    
+        admin.login(client)
+    
+>       _create_banner(client, banner_data, headers, 201).json
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/resources/test_resources.py:146: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/resources/test_resources.py:83: in _create_banner
+    result = client.post("/banners/", headers=headers, json=data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1167: in post
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+invenio_banners/resources/resource.py:87: in create
+    banner = self.service.create(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:102: in create
+    self.require_permission(identity, "create")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d8046d50>
+identity = <Identity id="3" auth_type="None" provides={Need(method='id', value=3), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'create', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: create
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+______________________________ test_update_banner ______________________________
+
+client = <FlaskClient <Flask 'invenio'>>
+admin = <pytest_invenio.user.UserFixtureBase object at 0x7fb9d81fa520>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+
+    def test_update_banner(client, admin, headers):
+        """Update a banner."""
+        # create banner first
+        banner = BannerModel.create(banners["banner1"])
+    
+        admin.login(client)
+    
+        new_data = {
+            "start_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
+            "active": True,
+            "message": "New banner message",
+            "category": "info",
+        }
+    
+>       updated_banner = _update_banner(client, banner.id, new_data, headers, 200).json
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/resources/test_resources.py:166: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/resources/test_resources.py:90: in _update_banner
+    result = client.put(f"/banners/{id}", headers=headers, json=data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1172: in put
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+invenio_banners/resources/resource.py:49: in update
+    banner = self.service.update(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:131: in update
+    self.require_permission(identity, "update")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d8046d50>
+identity = <Identity id="4" auth_type="None" provides={Need(method='id', value=4), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'update', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: update
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+___________________ test_disable_expired_after_update_action ___________________
+
+client = <FlaskClient <Flask 'invenio'>>
+admin = <pytest_invenio.user.UserFixtureBase object at 0x7fb9dba262c0>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+
+    def test_disable_expired_after_update_action(client, admin, headers):
+        """Disable expired banners after an update a banner action."""
+        # create banner first
+        banner0 = BannerModel.create(banners["banner0"])
+        banner2 = BannerModel.create(banners["banner2"])
+        assert banner0.active is True
+    
+        admin.login(client)
+    
+        new_data = {
+            "start_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
+            "active": True,
+            "message": "New banner message",
+            "category": "info",
+        }
+    
+>       _update_banner(client, banner2.id, new_data, headers, 200).json
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/resources/test_resources.py:190: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/resources/test_resources.py:90: in _update_banner
+    result = client.put(f"/banners/{id}", headers=headers, json=data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1172: in put
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+invenio_banners/resources/resource.py:49: in update
+    banner = self.service.update(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:131: in update
+    self.require_permission(identity, "update")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d8046d50>
+identity = <Identity id="5" auth_type="None" provides={Need(method='id', value=5), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'update', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: update
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+_______________________ test_update_non_existing_banner ________________________
+
+client = <FlaskClient <Flask 'invenio'>>
+admin = <pytest_invenio.user.UserFixtureBase object at 0x7fb9d8098d10>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+
+    def test_update_non_existing_banner(client, admin, headers):
+        """Update a non-existing banner."""
+        admin.login(client)
+    
+        new_data = {"message": "New banner message"}
+    
+        # try to update a banner (get 404)
+>       banner = _update_banner(client, 1, new_data, headers, 404).json
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/resources/test_resources.py:217: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/resources/test_resources.py:90: in _update_banner
+    result = client.put(f"/banners/{id}", headers=headers, json=data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1172: in put
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+invenio_banners/resources/resource.py:49: in update
+    banner = self.service.update(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:131: in update
+    self.require_permission(identity, "update")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d8046d50>
+identity = <Identity id="7" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=7), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'update', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: update
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+______________________________ test_delete_banner ______________________________
+
+client = <FlaskClient <Flask 'invenio'>>
+admin = <pytest_invenio.user.UserFixtureBase object at 0x7fb9d809a580>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+
+    def test_delete_banner(client, admin, headers):
+        """Delete a banner."""
+        # create banner first
+        banner = BannerModel.create(banners["banner1"])
+    
+        admin.login(client)
+    
+>       _delete_banner(client, banner.id, headers, 204)
+
+tests/resources/test_resources.py:229: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/resources/test_resources.py:97: in _delete_banner
+    result = client.delete(f"/banners/{id}", headers=headers)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1177: in delete
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/resources/resource.py:102: in delete
+    banner = self.service.delete(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:121: in delete
+    self.require_permission(identity, "delete")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d8046d50>
+identity = <Identity id="8" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=8), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'delete', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: delete
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+_______________________ test_delete_non_existing_banner ________________________
+
+client = <FlaskClient <Flask 'invenio'>>
+admin = <pytest_invenio.user.UserFixtureBase object at 0x7fb9d43bd850>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+
+    def test_delete_non_existing_banner(client, admin, headers):
+        """Delete a non-existing banner."""
+        admin.login(client)
+    
+        # try to delete a banner (get 404)
+>       banner = _delete_banner(client, 1, headers, 404).json
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/resources/test_resources.py:252: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/resources/test_resources.py:97: in _delete_banner
+    result = client.delete(f"/banners/{id}", headers=headers)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1177: in delete
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:51: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/resources/resource.py:102: in delete
+    banner = self.service.delete(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:121: in delete
+    self.require_permission(identity, "delete")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d8046d50>
+identity = <Identity id="10" auth_type="None" provides={Need(method='id', value=10), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'delete', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: delete
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+_______________________________ test_html_banner _______________________________
+
+client = <FlaskClient <Flask 'invenio'>>
+admin = <pytest_invenio.user.UserFixtureBase object at 0x7fb9d431aed0>
+headers = {'accept': 'application/json', 'content-type': 'application/json'}
+
+    def test_html_banner(client, admin, headers):
+        banner_data = banners["html_banner"]
+        admin.login(client)
+    
+>       banner = _create_banner(client, banner_data, headers, 201).json
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/resources/test_resources.py:427: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/resources/test_resources.py:83: in _create_banner
+    result = client.post("/banners/", headers=headers, json=data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1167: in post
+    return self.open(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/testing.py:235: in open
+    response = super().open(
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1116: in open
+    response_parts = self.run_wsgi_app(request.environ, buffered=buffered)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:988: in run_wsgi_app
+    rv = run_wsgi_app(self.application, environ, buffered=buffered)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/werkzeug/test.py:1264: in run_wsgi_app
+    app_rv = app(environ, start_response)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1536: in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1514: in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:1511: in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:919: in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:917: in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask/app.py:902: in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/resources.py:65: in view
+    return view_meth()
+           ^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/content_negotiation.py:116: in inner_content_negotiation
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/parsers/decorators.py:90: in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/flask_resources/responses.py:39: in inner
+    res = f(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^
+invenio_banners/resources/resource.py:87: in create
+    banner = self.service.create(
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:102: in create
+    self.require_permission(identity, "create")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d8046d50>
+identity = <Identity id="17" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='id', value=17), Need(method='system_role', value='authenticated_user')}>
+action_name = 'create', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: create
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+_____________________________ test_banner_creation _____________________________
+
+app = <Flask 'invenio'>
+superuser_identity = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=1), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+
+    def test_banner_creation(app, superuser_identity):
+        """Create a banner."""
+        banner_data = banners["active"]
+>       banner = service.create(superuser_identity, banner_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/services/test_services.py:73: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:102: in create
+    self.require_permission(identity, "create")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d42a9cd0>
+identity = <Identity id="1" auth_type="None" provides={Need(method='system_role', value='any_user'), Need(method='id', value=1), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'create', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: create
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+---------------------------- Captured stderr setup -----------------------------
+JSONSCHEMAS_HOST is set to localhost
+[2026-02-17 12:39:06,785] WARNING in ext: JSONSCHEMAS_HOST is set to localhost
+JSONSCHEMAS_HOST is set to localhost
+JSONSCHEMAS_HOST is set to localhost
+JSONSCHEMAS_HOST is set to localhost
+------------------------------ Captured log setup ------------------------------
+WARNING  invenio:ext.py:291 JSONSCHEMAS_HOST is set to localhost
+______________________________ test_update_banner ______________________________
+
+app = <Flask 'invenio'>
+superuser_identity = <Identity id="3" auth_type="None" provides={Need(method='id', value=3), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+
+    def test_update_banner(app, superuser_identity):
+        """Update a banner."""
+        # create banner first
+        banner = BannerModel.create(banners["active"])
+    
+        new_data = {
+            "active": True,
+            "start_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
+            "message": "New banner message",
+            "category": "info",
+        }
+    
+>       updated_banner = service.update(superuser_identity, banner.id, new_data)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/services/test_services.py:101: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:131: in update
+    self.require_permission(identity, "update")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d42a9cd0>
+identity = <Identity id="3" auth_type="None" provides={Need(method='id', value=3), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'update', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: update
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+_______________________ test_update_non_existing_banner ________________________
+
+app = <Flask 'invenio'>
+superuser_identity = <Identity id="5" auth_type="None" provides={Need(method='id', value=5), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+
+    def test_update_non_existing_banner(app, superuser_identity):
+        """Update a non-existing banner."""
+        new_data = {"message": "New banner message"}
+    
+        with pytest.raises(BannerNotExistsError) as ex:
+>           service.update(superuser_identity, 1, new_data)
+
+tests/services/test_services.py:125: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:131: in update
+    self.require_permission(identity, "update")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d42a9cd0>
+identity = <Identity id="5" auth_type="None" provides={Need(method='id', value=5), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='system_role', value='authenticated_user')}>
+action_name = 'update', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: update
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+______________________________ test_delete_banner ______________________________
+
+app = <Flask 'invenio'>
+superuser_identity = <Identity id="6" auth_type="None" provides={Need(method='system_role', value='authenticated_user'), Need(method='id', value=6), Need(method='role', value='administration-access'), Need(method='system_role', value='any_user')}>
+
+    def test_delete_banner(app, superuser_identity):
+        """Delete a banner."""
+        # create banner first
+        banner = BannerModel.create(banners["active"])
+    
+>       service.delete(superuser_identity, banner.id)
+
+tests/services/test_services.py:135: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:121: in delete
+    self.require_permission(identity, "delete")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d42a9cd0>
+identity = <Identity id="6" auth_type="None" provides={Need(method='system_role', value='authenticated_user'), Need(method='id', value=6), Need(method='role', value='administration-access'), Need(method='system_role', value='any_user')}>
+action_name = 'delete', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: delete
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+_______________________ test_delete_non_existing_banner ________________________
+
+app = <Flask 'invenio'>
+superuser_identity = <Identity id="8" auth_type="None" provides={Need(method='system_role', value='authenticated_user'), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='id', value=8)}>
+
+    def test_delete_non_existing_banner(app, superuser_identity):
+        """Delete a non-existing banner."""
+        with pytest.raises(BannerNotExistsError) as ex:
+>           service.delete(superuser_identity, 1)
+
+tests/services/test_services.py:153: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:121: in delete
+    self.require_permission(identity, "delete")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d42a9cd0>
+identity = <Identity id="8" auth_type="None" provides={Need(method='system_role', value='authenticated_user'), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='id', value=8)}>
+action_name = 'delete', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: delete
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+_________________________ test_disable_expired_banners _________________________
+
+app = <Flask 'invenio'>
+superuser_identity = <Identity id="14" auth_type="None" provides={Need(method='system_role', value='authenticated_user'), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='id', value=14)}>
+
+    def test_disable_expired_banners(app, superuser_identity):
+        """Disable expired banners."""
+        # create banner first
+        BannerModel.create(banners["expired"])
+        BannerModel.create(banners["active"])
+    
+        assert (
+            db.session.query(BannerModel).filter(BannerModel.active.is_(True)).count() == 2
+        )
+>       service.disable_expired(superuser_identity)
+
+tests/services/test_services.py:254: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.14/site-packages/invenio_db/uow.py:251: in inner
+    res = f(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+invenio_banners/services/service.py:154: in disable_expired
+    self.require_permission(identity, "disable")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <invenio_banners.services.service.BannerService object at 0x7fb9d42a9cd0>
+identity = <Identity id="14" auth_type="None" provides={Need(method='system_role', value='authenticated_user'), Need(method='system_role', value='any_user'), Need(method='role', value='administration-access'), Need(method='id', value=14)}>
+action_name = 'disable', kwargs = {}
+
+    def require_permission(self, identity, action_name, **kwargs):
+        """Require a specific permission from the permission policy.
+    
+        Like `check_permission` but raises an error if not allowed.
+        """
+        if not self.check_permission(identity, action_name, **kwargs):
+>           raise PermissionDeniedError(action_name)
+E           invenio_records_resources.services.errors.PermissionDeniedError: disable
+
+.venv/lib/python3.14/site-packages/invenio_records_resources/services/base/service.py:51: PermissionDeniedError
+=============================== warnings summary ===============================
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:9: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    pyparsing.ParserElement.enablePackrat()
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:52: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru12 = oneOf(["%.2d" % i for i in range(1, 13)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:53: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru13 = oneOf(["%.2d" % i for i in range(1, 14)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:54: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru23 = oneOf(["%.2d" % i for i in range(1, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:55: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru23 = oneOf(["%.2d" % i for i in range(0, 24)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:56: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru29 = oneOf(["%.2d" % i for i in range(1, 30)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:57: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru30 = oneOf(["%.2d" % i for i in range(1, 31)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:58: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru31 = oneOf(["%.2d" % i for i in range(1, 32)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:59: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    oneThru59 = oneOf(["%.2d" % i for i in range(1, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:60: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    zeroThru59 = oneOf(["%.2d" % i for i in range(0, 60)])
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:63: PyparsingDeprecationWarning: 'excludeChars' argument is deprecated, use 'exclude_chars'
+    positiveDigit = Word(nums, exact=1, excludeChars="0")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:73: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    (oneOf("01 03 05 07 08 10 12")("month") + "-" + oneThru31("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:74: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    ^ (oneOf("04 06 09 11")("month") + "-" + oneThru30("day"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: 19 warnings
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/parser_classes.py:103: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    p.addParseAction(cls.parse_action)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:119: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    UASymbol = Combine(oneOf("? ~ %"))
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:122: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonNumber = oneOf("21 22 23 24")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:155: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1Start.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:157: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    l1End.addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:199: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    monthWithX = Combine(oneOf("0X 1X") ^ ("X" + digitOrX))("month")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:303: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    earlier = L("..").addParseAction(f)("lower") + date("upper").addParseAction(f)
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:304: PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'
+    later = date("lower").addParseAction(f) + L("..").addParseAction(f)("upper")
+
+.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/edtf/parser/grammar.py:325: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    seasonL2Number = oneOf("21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41")
+
+tests/records/test_models.py::test_get_with_sub_path
+tests/resources/test_resources.py::test_create_is_forbidden
+tests/services/test_services.py::test_banner_creation
+tests/test_macro.py::test_jinja_macro
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-banners/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py:29: FutureWarning: CSRF validation will be enabled by default in the version 1.3.x
+    self.init_app(app)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                                                      Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------
+invenio_banners/__init__.py                                                   3      0   100%
+invenio_banners/administration/__init__.py                                    0      0   100%
+invenio_banners/administration/banners.py                                    49      0   100%
+invenio_banners/alembic/3bfaeb3d8eff_change_datetime_types.py                17     10    41%   25-29, 34-38
+invenio_banners/alembic/5e02314da32e_create_invenio_banners_db_table.py      10      2    80%   23, 42
+invenio_banners/alembic/e40d93d99040_create_invenio_banners_branch.py        10      2    80%   22, 27
+invenio_banners/config.py                                                    10      0   100%
+invenio_banners/ext.py                                                       26      0   100%
+invenio_banners/proxies.py                                                    6      0   100%
+invenio_banners/records/__init__.py                                           2      0   100%
+invenio_banners/records/models.py                                            62      0   100%
+invenio_banners/resources/__init__.py                                         3      0   100%
+invenio_banners/resources/config.py                                          16      0   100%
+invenio_banners/resources/errors.py                                          15      1    93%   36
+invenio_banners/resources/resource.py                                        41      5    88%   56-58, 93-95, 107
+invenio_banners/services/__init__.py                                          4      0   100%
+invenio_banners/services/config.py                                           22      0   100%
+invenio_banners/services/permissions.py                                      10      0   100%
+invenio_banners/services/results.py                                          40      1    98%   62
+invenio_banners/services/schemas.py                                          20      5    75%   35-39
+invenio_banners/services/service.py                                          67     16    76%   105-114, 123-126, 133-144, 155, 158-162
+invenio_banners/utils.py                                                     21      8    62%   28, 45-52
+invenio_banners/views.py                                                      3      0   100%
+-------------------------------------------------------------------------------------------------------
+TOTAL                                                                       457     50    89%
+=========================== short test summary info ============================
+FAILED tests/resources/test_resources.py::test_create_banner - invenio_records_resources.services.errors.PermissionDeniedError: create
+FAILED tests/resources/test_resources.py::test_disable_expired_after_create_action - invenio_records_resources.services.errors.PermissionDeniedError: create
+FAILED tests/resources/test_resources.py::test_update_banner - invenio_records_resources.services.errors.PermissionDeniedError: update
+FAILED tests/resources/test_resources.py::test_disable_expired_after_update_action - invenio_records_resources.services.errors.PermissionDeniedError: update
+FAILED tests/resources/test_resources.py::test_update_non_existing_banner - invenio_records_resources.services.errors.PermissionDeniedError: update
+FAILED tests/resources/test_resources.py::test_delete_banner - invenio_records_resources.services.errors.PermissionDeniedError: delete
+FAILED tests/resources/test_resources.py::test_delete_non_existing_banner - invenio_records_resources.services.errors.PermissionDeniedError: delete
+FAILED tests/resources/test_resources.py::test_html_banner - invenio_records_resources.services.errors.PermissionDeniedError: create
+FAILED tests/services/test_services.py::test_banner_creation - invenio_records_resources.services.errors.PermissionDeniedError: create
+FAILED tests/services/test_services.py::test_update_banner - invenio_records_resources.services.errors.PermissionDeniedError: update
+FAILED tests/services/test_services.py::test_update_non_existing_banner - invenio_records_resources.services.errors.PermissionDeniedError: update
+FAILED tests/services/test_services.py::test_delete_banner - invenio_records_resources.services.errors.PermissionDeniedError: delete
+FAILED tests/services/test_services.py::test_delete_non_existing_banner - invenio_records_resources.services.errors.PermissionDeniedError: delete
+FAILED tests/services/test_services.py::test_disable_expired_banners - invenio_records_resources.services.errors.PermissionDeniedError: disable
+================== 14 failed, 33 passed, 46 warnings in 8.36s ==================
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-postgresql-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

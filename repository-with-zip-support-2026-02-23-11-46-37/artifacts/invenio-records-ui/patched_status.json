@@ -1,0 +1,37 @@
+{
+  "dependencies": [],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patches": [],
+    "reference": {
+      "actual_version": "3.0.0",
+      "base": null,
+      "branch": "v3.0.0",
+      "commit": "b6bb44f47970ada86add26b8604b079ae827de4e",
+      "commits_from_version": [],
+      "org": "inveniosoftware",
+      "package": "invenio-records-ui",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-records-ui"
+    },
+    "test": [
+      "./run-tests.sh"
+    ]
+  },
+  "status": "skipped"
+}

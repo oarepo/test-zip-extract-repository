@@ -1,0 +1,11 @@
+{
+  "DeprecationWarning: Implicit imports (e.g., 'import idutils; idutils.function;') might be removed in the next major version. Please use explicit imports (e.g., 'from idutils import function;') instead.": 1,
+  "PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'": 1,
+  "PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'": 15,
+  "PyparsingDeprecationWarning: 'excludeChars' argument is deprecated, use 'exclude_chars'": 1,
+  "PyparsingDeprecationWarning: 'addParseAction' deprecated - use 'add_parse_action'": 5,
+  "DeprecationWarning: subject_nested is deprecated. Use subject_combined instead.": 1,
+  "DeprecationWarning: The '__version__' attribute is deprecated and will be removed in in a future version. Use feature detection or 'importlib.metadata.version(\"marshmallow\")' instead.": 1,
+  "DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.": 2,
+  "DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.": 1
+}

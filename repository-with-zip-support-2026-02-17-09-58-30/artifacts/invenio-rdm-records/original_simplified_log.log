@@ -1,0 +1,78 @@
+ rabbitmq Pulling 
+ postgresql Pulling 
+ redis Pulling 
+ opensearch Pulling 
+ 4f4fb700ef54 Already exists 
+ 4f4fb700ef54 Already exists 
+ redis Pulled 
+ rabbitmq Pulled 
+ postgresql Pulled 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-rabbitmq-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-rabbitmq-1  Created
+ Container docker_services_cli-rabbitmq-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-rabbitmq-1  Started
+ Container docker_services_cli-redis-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-postgresql-1  Started
+Generating LALR tables
+WARNING: 2 shift/reduce conflicts
+WARNING: 2 reduce/reduce conflicts
+WARNING: reduce/reduce conflict in state 24 resolved using rule (phrase_or_possibly_negative_term -> PHRASE)
+WARNING: rejected rule (phrase_or_term -> PHRASE) in state 24
+ImportError while loading conftest '/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-rdm-records/original/tests/conftest.py'
+tests/conftest.py:17: in <module>
+    from invenio_rdm_records.services.permissions import RDMRequestsPermissionPolicy
+invenio_rdm_records/__init__.py:13: in <module>
+    from .ext import InvenioRDMRecords
+invenio_rdm_records/ext.py:22: in <module>
+    from . import config
+invenio_rdm_records/config.py:26: in <module>
+    import invenio_rdm_records.services.communities.moderation as communities_moderation
+invenio_rdm_records/services/__init__.py:11: in <module>
+    from .access import RecordAccessService
+invenio_rdm_records/services/access/__init__.py:10: in <module>
+    from .service import RecordAccessService
+invenio_rdm_records/services/access/service.py:38: in <module>
+    from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+invenio_rdm_records/requests/__init__.py:10: in <module>
+    from .access import GuestAccessRequest, UserAccessRequest
+invenio_rdm_records/requests/access/__init__.py:10: in <module>
+    from .models import AccessRequestToken
+invenio_rdm_records/requests/access/models.py:21: in <module>
+    class AccessRequestToken(db.Model):
+invenio_rdm_records/requests/access/models.py:41: in AccessRequestToken
+    db.UTCDateTime,
+    ^^^^^^^^^^^^^^
+venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py:1008: in __getattr__
+    raise AttributeError(name)
+E   AttributeError: UTCDateTime
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-rabbitmq-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Container docker_services_cli-rabbitmq-1  Stopped
+ Container docker_services_cli-rabbitmq-1  Removing
+ Container docker_services_cli-rabbitmq-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed

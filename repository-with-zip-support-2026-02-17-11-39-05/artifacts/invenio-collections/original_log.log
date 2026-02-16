@@ -1,0 +1,80 @@
+Generating LALR tables
+WARNING: 2 shift/reduce conflicts
+WARNING: 2 reduce/reduce conflicts
+WARNING: reduce/reduce conflict in state 24 resolved using rule (phrase_or_possibly_negative_term -> PHRASE)
+WARNING: rejected rule (phrase_or_term -> PHRASE) in state 24
+
+Configuration error!
+
+Versions
+========
+
+* Platform:         linux; (Linux-6.14.0-1017-azure-x86_64-with-glibc2.39)
+* Python version:   3.14.2 (CPython)
+* Sphinx version:   9.1.0
+* Docutils version: 0.22.4
+* Jinja2 version:   3.1.6
+* Pygments version: 2.19.2
+
+Last Messages
+=============
+
+None.
+
+Loaded Extensions
+=================
+
+None.
+
+Traceback
+=========
+
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/sphinx/config.py", line 611, in eval_config_file
+        raise ConfigError(msg % traceback.format_exc()) from exc
+    sphinx.errors.ConfigError: There is a programmable error in your configuration file:
+    
+    Traceback (most recent call last):
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/sphinx/config.py", line 596, in eval_config_file
+        exec(code, namespace)  # NoQA: S102
+        ~~~~^^^^^^^^^^^^^^^^^
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/docs/conf.py", line 11, in <module>
+        from invenio_collections import __version__
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_collections/__init__.py", line 12, in <module>
+        from .ext import InvenioCollections
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_collections/ext.py", line 11, in <module>
+        from invenio_collections.resources.config import CollectionsResourceConfig
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_collections/resources/config.py", line 16, in <module>
+        from invenio_rdm_records.resources.serializers import UIJSONSerializer
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/__init__.py", line 13, in <module>
+        from .ext import InvenioRDMRecords
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/ext.py", line 22, in <module>
+        from . import config
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/config.py", line 26, in <module>
+        import invenio_rdm_records.services.communities.moderation as communities_moderation
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/services/__init__.py", line 11, in <module>
+        from .access import RecordAccessService
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/__init__.py", line 10, in <module>
+        from .service import RecordAccessService
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/services/access/service.py", line 38, in <module>
+        from ...requests.access import AccessRequestToken, GuestAccessRequest, UserAccessRequest
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/__init__.py", line 10, in <module>
+        from .access import GuestAccessRequest, UserAccessRequest
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/__init__.py", line 10, in <module>
+        from .models import AccessRequestToken
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py", line 21, in <module>
+        class AccessRequestToken(db.Model):
+        ...<117 lines>...
+                return access_request_token
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/invenio_rdm_records/requests/access/models.py", line 41, in AccessRequestToken
+        db.UTCDateTime,
+        ^^^^^^^^^^^^^^
+      File "/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-collections/original/.venv/lib/python3.14/site-packages/flask_sqlalchemy/extension.py", line 1008, in __getattr__
+        raise AttributeError(name)
+    AttributeError: UTCDateTime
+
+
+The full traceback has been saved in:
+/tmp/sphinx-err-ld4e33vd.log
+
+To report this error to the developers, please open an issue at <https://github.com/sphinx-doc/sphinx/issues/>. Thanks!
+Please also report this if it was a user error, so that a better error message can be provided next time.

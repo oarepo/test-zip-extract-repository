@@ -1,0 +1,40 @@
+{
+  "dependencies": [],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patches": [],
+    "reference": {
+      "actual_version": "4.0.0",
+      "base": null,
+      "branch": "contribution-container-previewers",
+      "commit": "d4d6e2bf885148a0a1689f71a26fe7606f9bcd63",
+      "commits_from_version": [
+        "c6df80dfc092f43f8c8c5f15601b57ca8a9bfb51",
+        "d4d6e2bf885148a0a1689f71a26fe7606f9bcd63"
+      ],
+      "org": "oarepo",
+      "package": "invenio-previewer",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-previewer"
+    },
+    "test": [
+      "./run-tests.sh"
+    ]
+  },
+  "status": "success"
+}

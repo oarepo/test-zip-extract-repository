@@ -1,0 +1,56 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-cli/original
+configfile: setup.cfg
+testpaths: docs, tests, invenio_cli
+plugins: invenio-4.0.0, isort-4.0.0, flask-1.3.0, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, black-0.6.0, pycodestyle-2.5.0
+collected 45 items
+tests/commands/test_commands.py ssss                                     [  8%]
+tests/commands/test_containers.py ssssssss                               [ 26%]
+tests/commands/test_local.py ssssssssssssss..                            [ 62%]
+tests/commands/test_requirements.py .                                    [ 64%]
+tests/commands/test_steps.py ..                                          [ 68%]
+tests/helpers/test_cli_config.py ......                                  [ 82%]
+tests/helpers/test_cookiecutter_wrapper.py ...                           [ 88%]
+tests/helpers/test_dockerhelper.py s                                     [ 91%]
+tests/helpers/test_env.py .                                              [ 93%]
+tests/helpers/test_filesystem.py .                                       [ 95%]
+tests/test_cli.py ss                                                     [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+Name                                          Stmts   Miss  Cover   Missing
+invenio_cli/__init__.py                           2      0   100%
+invenio_cli/cli/__init__.py                       2      0   100%
+invenio_cli/cli/assets.py                        39     16    59%   48-49, 61-68, 78-79, 88-94
+invenio_cli/cli/cli.py                          132     63    52%   67-72, 79, 93, 122-149, 157-158, 197-209, 237-250, 269-289, 296-307, 315-319
+invenio_cli/cli/containers.py                    67     31    54%   39-47, 79-91, 109, 147-153, 160-165, 172-178
+invenio_cli/cli/install.py                       47     23    51%   20-22, 53-62, 81-86, 100-106, 113-118
+invenio_cli/cli/packages.py                      57     32    44%   33-42, 59-72, 81-86, 94-113
+invenio_cli/cli/services.py                      55     30    45%   26-32, 64-70, 88-103, 112-117, 124-130
+invenio_cli/cli/translations.py                  42     21    50%   33-44, 52-61, 68-76, 84-94
+invenio_cli/cli/utils.py                         35     24    31%   19-24, 29-50
+invenio_cli/commands/__init__.py                 11      0   100%
+invenio_cli/commands/assets.py                   51     34    33%   25, 29-30, 34, 38-43, 50-59, 68-72, 79-91, 95-123, 127-139
+invenio_cli/commands/commands.py                 19      9    53%   29-30, 34-37, 45-54
+invenio_cli/commands/containers.py               69     51    26%   24-28, 36-48, 52-92, 96-173, 177-188, 192-202, 206-217, 221-232, 236-251, 270-299, 313-336
+invenio_cli/commands/install.py                  37     24    35%   24, 29-37, 41-55, 59-62, 66-83, 87, 97-100
+invenio_cli/commands/local.py                   121     71    41%   35-44, 48-71, 75-77, 88-119, 126-130, 136-161, 184, 205-210, 229, 250-257
+invenio_cli/commands/packages.py                 37     24    35%   23, 27-37, 41-50, 54-63, 70-79, 83-94, 98-107, 111-121
+invenio_cli/commands/requirements.py            122     67    45%   28-29, 37, 78-83, 89-94, 102-109, 115-121, 128-136, 144-151, 160-165, 174-190, 197-231, 236-261
+invenio_cli/commands/services.py                117     91    22%   30-31, 37-68, 75-82, 88-133, 137-140, 144-260, 264-273, 277-280, 284-294, 298-308, 312-317, 325-346, 350-357, 361-368, 372-384, 393-413
+invenio_cli/commands/services_health.py          47     32    32%   32-34, 41-43, 61-64, 82-84, 115-157
+invenio_cli/commands/steps.py                    26      6    77%   24, 58-61, 65
+invenio_cli/commands/translations.py             33     23    30%   22-24, 36-48, 58-67, 77-85, 101-137
+invenio_cli/commands/upgrade.py                  15     10    33%   19, 30-77
+invenio_cli/errors.py                             2      0   100%
+invenio_cli/helpers/__init__.py                   5      0   100%
+invenio_cli/helpers/cli_config.py               121     35    71%   68-71, 76-87, 94-102, 155, 159, 166, 170, 174, 178-187, 193, 197, 201
+invenio_cli/helpers/cookiecutter_wrapper.py      56     23    59%   57-61, 72-77, 82-92, 98-108, 112-113, 117-118
+invenio_cli/helpers/docker_helper.py             45     32    29%   28-32, 40-47, 51-58, 70-81, 88-98, 102-107, 111-118, 122-136
+invenio_cli/helpers/env.py                       14      0   100%
+invenio_cli/helpers/filesystem.py                34     10    71%   33, 56-65
+invenio_cli/helpers/package_managers.py         163     99    39%   30, 34, 38, 42, 46, 50, 54, 58, 62, 73, 77-80, 84-85, 89, 93, 97-102, 106-111, 115, 119, 131, 135-138, 142-143, 147, 151, 155-160, 164-167, 172, 179-180, 198, 202, 206, 210, 220, 224, 228, 233-271, 284, 288, 292, 297-359
+invenio_cli/helpers/process.py                   31     19    39%   35-40, 50-70
+invenio_cli/helpers/versions.py                  41     29    29%   17-18, 28-32, 37-41, 46-58, 63-70, 75-82
+TOTAL                                          1695    929    45%
+======================== 16 passed, 29 skipped in 1.43s ========================

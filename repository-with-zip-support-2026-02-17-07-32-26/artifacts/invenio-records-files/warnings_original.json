@@ -1,0 +1,5 @@
+{
+  "UserWarning: W0502: The following deprecated single dash CLI flags were used and translated: -df!": 1,
+  "UserWarning: W0501: The following deprecated CLI flags were used and ignored: -rc!": 1,
+  "UserWarning: W0500: Please see the 5.0.0 Upgrade guide: https://pycqa.github.io/isort/docs/upgrade_guides/5.0.0.html": 1
+}

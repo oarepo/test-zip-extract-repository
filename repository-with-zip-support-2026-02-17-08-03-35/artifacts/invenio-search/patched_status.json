@@ -1,0 +1,389 @@
+{
+  "dependencies": [
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v6.2.2",
+        "commit": "3de42e91a8a1b271cd0bbcbb6fd675f785d7e396",
+        "org": "inveniosoftware",
+        "package": "invenio-accounts",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-accounts",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v4.2.0",
+        "commit": "1beac310cb9ed64e23621a86b2e2682b5e0f7c8b",
+        "org": "inveniosoftware",
+        "package": "invenio-assets",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-assets",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v2.4.0",
+        "commit": "404908d766249d5114ccf465c0dfef00b484a3b2",
+        "org": "inveniosoftware",
+        "package": "invenio-base",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-base",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v2.2.0",
+        "commit": "3474a7e83278c6c1463a5cb53497b0cbb3a824d2",
+        "org": "inveniosoftware",
+        "package": "invenio-celery",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-celery",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v2.1.2",
+        "commit": "513660c7e5bccff79f420231d164876c99af6d74",
+        "org": "inveniosoftware",
+        "package": "invenio-db",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-db",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v3.4.3",
+        "commit": "1a3db41ce62cc348bec5803d5fc98892381a3e00",
+        "org": "inveniosoftware",
+        "package": "invenio-i18n",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-i18n",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v4.1.1",
+        "commit": "e43a77459740d57a8ffc124d42a7998fe8f06b61",
+        "org": "inveniosoftware",
+        "package": "invenio-logging",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-logging",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v2.3.0",
+        "commit": "ef1d2b7f41642653a2c5c7813083cbbbf134256b",
+        "org": "inveniosoftware",
+        "package": "invenio-mail",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-mail",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v2.0.5",
+        "commit": "a48272243a466862fe089a25e395d8d475cee64b",
+        "org": "inveniosoftware",
+        "package": "invenio-rest",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-rest",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v3.1.2",
+        "commit": "823654dc15f780d3645328f61a483b64e3bdf6c8",
+        "org": "inveniosoftware",
+        "package": "invenio-search",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-search",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    },
+    {
+      "extras": [
+        "tests",
+        "opensearch2",
+        "s3",
+        "devs",
+        "s3fs",
+        "oaipmh",
+        "rdf",
+        "sparql",
+        "postgresql",
+        "admin"
+      ],
+      "freeze": [
+        "setuptools<82.0.0"
+      ],
+      "patches": [],
+      "reference": {
+        "base": null,
+        "branch": "v4.5.0",
+        "commit": "d963540295a9bc4010301774138de161cec944e5",
+        "org": "inveniosoftware",
+        "package": "invenio-theme",
+        "pr": null,
+        "pr_info": null,
+        "repo": "invenio-theme",
+        "versions": []
+      },
+      "test": [
+        "./run-tests.sh"
+      ]
+    }
+  ],
+  "package": {
+    "extras": [
+      "tests",
+      "opensearch2",
+      "s3",
+      "devs",
+      "s3fs",
+      "oaipmh",
+      "rdf",
+      "sparql",
+      "postgresql",
+      "admin"
+    ],
+    "freeze": [
+      "setuptools<82.0.0"
+    ],
+    "patches": [],
+    "reference": {
+      "base": null,
+      "branch": "v3.1.2",
+      "commit": "823654dc15f780d3645328f61a483b64e3bdf6c8",
+      "org": "inveniosoftware",
+      "package": "invenio-search",
+      "pr": null,
+      "pr_info": null,
+      "repo": "invenio-search",
+      "versions": []
+    },
+    "test": [
+      "./run-tests.sh"
+    ]
+  },
+  "status": "skipped"
+}

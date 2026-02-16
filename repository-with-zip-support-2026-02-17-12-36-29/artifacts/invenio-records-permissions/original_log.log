@@ -1,0 +1,783 @@
+running extract_messages
+extracting messages from invenio_records_permissions/__init__.py
+extracting messages from invenio_records_permissions/api.py
+extracting messages from invenio_records_permissions/config.py
+extracting messages from invenio_records_permissions/errors.py
+extracting messages from invenio_records_permissions/ext.py
+extracting messages from invenio_records_permissions/generators.py
+extracting messages from invenio_records_permissions/policies/__init__.py
+extracting messages from invenio_records_permissions/policies/base.py
+extracting messages from invenio_records_permissions/policies/records.py
+writing PO template file to /dev/null
+ redis Pulling 
+ opensearch Pulling 
+ postgresql Pulling 
+ 4831516dd0cb Pulling fs layer 
+ 47a60771af96 Pulling fs layer 
+ edcaff0d5e7e Pulling fs layer 
+ c5761dea9b0e Pulling fs layer 
+ bbf018d6d4b8 Pulling fs layer 
+ 7b28be0c8c4d Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 22dca8215bc4 Pulling fs layer 
+ e8c6d4883897 Pulling fs layer 
+ 2e81b9cb93cd Pulling fs layer 
+ 648eb81b3252 Pulling fs layer 
+ eb77aa907276 Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 0ffa8f8aba1e Pulling fs layer 
+ f9dd052e142d Pulling fs layer 
+ 4f4fb700ef54 Already exists 
+ 4f4fb700ef54 Already exists 
+ cb628c265f09 Pulling fs layer 
+ b0a0cf830b12 Pulling fs layer 
+ dda3d8fbd5ed Pulling fs layer 
+ 283a477db7bb Pulling fs layer 
+ 91d2729fa4d5 Pulling fs layer 
+ 9739ced65621 Pulling fs layer 
+ ae3bb1b347a4 Pulling fs layer 
+ f8406d9c00ea Pulling fs layer 
+ c199bff16b05 Pulling fs layer 
+ e0d55fdb4d15 Pulling fs layer 
+ c1cb13b19080 Pulling fs layer 
+ 873532e5f8c7 Pulling fs layer 
+ 050d9f8c3b1c Pulling fs layer 
+ 710e142705f8 Pulling fs layer 
+ edcaff0d5e7e Download complete 
+ 0ffa8f8aba1e Download complete 
+ 47a60771af96 Download complete 
+ e8c6d4883897 Download complete 
+ 7b28be0c8c4d Download complete 
+ 2e81b9cb93cd Download complete 
+ c4cc93acbec6 Download complete 
+ c5761dea9b0e Download complete 
+ 648eb81b3252 Download complete 
+ bbf018d6d4b8 Download complete 
+ e7da101a9486 Downloading [==================================================>]  35.71kB/35.71kB
+ 22dca8215bc4 Downloading [=============>                                     ]  4.194MB/15.35MB
+ f9dd052e142d Downloading [========>                                          ]  8.389MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  6.291MB/907.7MB
+ 4831516dd0cb Downloading [=======>                                           ]  4.194MB/28.23MB
+ e7da101a9486 Download complete 
+ 22dca8215bc4 Downloading [==================================>                ]  10.49MB/15.35MB
+ dda3d8fbd5ed Download complete 
+ 91d2729fa4d5 Download complete 
+ c1cb13b19080 Download complete 
+ 710e142705f8 Download complete 
+ cb628c265f09 Download complete 
+ 9739ced65621 Downloading [================================>                  ]  5.243MB/8.069MB
+ ae3bb1b347a4 Download complete 
+ 050d9f8c3b1c Download complete 
+ 56b5e4f0933d Download complete 
+ b0a0cf830b12 Downloading [===>                                               ]  2.097MB/29.15MB
+ c199bff16b05 Download complete 
+ 283a477db7bb Downloading [==================================>                ]  3.142MB/4.533MB
+ 5682dec5b749 Downloading [=========>                                         ]  1.049MB/5.719MB
+ f8406d9c00ea Download complete 
+ 873532e5f8c7 Download complete 
+ 4831516dd0cb Downloading [==========================>                        ]  14.68MB/28.23MB
+ f9dd052e142d Downloading [=================>                                 ]  17.83MB/52.33MB
+ eb77aa907276 Downloading [>                                                  ]  16.78MB/907.7MB
+ 9739ced65621 Download complete 
+ e0d55fdb4d15 Downloading [==>                                                ]  5.243MB/109MB
+ b0a0cf830b12 Downloading [=====================>                             ]  12.58MB/29.15MB
+ 22dca8215bc4 Download complete 
+ 283a477db7bb Download complete 
+ 5682dec5b749 Download complete 
+ 4831516dd0cb Downloading [================================================>  ]  27.26MB/28.23MB
+ e0d55fdb4d15 Downloading [===>                                               ]   7.34MB/109MB
+ b0a0cf830b12 Downloading [============================================>      ]  26.21MB/29.15MB
+ f9dd052e142d Downloading [=======================>                           ]  24.12MB/52.33MB
+ eb77aa907276 Downloading [=>                                                 ]  30.41MB/907.7MB
+ e0d55fdb4d15 Downloading [========>                                          ]  17.83MB/109MB
+ 4831516dd0cb Download complete 
+ b0a0cf830b12 Download complete 
+ eb77aa907276 Downloading [==>                                                ]  41.94MB/907.7MB
+ f9dd052e142d Downloading [=================================>                 ]   34.6MB/52.33MB
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=============>                                     ]  29.36MB/109MB
+ f9dd052e142d Downloading [========================================>          ]  41.94MB/52.33MB
+ eb77aa907276 Downloading [===>                                               ]  54.53MB/907.7MB
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [===>                                               ]  68.16MB/907.7MB
+ f9dd052e142d Downloading [=============================================>     ]  47.19MB/52.33MB
+ e0d55fdb4d15 Downloading [=================>                                 ]   38.8MB/109MB
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ f9dd052e142d Downloading [==================================================>]  52.33MB/52.33MB
+ eb77aa907276 Downloading [====>                                              ]  80.74MB/907.7MB
+ e0d55fdb4d15 Downloading [=======================>                           ]  50.33MB/109MB
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [=========================>                         ]  55.57MB/109MB
+ f9dd052e142d Download complete 
+ eb77aa907276 Downloading [=====>                                             ]  97.52MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [==============================>                    ]  66.06MB/109MB
+ eb77aa907276 Downloading [======>                                            ]  110.1MB/907.7MB
+ 4831516dd0cb Extracting 1 s
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [================================>                  ]  70.25MB/109MB
+ eb77aa907276 Downloading [=======>                                           ]  127.9MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=======>                                           ]  142.6MB/907.7MB
+ e0d55fdb4d15 Downloading [===================================>               ]  76.55MB/109MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [======================================>            ]  83.45MB/109MB
+ eb77aa907276 Downloading [========>                                          ]  152.6MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ eb77aa907276 Downloading [=========>                                         ]  166.9MB/907.7MB
+ e0d55fdb4d15 Downloading [=========================================>         ]  90.18MB/109MB
+ 4831516dd0cb Extracting 1 s
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 1 s
+ e0d55fdb4d15 Downloading [============================================>      ]  96.47MB/109MB
+ eb77aa907276 Downloading [==========>                                        ]  183.5MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==========>                                        ]  192.9MB/907.7MB
+ e0d55fdb4d15 Downloading [===============================================>   ]  102.8MB/109MB
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===========>                                       ]  205.5MB/907.7MB
+ e0d55fdb4d15 Downloading [==================================================>]    109MB/109MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===========>                                       ]  213.9MB/907.7MB
+ e0d55fdb4d15 Download complete 
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 1 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [============>                                      ]  230.7MB/907.7MB
+ f9dd052e142d Extracting 1 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [=============>                                     ]  246.4MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [==============>                                    ]  264.5MB/907.7MB
+ 4831516dd0cb Extracting 2 s
+ f9dd052e142d Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [===============>                                   ]  278.9MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Extracting 2 s
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [================>                                  ]  292.6MB/907.7MB
+ 47a60771af96 Pull complete 
+ f9dd052e142d Extracting 2 s
+ 4831516dd0cb Pull complete 
+ b0a0cf830b12 Extracting 2 s
+ eb77aa907276 Downloading [================>                                  ]  300.9MB/907.7MB
+ edcaff0d5e7e Extracting 1 s
+ dda3d8fbd5ed Pull complete 
+ 7b28be0c8c4d Pull complete 
+ f9dd052e142d Extracting 2 s
+ 283a477db7bb Extracting 1 s
+ b0a0cf830b12 Pull complete 
+ eb77aa907276 Downloading [=================>                                 ]  313.5MB/907.7MB
+ edcaff0d5e7e Pull complete 
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 283a477db7bb Extracting 1 s
+ eb77aa907276 Downloading [=================>                                 ]  315.6MB/907.7MB
+ 91d2729fa4d5 Pull complete 
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 9739ced65621 Extracting 1 s
+ 283a477db7bb Pull complete 
+ eb77aa907276 Downloading [==================>                                ]  328.2MB/907.7MB
+ f9dd052e142d Extracting 2 s
+ 22dca8215bc4 Extracting 1 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [==================>                                ]  338.7MB/907.7MB
+ 22dca8215bc4 Extracting 1 s
+ f9dd052e142d Extracting 2 s
+ 9739ced65621 Extracting 1 s
+ eb77aa907276 Downloading [===================>                               ]  353.5MB/907.7MB
+ 4f4fb700ef54 Pull complete 
+ c5761dea9b0e Extracting 1 s
+ bbf018d6d4b8 Pull complete 
+ 22dca8215bc4 Pull complete 
+ f9dd052e142d Extracting 2 s
+ 9739ced65621 Extracting 1 s
+ c5761dea9b0e Pull complete 
+ redis Pulled 
+ eb77aa907276 Downloading [====================>                              ]  369.2MB/907.7MB
+ ae3bb1b347a4 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ 9739ced65621 Pull complete 
+ eb77aa907276 Downloading [=====================>                             ]    389MB/907.7MB
+ ae3bb1b347a4 Pull complete 
+ f9dd052e142d Extracting 3 s
+ c199bff16b05 Pull complete 
+ f8406d9c00ea Pull complete 
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [======================>                            ]  406.8MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=======================>                           ]  424.7MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [========================>                          ]  438.3MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=========================>                         ]  455.1MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [==========================>                        ]    475MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [===========================>                       ]  493.9MB/907.7MB
+ f9dd052e142d Extracting 3 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [============================>                      ]  511.7MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [============================>                      ]  526.4MB/907.7MB
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Extracting 3 s
+ eb77aa907276 Downloading [=============================>                     ]  543.2MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ f9dd052e142d Pull complete 
+ eb77aa907276 Downloading [==============================>                    ]  547.4MB/907.7MB
+ e8c6d4883897 Extracting 1 s
+ e0d55fdb4d15 Extracting 1 s
+ eb77aa907276 Downloading [==============================>                    ]  559.2MB/907.7MB
+ e8c6d4883897 Pull complete 
+ 648eb81b3252 Extracting 1 s
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [================================>                  ]  582.2MB/907.7MB
+ 648eb81b3252 Pull complete 
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================>                 ]  601.9MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================>                 ]    604MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================>                 ]  610.3MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================>                 ]  614.5MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [=================================>                 ]  615.5MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==================================>                ]  619.7MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==================================>                ]    625MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [==================================>                ]  632.3MB/907.7MB
+ e0d55fdb4d15 Extracting 2 s
+ eb77aa907276 Downloading [===================================>               ]  652.2MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [=====================================>             ]  672.1MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [======================================>            ]    690MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [=======================================>           ]  710.9MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [========================================>          ]    734MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [=========================================>         ]  750.8MB/907.7MB
+ e0d55fdb4d15 Extracting 3 s
+ eb77aa907276 Downloading [==========================================>        ]  769.7MB/907.7MB
+ c1cb13b19080 Pull complete 
+ 710e142705f8 Pull complete 
+ cb628c265f09 Pull complete 
+ 050d9f8c3b1c Pull complete 
+ 873532e5f8c7 Pull complete 
+ e0d55fdb4d15 Pull complete 
+ postgresql Pulled 
+ eb77aa907276 Downloading [===========================================>       ]  789.6MB/907.7MB
+ eb77aa907276 Downloading [=============================================>     ]  818.6MB/907.7MB
+ eb77aa907276 Downloading [==============================================>    ]    842MB/907.7MB
+ eb77aa907276 Downloading [===============================================>   ]  861.1MB/907.7MB
+ eb77aa907276 Downloading [================================================>  ]  883.9MB/907.7MB
+ eb77aa907276 Downloading [=================================================> ]    907MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Downloading [==================================================>]  907.7MB/907.7MB
+ eb77aa907276 Download complete 
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 1 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 2 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 3 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 4 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ eb77aa907276 Extracting 5 s
+ 4f4fb700ef54 Pull complete 
+ 0ffa8f8aba1e Pull complete 
+ 2e81b9cb93cd Pull complete 
+ eb77aa907276 Pull complete 
+ opensearch Pulled 
+ Network docker_services_cli_default  Creating
+ Network docker_services_cli_default  Created
+ Container docker_services_cli-postgresql-1  Creating
+ Container docker_services_cli-opensearch-1  Creating
+ Container docker_services_cli-redis-1  Creating
+ Container docker_services_cli-opensearch-1  Created
+ Container docker_services_cli-redis-1  Created
+ Container docker_services_cli-postgresql-1  Created
+ Container docker_services_cli-postgresql-1  Starting
+ Container docker_services_cli-opensearch-1  Starting
+ Container docker_services_cli-redis-1  Starting
+ Container docker_services_cli-postgresql-1  Started
+ Container docker_services_cli-opensearch-1  Started
+ Container docker_services_cli-redis-1  Started
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original
+configfile: setup.cfg
+testpaths: tests, invenio_records_permissions
+plugins: mock-3.15.1, invenio-4.0.0, isort-4.0.0, flask-1.3.0, github-actions-annotate-failures-0.3.0, pydocstyle-2.4.0, cov-7.0.0, black-0.6.0, pycodestyle-2.5.0
+collected 28 items
+::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/tests/test_permissions_base.py,line=29::cannot collect test class 'TestPermissionPolicy' because it has a __init__ constructor (from: tests/test_permissions_base.py)
+
+tests/test_generators.py ....::error file=workdir/tests/invenio-records-permissions/original/tests/test_generators.py,line=89::test_system_process_without_superuser%0A%0AAssertionError: assert [Need(method=...0d3211c5442')] == [Need(method=...user-access')]%0A  %0A  At index 0 diff: Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442') != Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    [%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442'),%0A    ]
+F.........::error file=workdir/tests/invenio-records-permissions/original/tests/test_generators.py,line=295::test_admin_action%0A%0AAttributeError: 'list' object has no attribute 'to_dict'
+F                                 [ 53%]
+tests/test_invenio_records_permissions.py ..                             [ 60%]
+tests/test_permissions_base.py .::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+.::error file=workdir/tests/invenio-records-permissions/original/tests/test_permissions_base.py,line=57::test_permission_policy_needs_excludes%0A%0AAssertionError: assert {Need(method=...e='any_user')} == {Need(method=...e='any_user')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42'),%0A        Need(method='system_role', value='any_user'),%0A    }
+F::error file=workdir/tests/invenio-records-permissions/original/tests/test_permissions_base.py,line=84::test_permission_policy_query_filters%0A%0Aassert [MatchAll()] == []%0A  %0A  Left contains one more item: MatchAll()%0A  %0A  Full diff:%0A  - []%0A  + [%0A  +     MatchAll(),%0A  + ]
+F.                                     [ 78%]
+tests/test_record_permission_policy.py ::error file=workdir/tests/invenio-records-permissions/original/tests/test_record_permission_policy.py,line=19::test_delete_record_policy%0A%0AAssertionError: assert {Need(method=...b2a52bc4aa1')} == {Need(method=...user-access')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1'),%0A    }
+F::warning file=/home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py,line=29::CSRF validation will be enabled by default in the version 1.3.x
+::error file=workdir/tests/invenio-records-permissions/original/tests/test_record_permission_policy.py,line=28::test_create_record_policy%0A%0AAssertionError: assert {Need(method=...ddec4bc53c4')} == {Need(method=...user-access')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4'),%0A    }
+F::error file=workdir/tests/invenio-records-permissions/original/tests/test_record_permission_policy.py,line=40::test_update_record_policy%0A%0AAssertionError: assert {Need(method=...c62d4e59621')} == {Need(method=...user-access')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A        Need(method='id', value=1),%0A        Need(method='id', value=2),%0A        Need(method='id', value=3),%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621'),%0A    }
+F..::error file=workdir/tests/invenio-records-permissions/original/tests/test_record_permission_policy.py,line=75::test_update_files_policy%0A%0AAssertionError: assert {Need(method=...7a23c705a7d')} == {Need(method=...user-access')}%0A  %0A  Extra items in the left set:%0A  Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d')%0A  Extra items in the right set:%0A  Need(method='role', value='role-superuser-access')%0A  %0A  Full diff:%0A    {%0A        Need(method='id', value=1),%0A        Need(method='id', value=2),%0A        Need(method='id', value=3),%0A  -     Need(method='role', value='role-superuser-access'),%0A  +     Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d'),%0A    }
+F                            [100%]
+
+=================================== FAILURES ===================================
+____________________ test_system_process_without_superuser _____________________
+
+mocker = <pytest_mock.plugin.MockerFixture object at 0x7f5a3e546e90>
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+
+    def test_system_process_without_superuser(mocker, role_w_superuser_access_need):
+        generator = SystemProcessWithoutSuperUser()
+    
+        assert generator.needs() == [system_process]
+>       assert generator.excludes() == [role_w_superuser_access_need]
+E       AssertionError: assert [Need(method=...0d3211c5442')] == [Need(method=...user-access')]
+E         
+E         At index 0 diff: Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442') != Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           [
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442'),
+E           ]
+
+tests/test_generators.py:89: AssertionError
+------------------------------ Captured log setup ------------------------------
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/.venv/lib/python3.14/site-packages/webargs/compat.py:8: DeprecationWarning: The '__version__' attribute is deprecated and will be removed in in a future version. Use feature detection or 'importlib.metadata.version("marshmallow")' instead.
+  MARSHMALLOW_VERSION_INFO = tuple(LooseVersion(ma.__version__).version)  # type: tuple
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/.venv/lib/python3.14/site-packages/webargs/compat.py:8: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  MARSHMALLOW_VERSION_INFO = tuple(LooseVersion(ma.__version__).version)  # type: tuple
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/.venv/lib/python3.14/site-packages/webargs/__init__.py:13: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  __version_info__ = tuple(LooseVersion(__version__).version)
+
+WARNING  py.warnings:_py_warnings.py:230 /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py:29: FutureWarning: CSRF validation will be enabled by default in the version 1.3.x
+  self.init_app(app)
+______________________________ test_admin_action _______________________________
+
+app = <Flask 'invenio'>
+db = <SQLAlchemy postgresql+psycopg2://invenio:***@localhost:5432/invenio>
+mocker = <pytest_mock.plugin.MockerFixture object at 0x7f5a3e4df410>
+
+    def test_admin_action(app, db, mocker):
+        """Test AdminAction generator."""
+        action = ActionNeed("admin")
+        generator = AdminAction(action)
+    
+        assert generator.needs() == [action]
+    
+        # Role doesn't have any action associated with it.
+        assert not generator.query_filter(
+            identity=mocker.Mock(provides=[Need(method="role", value="admin")])
+        )
+        # Action directly assigned to the identity
+        assert generator.query_filter(
+            identity=mocker.Mock(provides=[action])
+        ).to_dict() == {"match_all": {}}
+    
+        # Create role and asign the right action to it
+        admin = Role(name="admin")
+        db.session.add(ActionRoles.allow(action, role=admin))
+        db.session.commit()
+        assert generator.query_filter(
+            identity=mocker.Mock(provides=[Need(method="role", value="admin")])
+>       ).to_dict() == {"match_all": {}}
+          ^^^^^^^
+E       AttributeError: 'list' object has no attribute 'to_dict'
+
+tests/test_generators.py:295: AttributeError
+____________________ test_permission_policy_needs_excludes _____________________
+
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+
+    def test_permission_policy_needs_excludes(role_w_superuser_access_need):
+        create_perm = TestPermissionPolicy(action="create")
+        list_perm = TestPermissionPolicy(action="search")
+        read_perm = TestPermissionPolicy(action="read")
+        update_perm = TestPermissionPolicy(action="update")
+        delete_perm = TestPermissionPolicy(action="delete")
+        foo_bar_perm = TestPermissionPolicy(action="foo_bar")
+    
+>       assert create_perm.needs == {role_w_superuser_access_need, any_user}
+E       AssertionError: assert {Need(method=...e='any_user')} == {Need(method=...e='any_user')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42'),
+E               Need(method='system_role', value='any_user'),
+E           }
+
+tests/test_permissions_base.py:57: AssertionError
+_____________________ test_permission_policy_query_filters _____________________
+
+superuser_identity = <Identity id="1" auth_type="None" provides={Need(method='id', value=1), Need(method='system_role', value='any_user'), Need(method='system_role', value='authenticated_user'), Need(method='role', value='role-superuser-access')}>
+
+    def test_permission_policy_query_filters(superuser_identity):
+        # Any user
+        any_user_identity = Identity(1)
+        any_user_identity.provides.add(any_user)
+        permission = TestPermissionPolicy(action="baz", identity=any_user_identity)
+        assert [] == permission.query_filters
+    
+        permission = TestPermissionPolicy(action="baz", identity=superuser_identity)
+>       assert [dsl.Q()] == permission.query_filters
+E       assert [MatchAll()] == []
+E         
+E         Left contains one more item: MatchAll()
+E         
+E         Full diff:
+E         - []
+E         + [
+E         +     MatchAll(),
+E         + ]
+
+tests/test_permissions_base.py:84: AssertionError
+__________________________ test_delete_record_policy ___________________________
+
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+
+    def test_delete_record_policy(role_w_superuser_access_need):
+        """Test delete record policy."""
+        delete_perm = RecordPermissionPolicy(action="delete")
+    
+        # only superuser can delete
+>       assert delete_perm.needs == {role_w_superuser_access_need}
+E       AssertionError: assert {Need(method=...b2a52bc4aa1')} == {Need(method=...user-access')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1'),
+E           }
+
+tests/test_record_permission_policy.py:19: AssertionError
+__________________________ test_create_record_policy ___________________________
+
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+
+    def test_create_record_policy(role_w_superuser_access_need):
+        """Test create record policy."""
+        create_perm = RecordPermissionPolicy(action="create")
+    
+        # superuser role added by base policy
+>       assert create_perm.needs == {role_w_superuser_access_need}
+E       AssertionError: assert {Need(method=...ddec4bc53c4')} == {Need(method=...user-access')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4'),
+E           }
+
+tests/test_record_permission_policy.py:28: AssertionError
+__________________________ test_update_record_policy ___________________________
+
+create_record = <function create_record.<locals>._create_record at 0x7f5a3e43afb0>
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+
+    def test_update_record_policy(create_record, role_w_superuser_access_need):
+        """Test create record policy."""
+        record = create_record()
+        update_perm = RecordPermissionPolicy(action="update", record=record)
+    
+        # only owners should be able to update
+>       assert update_perm.needs == {
+            UserNeed(1),
+            UserNeed(2),
+            UserNeed(3),
+            role_w_superuser_access_need,
+        }
+E       AssertionError: assert {Need(method=...c62d4e59621')} == {Need(method=...user-access')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E               Need(method='id', value=1),
+E               Need(method='id', value=2),
+E               Need(method='id', value=3),
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621'),
+E           }
+
+tests/test_record_permission_policy.py:40: AssertionError
+___________________________ test_update_files_policy ___________________________
+
+create_record = <function create_record.<locals>._create_record at 0x7f5a3e43afb0>
+role_w_superuser_access_need = Need(method='role', value='role-superuser-access')
+
+    def test_update_files_policy(create_record, role_w_superuser_access_need):
+        """Test update record files policy."""
+        record = create_record()
+        read_perm = RecordPermissionPolicy(action="update_files", record=record)
+    
+        # only owners should be able to update
+>       assert read_perm.needs == {
+            UserNeed(1),
+            UserNeed(2),
+            UserNeed(3),
+            role_w_superuser_access_need,
+        }
+E       AssertionError: assert {Need(method=...7a23c705a7d')} == {Need(method=...user-access')}
+E         
+E         Extra items in the left set:
+E         Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d')
+E         Extra items in the right set:
+E         Need(method='role', value='role-superuser-access')
+E         
+E         Full diff:
+E           {
+E               Need(method='id', value=1),
+E               Need(method='id', value=2),
+E               Need(method='id', value=3),
+E         -     Need(method='role', value='role-superuser-access'),
+E         +     Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d'),
+E           }
+
+tests/test_record_permission_policy.py:75: AssertionError
+=============================== warnings summary ===============================
+tests/test_permissions_base.py:29
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/tests/test_permissions_base.py:29: PytestCollectionWarning: cannot collect test class 'TestPermissionPolicy' because it has a __init__ constructor (from: tests/test_permissions_base.py)
+    class TestPermissionPolicy(BasePermissionPolicy):
+
+tests/test_permissions_base.py::test_base_permission_policy_generators
+tests/test_record_permission_policy.py::test_delete_record_policy
+  /home/runner/work/test-zip-extract-repository/test-zip-extract-repository/workdir/tests/invenio-records-permissions/original/.venv/lib/python3.14/site-packages/invenio_rest/ext.py:29: FutureWarning: CSRF validation will be enabled by default in the version 1.3.x
+    self.init_app(app)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.14.2-final-0 ________________
+
+Name                                               Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------
+invenio_records_permissions/__init__.py                4      0   100%
+invenio_records_permissions/api.py                     6      0   100%
+invenio_records_permissions/config.py                  2      0   100%
+invenio_records_permissions/errors.py                  1      0   100%
+invenio_records_permissions/ext.py                    14      1    93%   32
+invenio_records_permissions/generators.py            117      2    98%   182, 279
+invenio_records_permissions/policies/__init__.py       2      0   100%
+invenio_records_permissions/policies/base.py          44      1    98%   124
+invenio_records_permissions/policies/records.py       32      7    78%   23, 38-42, 85
+--------------------------------------------------------------------------------
+TOTAL                                                222     11    95%
+=========================== short test summary info ============================
+FAILED tests/test_generators.py::test_system_process_without_superuser - AssertionError: assert [Need(method=...0d3211c5442')] == [Need(method=...user-access')]
+  
+  At index 0 diff: Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442') != Need(method='role', value='role-superuser-access')
+  
+  Full diff:
+    [
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='2cf029d0-d3be-457c-a835-40d3211c5442'),
+    ]
+FAILED tests/test_generators.py::test_admin_action - AttributeError: 'list' object has no attribute 'to_dict'
+FAILED tests/test_permissions_base.py::test_permission_policy_needs_excludes - AssertionError: assert {Need(method=...e='any_user')} == {Need(method=...e='any_user')}
+  
+  Extra items in the left set:
+  Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  
+  Full diff:
+    {
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='b1a64ab8-1549-462a-ac9d-7f2632677a42'),
+        Need(method='system_role', value='any_user'),
+    }
+FAILED tests/test_permissions_base.py::test_permission_policy_query_filters - assert [MatchAll()] == []
+  
+  Left contains one more item: MatchAll()
+  
+  Full diff:
+  - []
+  + [
+  +     MatchAll(),
+  + ]
+FAILED tests/test_record_permission_policy.py::test_delete_record_policy - AssertionError: assert {Need(method=...b2a52bc4aa1')} == {Need(method=...user-access')}
+  
+  Extra items in the left set:
+  Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  
+  Full diff:
+    {
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='2de5db43-3532-4cc5-9d50-fb2a52bc4aa1'),
+    }
+FAILED tests/test_record_permission_policy.py::test_create_record_policy - AssertionError: assert {Need(method=...ddec4bc53c4')} == {Need(method=...user-access')}
+  
+  Extra items in the left set:
+  Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  
+  Full diff:
+    {
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='a4ee42a1-d8da-4d6e-ba9f-dddec4bc53c4'),
+    }
+FAILED tests/test_record_permission_policy.py::test_update_record_policy - AssertionError: assert {Need(method=...c62d4e59621')} == {Need(method=...user-access')}
+  
+  Extra items in the left set:
+  Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  
+  Full diff:
+    {
+        Need(method='id', value=1),
+        Need(method='id', value=2),
+        Need(method='id', value=3),
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='f31b0f48-35eb-4742-9d1e-9c62d4e59621'),
+    }
+FAILED tests/test_record_permission_policy.py::test_update_files_policy - AssertionError: assert {Need(method=...7a23c705a7d')} == {Need(method=...user-access')}
+  
+  Extra items in the left set:
+  Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d')
+  Extra items in the right set:
+  Need(method='role', value='role-superuser-access')
+  
+  Full diff:
+    {
+        Need(method='id', value=1),
+        Need(method='id', value=2),
+        Need(method='id', value=3),
+  -     Need(method='role', value='role-superuser-access'),
+  +     Need(method='role', value='af2bc7a5-8c00-4dfe-8689-d7a23c705a7d'),
+    }
+=================== 8 failed, 20 passed, 3 warnings in 3.55s ===================
+ Container docker_services_cli-opensearch-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopping
+ Container docker_services_cli-redis-1  Stopping
+ Container docker_services_cli-postgresql-1  Stopped
+ Container docker_services_cli-postgresql-1  Removing
+ Container docker_services_cli-redis-1  Stopped
+ Container docker_services_cli-redis-1  Removing
+ Container docker_services_cli-postgresql-1  Removed
+ Container docker_services_cli-redis-1  Removed
+ Container docker_services_cli-opensearch-1  Stopped
+ Container docker_services_cli-opensearch-1  Removing
+ Container docker_services_cli-opensearch-1  Removed
+ Network docker_services_cli_default  Removing
+ Network docker_services_cli_default  Removed
