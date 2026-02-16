@@ -18,3 +18,4 @@ jobs:
             repository: ${{ github.repository }}@${{ github.ref_name }}
             skip-report: true
             disable-codestyle-checks: true
+            python-version: 3.14.2
