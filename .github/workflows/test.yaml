@@ -15,5 +15,5 @@ jobs:
     verify-patches:
         uses: oarepo/invenio-testrig/.github/workflows/verify-patches.yml@ng
         with:
-            repository: ${{github.repository_owner}}/${{ github.repository }}@${{ github.ref_name }}
+            repository: ${{ github.repository }}@${{ github.ref_name }}
             skip-report: true
