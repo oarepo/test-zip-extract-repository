@@ -18,6 +18,8 @@ dependencies = [
   "invenio-rdm-records",          # needed because of the patches below
   "invenio-records-resources",    # needed because of the patches below
   "invenio-previewer",            # needed because of the patches below
+
+#   "invenio-db>2.0.0"
 ]
 
 [tool.uv.sources]
