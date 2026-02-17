@@ -24,3 +24,4 @@ jobs:
             report-repository: ${{ github.repository }}
             report-branch: gh-pages
             report-repository-token: ${{ github.token }}
+            ignore-lock: true
