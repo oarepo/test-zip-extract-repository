@@ -24,5 +24,3 @@ jobs:
             report-repository: ${{ github.repository }}
             report-branch: gh-pages
             report-repository-token: ${{ github.token }}
-            patches: inveniosoftware/invenio-app-rdm@master
-            patch-mode: pinned-overwrite
