@@ -13,7 +13,7 @@ env:
 
 jobs:
     verify-patches:
-        uses: oarepo/invenio-testrig/.github/workflows/verify-patches.yml@ng
+        uses: oarepo/invenio-testrig/.github/workflows/verify-patches.yml@master
         with:
             name: Repository with ZIP support
             repository: ${{ github.repository }}@${{ github.ref_name }}
